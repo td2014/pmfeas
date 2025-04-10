@@ -8,3 +8,5 @@
 \contentsline {section}{\numberline {2.1}Induction}{9}{}%
 \contentsline {subsection}{\numberline {2.1.1}Weak Induction}{9}{}%
 \contentsline {subsection}{\numberline {2.1.2}Strong Induction}{9}{}%
+\contentsline {section}{\numberline {2.2}Proof by Contradiction}{9}{}%
+\contentsline {section}{\numberline {2.3}Direct Proof}{10}{}%

@@ -5,3 +5,61 @@
 \subsection{Weak Induction}
 
 \subsection{Strong Induction}
+
+\section{Proof by Contradiction}
+
+Proof by contradiction is a very useful method of proof which is used quite frequently.  The usual pattern is one assumes the converse of what is being asserted, and then following a sequence of logical deductions arriving at a contradiction.  Once this contradiction has been uncovered, then it implies the original assumption must have been false thus completing the proof.  Here is an example to illustrate the points.
+
+
+Prove that there is no rational number whose square is $12$.  (Note:  This was originally an exercise in Rudin PMA 3rd Edition).
+
+Proof:
+
+\textbf{Suppose that there was a rational number whose square was $12$.}  This means that
+$$ \left(\frac{p}{q}\right)^{2}=12$$ for integers $p,q.$  We assume that $p$ and $q$ are not both even.  In other words, all common factors of $2$ have been cancelled.  This can always been done for a rational number.
+
+Upon expansion we obtain:
+
+$$p^{2}=12q^{2}=2\left(6q^{2}\right)$$
+
+This implies that $p^{2}$ and $p$ are both even.  Thus $q$ is odd.  So we write $p=2m$ for integer $m$ and obtain:
+
+$$\left(2m\right)^{2}=4m^{2}=12q^{2}$$
+
+This implies that 
+
+$$m^{2}=3q^{2}$$
+
+Since $q$ is assumed to be odd, $q^{2}$ is odd, and $3q^{2}$ is also odd.  Now, $m^{2}$ must be therefore be odd, and likewise for $m$.  Therefore, for integers $r,n$ we can rewrite the above as:
+
+$$
+\left(2r+1\right)^{2}=3\left(2n+1\right)^{2}
+$$
+
+Now, expanding both sides yields:
+$$
+4r^{2}+4r+1=3\left(4n^{2}+4n+1\right)
+$$
+
+$$
+4r^{2}+4r+1=12n^{2}+12n+3
+$$
+
+$$
+4r^{2}+4r=12n^{2}+12n+2
+$$
+
+$$
+4r^{2}+4r=12n^{2}+12n+2
+$$
+
+The left side is clearly divisible by 4.
+
+$$
+r^{2}+r=3n^{2}+3n+\frac{2}{4}
+$$
+
+The left side is an integer, but the right side is not, which is a contradiction. Therefore our assumption about both $p,q$ not even is false.  However, since this can always be done for the rational number $p/q$ it implies that there is no rational $p/q$ such that $\left(p/q\right)^{2}=12.$
+
+
+\section{Direct Proof}
