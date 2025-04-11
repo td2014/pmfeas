@@ -29,6 +29,88 @@ $\mathbb{Q}=\left\{r | r = \frac{p}{q}, p,q \in \mathbb{Z}, q \ne 0 \right\}$
 
 \section{Mathematical Logic}
 
+It should be remarked that a good portion of this section (as well as some others) was strongly inspired by the YouTube video series ``Math Major Basics" by MathDoctorBob (https://www.youtube.com/playlist?list=PLF2DF6C3C8015DF5F).  We cover some key aspects here.  It is very helpful to understand \textit{Truth Tables} in this context.  For those who have some experience with digital logic or computer programming, much of this will be quite familiar.
+
+We have the following logical relations, with symbols, defined by the truth tables shown below:  Negation ($\neg$), Conjunction/And ($\land$ - note that this symbol looks like the outline of the letter ``A", to help you remember ``And"), Disjunction/or ($\lor$), Implication ($\Longrightarrow$), If and Only If ($\Longleftrightarrow$):
+
+\textbf{Negation:}
+\begin{displaymath}
+\begin{array}{|c|c|}
+A & \neg A \\
+\hline
+T & F \\
+F & T \\
+\end{array}
+\end{displaymath}
+
+\textbf{Conjunction/And:}
+\begin{displaymath}
+\begin{array}{|c|c|c|}
+A & \land & B  \\
+\hline
+T & T & T  \\
+T & F & F  \\
+F & F & T  \\
+F & F & F  \\
+\end{array}
+\end{displaymath}
+
+\textbf{Disjunction/Or:}
+\begin{displaymath}
+\begin{array}{|c|c|c|}
+A & \lor & B  \\
+\hline
+T & T & T  \\
+T & T & F  \\
+F & T & T  \\
+F & F & F  \\
+\end{array}
+\end{displaymath}
+
+\textbf{Implication:}
+\begin{displaymath}
+\begin{array}{|c|c|c|}
+A & \Longrightarrow & B \\
+\hline
+T & T & T  \\
+T & F & F  \\
+F & T & T  \\
+F & T & F  \\
+\end{array}
+\end{displaymath}
+
+\textbf{If and only if (Iff):}  
+\begin{displaymath}
+\begin{array}{|c|c|c|}
+A & \Longleftrightarrow & B \\
+\hline
+T & T & T  \\
+T & F & F  \\
+F & F & T  \\
+F & T & F  \\
+\end{array}
+\end{displaymath}
+
+In the above, $A$ and $B$ are statements which can be either true (T) or false (F).  The result of the logical operation is shown in the column under the particular symbol.  For example, if A is true, and B is true, then $A \land B$ is true.  However, either either $A$ or $B$ is false (or both) then $A \land B$ is false.  It is important to refer back to the truth table definitions of these logical operations to avoid confusion.\\  
+
+Sometimes, logical implication is called ``if-then" as in ``If A then B."  However, note that it is possible for A to be false and B to be true, and the implication $A \Longrightarrow B$ to be true.  This is somewhat at odds with how this if-then might be expressed in common usage: How could something false imply something true?  This seems confusing.  Therefore, always refer to the truth table for clarity on this point.\\
+
+\textit{Exercise}
+Show $A  \Longleftrightarrow  B$ is equivalent to $\left(A \Longrightarrow B \right) \land \left(B \Longrightarrow A \right).$ 
+\\
+\\
+\textit{Solution} \\
+\begin{displaymath}
+\begin{array}{|c|c|c|c|c|c|c|}
+(A & \Longrightarrow & B)  & \land & (B & \Longrightarrow & A ) \\
+\hline
+T & T & T & T & T & T & T  \\
+T & F & F & F & F & T & T  \\
+F & T & T & F & T & F & F  \\
+F & T & F & T & F & T & F  \\
+\end{array}
+\end{displaymath}
+
 \section{Zermelo Frankel Axiomatic Set Theory} 
 
 \section{Peano Axioms of Arithmetic}
