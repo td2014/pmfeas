@@ -93,7 +93,16 @@ F & T & F  \\
 
 In the above, $A$ and $B$ are statements which can be either true (T) or false (F).  The result of the logical operation is shown in the column under the particular symbol.  For example, if A is true, and B is true, then $A \land B$ is true.  However, either either $A$ or $B$ is false (or both) then $A \land B$ is false.  It is important to refer back to the truth table definitions of these logical operations to avoid confusion.\\  
 
-Sometimes, logical implication is called ``if-then" as in ``If A then B."  However, note that it is possible for A to be false and B to be true, and the implication $A \Longrightarrow B$ to be true.  This is somewhat at odds with how this if-then might be expressed in common usage: How could something false imply something true?  This seems confusing.  Therefore, always refer to the truth table for clarity on this point.\\
+Sometimes, implication is called ``if-then" as in ``If A then B."  However, note that it is possible for A to be false and B to be true, and the implication $A \Longrightarrow B$ to be true.  This is somewhat at odds with how this if-then might be expressed in common usage: How could something false imply something true?  This seems confusing.  Therefore, always refer to the truth table for clarity on this point.\\
+
+Here is an illustration regarding implication ($\Longrightarrow$).
+
+Let $A=(a > 5), B=(a > 3)$ where $a$ is some integer.  Now consider the following cases: \\
+If $a=6, (6 > 5)=\textit{T}, (6 > 3)=\textit{T}$ \\  
+If $a=4, (4 > 5)=\textit{F}, (4 > 3)=\textit{T}$  \\
+If $a=2, (2 > 5)=\textit{F}, (2 > 3)=\textit{F}$ \\
+
+If we compare this to the truth table for implication, we see that implication is always true.  Note that with this particular definition of the statements $A$ and $B$ we cannot have a case where $A$ is false and $B$ is true. \\ 
 
 \textit{Exercise}
 Show $A  \Longleftrightarrow  B$ is equivalent to $\left(A \Longrightarrow B \right) \land \left(B \Longrightarrow A \right).$ 
@@ -110,6 +119,44 @@ F & T & T & F & T & F & F  \\
 F & T & F & T & F & T & F  \\
 \end{array}
 \end{displaymath}
+
+We now consider some important terminology:
+
+\begin{itemize}
+\item \textit{Tautology}:  Any statement that is true for all values of its components is a tautology.
+
+\item \textit{Contradiction}:  Any state that is false for all values of its components is a contradiction.  The negation of a contradiction is a tautology and the negation of a tautology is a contradiction.
+
+\item \textit{Logically Equivalent}:  When $ A \Longleftrightarrow B $ is a tautology.  This means $A$ and $B$ have the same truth table.  The notation for this is $A \equiv B$.
+
+\end{itemize}
+
+We illustrate logical equivalence by considering ``De Morgan's Laws" \index{De Morgan's Law's} for disjunction (or) and conjunction (and).  De Morgan's Law's are useful for manipulating logical expressions: \\
+
+$\neg\left(A \lor B \right) \equiv \left(\neg A\right) \land \left(\neg B \right)$
+
+$\neg\left(A \land B \right) \equiv \left(\neg A\right) \lor \left(\neg B \right)$ \\
+
+In words, the first law says that the negation $(\neg)$ of a disjunction ($A \lor B)$ is logically equivalent to the conjunction of the negations of the individual statements $A$ and $B$.  The second law is similar, except we exchange conjunction for disjunction and vice-versa.\\
+
+\textit{Exercise}
+Verify the De Morgan law for disjunction by showing the logical equivalence of the left and right hand sides using a truth table:\\
+\textit{Solution}\\
+
+
+\begin{displaymath}
+\begin{array}{| c | c | c | c | c | c | c | c | c | c |}
+\neg & (A & \lor  & B) & \Longleftrightarrow & (\neg & A) & \land & (\neg & B) \\
+\hline
+F & T & T & T & T & F & T & F & F & T \\
+F & T & T & F & T & F & T & F & T & F \\
+F & F & T & T & T & T & F & F & F & T \\
+T & F & F & F & T & T & F & T & T & F \\
+\end{array}
+\end{displaymath}
+
+We note that for any value of statements $A$ and $B$, the values under the column for $\Longleftrightarrow$ are all true, indicating that both expressions $\neg\left(A \lor B \right)$, $\left(\neg A\right) \land \left(\neg B \right)$ have the same truth tables, as required.
+
 
 \section{Zermelo Frankel Axiomatic Set Theory} 
 
