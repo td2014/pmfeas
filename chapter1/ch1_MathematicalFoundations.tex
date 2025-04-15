@@ -155,7 +155,65 @@ T & F & F & F & T & T & F & T & T & F \\
 \end{array}
 \end{displaymath}
 
-We note that for any value of statements $A$ and $B$, the values under the column for $\Longleftrightarrow$ are all true, indicating that both expressions $\neg\left(A \lor B \right)$, $\left(\neg A\right) \land \left(\neg B \right)$ have the same truth tables, as required.
+We note that for any value of statements $A$ and $B$, the values under the column for $\Longleftrightarrow$ are all true, indicating that both expressions $\neg\left(A \lor B \right)$, $\left(\neg A\right) \land \left(\neg B \right)$ have the same truth tables, as required.\\
+
+Another useful logical equivalence is the following ``contrapositive'' form of implication, which we explore in the next exercise:
+
+\textit{Exercise}
+Show that $\left(A \Longrightarrow B \right) \Longleftrightarrow \left(\neg B \Longrightarrow \neg A\right)$ is a tautology, i.e. this means that $A \Longrightarrow B $ is logically equivalent (LE) to $\neg B \Longrightarrow \neg A$.
+
+\textit{Solution}\\
+
+\begin{displaymath}
+\begin{array}{| c | c | c | c | c | c | c | c | c |}
+(A & \Longrightarrow & B)& \Longleftrightarrow & (\neg & B & \Longrightarrow & \neg & A) \\
+\hline
+T & T & T & T & F & T & T & F &T \\
+T & F & F & T & T & F & F & F & T \\
+F & T & T & T & F & T & T & T & F \\
+F & T & F & T & T & F & T & T & F \\
+\end{array}
+\end{displaymath}
+
+
+To show a situation where expressions are not logicaly equivalent, the following exercise may be considered:
+
+\textit{Exercise} 
+Show $A \Longrightarrow B$ is not logically equivalent to $B \Longrightarrow A$
+
+\textit{Solution}\\
+
+\begin{displaymath}
+\begin{array}{| c | c | c | c | c | c | c |}
+(A & \Longrightarrow & B) & \Longleftrightarrow & (B & \Longrightarrow & A) \\
+\hline
+T & T & T & T & T & T & T \\
+T & F & F & F & F & T & T \\
+F & T & T & F & T & F & F \\
+F & T & F & T & F & T & F \\
+\end{array}
+\end{displaymath}
+
+Notice the middle column $\Longleftrightarrow$ has false entries, so we don't have logical equivalency.\\
+
+Another item of terminology is \textit{Logical Implication}.  Logical implication is when the expression $A \Longrightarrow B$ is a tautology.  If the statements $A$ and $B$ are such that we only get true statements from $A \Longrightarrow B$, then $A$ logically implies \textbf{(LI)} $B$.  This was the situation with the earlier illustration where we had defined statements $A$ and $B$ such that $A=(a > 5), B=(a > 3)$ where $a$ is some integer.
+
+If $A$ is logically equivalent (LE) to $B$, then $A$ LI $B$ and $B$ LI $A$.
+
+\textit{Exercise}:  Show $A\land \left(A \Longrightarrow B\right)$ logically implies $B$.  This is called ``Modus Ponens.''  
+
+\textit{Solution}\\
+
+\begin{displaymath}
+\begin{array}{| c | c | c | c | c | c | c |}
+ (A & \land & (A & \Longrightarrow & B)) & \Longrightarrow & B \\
+\hline
+T & T & T & T & T & T & T \\
+T & F & T & F & F & T & F \\
+F & F & F & T & T & T & T \\
+F & F & F & T & F & T & F \\
+\end{array}
+\end{displaymath}
 
 
 \section{Zermelo Frankel Axiomatic Set Theory} 
