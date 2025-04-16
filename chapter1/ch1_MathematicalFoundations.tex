@@ -14,7 +14,7 @@ The reader may be familiar with some if not all of the following notation, but i
 \item $\mathbb{Z}$ is the set of integers: $\ldots, -2,-1,0,1,2, 3, \ldots$
 \item $\mathbb{N}$ is the set of natural numbers: $0,1,2, 3, \ldots$ (note: Sometimes these start with 0, and sometimes with 1.  Usually doesn't matter to the argument in question, but the reader should be aware.)
 \item $\mathbb{Q}$ is the set of rational numbers.  These are numbers of the form $\frac{p}{q}$ where $p,q$ are integers, and $q \ne 0$
-\item $\mathbb{R}$ is the set of real numbers.  These will later be defined precisely in terms of \textit{Dedikind Cuts},\index{Dedekind Cuts} but for now we'll just use the informal notion of all the points on a coordinate line.  However, hopefully the reader can see this is not good enough for precise work.
+\item $\mathbb{R}$ is the set of real numbers.  These will later be defined precisely in terms of \textit{Dedekind Cuts},\index{Dedekind Cuts} but for now we'll just use the informal notion of all the points on a coordinate line.  However, hopefully the reader can see this is not good enough for precise work.
 \item We use curly braces to indicate sets in general.  For example, $\mathbb{Z}=\left\{\ldots, -2,-1,0,1,2,3 \ldots\right\}$ defines the set of integers using the curly braces and examples.  It is hoped the reader is able to abstract that the dots to the left imply the list has no smallest negative value and the dots to the right imply that there is no largest positive value.  
 \item Set builder notation:\index{Set builder notation}  There are other ways to specify the set within the braces.  For example, we can indicate the property that each member of the set has:  $S = \left\{p | p=2m+1, m \in \mathbb{Z} \right\}.$  This is read as the set $S$ consists of those values $p$ of the form $2m+1$ where $m$ is an integer.  In other words, $S$ the set of odd integers.  The vertical bar in the braces is read as ``such that" and the comma is read as ``and.''
 \end{itemize}
@@ -216,7 +216,51 @@ F & F & F & T & F & T & F \\
 \end{displaymath}
 
 
-\section{Zermelo Frankel Axiomatic Set Theory} 
+\section{Zermelo Frankel Axiomatic Set Theory}
+
+Set theory is at the foundation of mathematics.  The reader should have some awareness of the axioms of set theory, although in practice it seems that one rarely sees a mathematical proof that explicitly cites these axioms.  These axioms are referred to as the Zermelo-Frankel Axioms.
+
+\subsection{The Zermelo Frankel Axioms}
+
+The following so-called Zermelo-Frankel Axioms of set theory are presented to help provide the reader a more comprehensive picture of mathematics foundations.  This section is inspired by the set of YouTube lectures by Richard Borcherds \href{https://www.youtube.com/playlist?list=PL8yHsr3EFj52EKVgPi-p50fRP2_SbG2oi}{(ZF Axioms)} and also the book \textit{Axiomatic Set Theory} by Paul Bernays.  The definitions are adapted from Bernays.\\
+
+\textit{Axiom of Extensionality}\\
+
+\textit{Axiom of Foundation}\\
+
+\textit{Axiom of Pairing}
+
+For any two different sets $a$ and $b$, the pair $\{a,b\}$, or $\{b,a\}$, exists.\\
+
+\textit{Axiom of Union}
+
+For any set $s$ which contains at least two elements, there exists the set whose elements are the elements of the elements of $s.$ \\ 
+
+This set is called the union of the elements of $s$ and is denoted by $\cup s.$  \\
+
+\textit{Axiom of Infinity}
+
+%There exists at least one set $W$ with the properties: \\
+
+%a) $\emptyset \in W$  \\
+%b) if $x \in W$, then $\{x\} \in W.$\\
+
+\textit{Axiom of Powerset}
+
+%For any set $s$, there exists the set whose elements are all subsets of $s$.\\
+
+\textit{Axiom of Separation}
+
+%For any set $s$ and any predicate $P$ which is meaningful for all elements of $s$, there exists the set $y$ that contains just those elements $x$ of $s$ which satisfy the predicate $P$. \\
+
+\textit{Axiom of Replacement}
+
+\textit{Axiom of Choice}
+
+\subsection{Set Operations}
+
+In this section, we present some set operations that are useful in much of the remainder of this book.  The reader may be familiar with some if not most of the material, so hopefully this review will remind and reinforce these concepts.  Concepts and proofs in mathematics are very frequently expressed in terms of set language to be precise, so utility with set operations is important.  For example, in later sections, we will discuss algebraic structures such as ``groups'' which will be defined in terms of sets with certain properties.
+
 
 \section{Peano Axioms of Arithmetic}
 
