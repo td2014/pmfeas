@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  16 APR 2025 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  17 APR 2025 12:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,52 +357,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
  []
 
 [11]
-Overfull \hbox (4.91125pt too wide) in paragraph at lines 225--226
-\OT1/cmr/m/n/10 Borcherds [](ZF Ax-ioms)[] and also the book \OT1/cmr/m/it/10 A
-x-iomatic Set The-ory \OT1/cmr/m/n/10 by Paul Bernays.
+Overfull \hbox (43.49661pt too wide) in paragraph at lines 225--227
+[][]\OT1/cmtt/m/n/10 (https://www.youtube.com/playlist?list=PL8yHsr3EFj52EKVgPi
+-p50fRP2_SbG2oi) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 225--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
-) [12]
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+[12]) [13]
 \openout2 = `./chapter2/ch2_MethodsOfProof.aux'.
 
- (./chapter2/ch2_MethodsOfProof.tex
+ (./chapter2/ch2_MethodsOfProof.tex [14
+
+
+
+
+]
 Chapter 2.
-[13
-
-
-
-
-]) [14] (./PureMathematicsForEngineersAndScientists.ind [15
+[15]) [16] (./PureMathematicsForEngineersAndScientists.ind [17
 
 
 
@@ -416,11 +421,11 @@ Package rerunfilecheck Info: File `PureMathematicsForEngineersAndScientists.out
 (rerunfilecheck)             Checksum: AB930F42B30ECBC04AC1763E24166103;2138.
  ) 
 Here is how much of TeX's memory you used:
- 7663 strings out of 476025
- 125359 string characters out of 5790017
+ 7668 strings out of 476025
+ 125403 string characters out of 5790017
  1873388 words of memory out of 5000000
- 27992 multiletter control sequences out of 15000+600000
- 522396 words of font info for 70 fonts, out of 8000000 for 9000
+ 27994 multiletter control sequences out of 15000+600000
+ 522564 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,76p,655b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -435,13 +440,14 @@ l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
 exlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
-ive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
-texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (15 pages, 19609
-5 bytes).
+ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
+ve/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/t
+exlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on PureMathematicsForEngineersAndScientists.pdf (17 pages, 21437
+1 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

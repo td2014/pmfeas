@@ -222,7 +222,8 @@ Set theory is at the foundation of mathematics.  The reader should have some awa
 
 \subsection{The Zermelo Frankel Axioms}
 
-The following so-called Zermelo-Frankel Axioms of set theory are presented to help provide the reader a more comprehensive picture of mathematics foundations.  This section is inspired by the set of YouTube lectures by Richard Borcherds \href{https://www.youtube.com/playlist?list=PL8yHsr3EFj52EKVgPi-p50fRP2_SbG2oi}{(ZF Axioms)} and also the book \textit{Axiomatic Set Theory} by Paul Bernays.  The definitions are adapted from Bernays.\\
+The following so-called Zermelo-Frankel Axioms of set theory are presented to help provide the reader a more comprehensive picture of mathematics foundations.  This section is inspired by the set of YouTube lectures by Richard Borcherds \href{https://www.youtube.com/playlist?list=PL8yHsr3EFj52EKVgPi-p50fRP2_SbG2oi}{(ZF Axioms)}\\
+\verb+(https://www.youtube.com/playlist?list=PL8yHsr3EFj52EKVgPi-p50fRP2_SbG2oi)+\\ and also the book \textit{Axiomatic Set Theory} by Paul Bernays.  The definitions are adapted from Bernays.\\
 
 \textit{Axiom of Extensionality}\\
 
@@ -240,14 +241,18 @@ This set is called the union of the elements of $s$ and is denoted by $\cup s.$ 
 
 \textit{Axiom of Infinity}
 
-%There exists at least one set $W$ with the properties: \\
+There exists at least one set $W$ with the properties:
 
-%a) $\emptyset \in W$  \\
-%b) if $x \in W$, then $\{x\} \in W.$\\
+\begin{itemize}
+\item a) $\emptyset \in W$, where $\emptyset$ refers to the ``empty set." - the set with no elements.
+\item b) if $x \in W$, then $\{x\} \in W.$
+\end{itemize}
+
+The interpretation of the above is that a set exists with a non-ending sequence of elements.  For example, if we think of the infinite sequence of non-negative integers being encoded as follows:  $0 = \emptyset, 1=\{ 0 \}, 2=\{1\}, \ldots$, then we can have the corresponding infinite set $S=\{\emptyset, \{\emptyset\}, \{\{\emptyset\}\}, \ldots \}$ which is justified by the axiom.\\
 
 \textit{Axiom of Powerset}
 
-%For any set $s$, there exists the set whose elements are all subsets of $s$.\\
+% For any set $s$, there exists the set whose elements are all subsets of $s$.\\
 
 \textit{Axiom of Separation}
 
