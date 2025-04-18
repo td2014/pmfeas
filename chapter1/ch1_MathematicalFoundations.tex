@@ -250,13 +250,17 @@ There exists at least one set $W$ with the properties:
 
 The interpretation of the above is that a set exists with a non-ending sequence of elements.  For example, if we think of the infinite sequence of non-negative integers being encoded as follows:  $0 = \emptyset, 1=\{ 0 \}, 2=\{1\}, \ldots$, then we can have the corresponding infinite set $S=\{\emptyset, \{\emptyset\}, \{\{\emptyset\}\}, \ldots \}$ which is justified by the axiom.\\
 
-\textit{Axiom of Powerset}
+\textit{Axiom of Power-set}
 
-% For any set $s$, there exists the set whose elements are all subsets of $s$.\\
+For any set $s$, there exists the set whose elements are all subsets of $s$.\\
 
-\textit{Axiom of Separation}
+To take an example, consider the set $s = \{1,2,3 \}$.  Then the power-set is $P=\{\{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}, \emptyset \}$.  The number of elements, also called the \textit{cardinality}\index{Cardinality}, in this case is given by $2^{N}$, where $N$ is the number of elements.  Thus, we have $2^{N=3}=8$.  We note that the empty set, $\emptyset$, is considered a subset of every set.
 
-%For any set $s$ and any predicate $P$ which is meaningful for all elements of $s$, there exists the set $y$ that contains just those elements $x$ of $s$ which satisfy the predicate $P$. \\
+\textit{Axiom of Subsets}  (Note: Borcherds refers to this as ``separation")
+
+For any set $s$ and any predicate $P$ which is meaningful for all elements of $s$, there exists the set $y$ that contains just those elements $x$ of $s$ which satisfy the predicate $P$. \\
+
+For example, let $s=\{1,2,3,4,5\}$ and the predicate $P\left(x\right)$ be true whenever $x$ is even.  Then, we have the set $y = \{x \in s | P (x) \textit{true for } $x$ \textit{ even} \} = \{2,4\}$.
 
 \textit{Axiom of Replacement}
 
