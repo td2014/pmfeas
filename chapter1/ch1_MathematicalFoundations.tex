@@ -225,15 +225,21 @@ Set theory is at the foundation of mathematics.  The reader should have some awa
 The following so-called Zermelo-Fraenkel Axioms of set theory are presented to help provide the reader a more comprehensive picture of mathematics foundations.  This section is inspired by the set of YouTube lectures by Richard Borcherds \href{https://www.youtube.com/playlist?list=PL8yHsr3EFj52EKVgPi-p50fRP2_SbG2oi}{(ZF Axioms)}\\
 \verb+(https://www.youtube.com/playlist?list=PL8yHsr3EFj52EKVgPi-p50fRP2_SbG2oi)+\\ and also the book \textit{Axiomatic Set Theory} by Paul Bernays.  The definitions are adapted from Bernays.\\
 
+We note that in the axioms below, the notion of \textit{set} is undefined, as is the inclusion relation, $\in$.  Furthermore, all elements or members of sets are sets themselves.\\
+
 \textit{Axiom of Extensionality}
 
-If $s \subseteq t$ and $t \subseteq s$, then $s=t$ where $s,t$ are sets and $\subseteq$ means subset.\\  
+If $s \subseteq t$ and $t \subseteq s$, then $s=t$ where $s,t$ are sets and $\subseteq$ means \textit{subset}.\\  
 
 We define subset by the following:  If $s$ and $t$ are sets such that, for all $x$, $x \in s$ implies $x \in t$, $s$ is called a subset of $t$, where $x$ is a set element or member.  Occasionally, we might use the notation $s \subset t$ to indicate a \textit{proper subset} whereby there is an element in $t$ that is not in $s$. \\
 
 To recap:  The axiom states what it means for two sets to be equal - namely they contain the same elements.\\
 
-\textit{Axiom of Foundation}\\
+\textit{Axiom of Foundation}
+
+Every non-empty set $s$ contains an element $t$ such that $s$ and $t$ have no common element.\\
+
+This axiom prevents an element of a set having an element which appears in the original set.  For example, the set $s=\{s\}$ is not allowed.
 
 \textit{Axiom of Pairing}
 
