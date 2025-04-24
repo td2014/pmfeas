@@ -278,10 +278,16 @@ For example, let $s=\{1,2,3,4,5\}$ and the predicate $P\left(x\right)$ be true w
 
 For every set $s$ and every single-valued function $f$ of one argument which is defined for all the elements of $s$, there exists the set that contains all $f(x)$ with $x \in s$.\\
 
-\textit{Axiom of Choice}\\
+\textit{Axiom of Choice}
+
+For every disjointed set $t$ for which $\emptyset \notin t$, the Cartesian product $\mathfrak{P}t$ differs from the $\emptyset.$\\
+
+We define a \textit{disjointed set} by the following:  If a set $s$ contains at least two elements, and any two elements of $s$ are mutually exclusive (i.e. these elements have no common elements themselves).\\  
+
+\textbf{Theorem} The \textit{Cartesian product} of the elements of a disjointed set $t$, denoted $\mathfrak{P}t$ is the set whose elements are the sets which contain a single element from each element of $t$.  If $a,b, \ldots$ are the elements of $t$, the Cartesian product is also denoted by $a \times b \times \ldots$.  \textit{Note}: For those interested, this theorem is proved in Bernays. \\\\
 
 
-To illustrate the applications of the axioms to a proof, consider the following exercise.
+To illustrate the applications of the above axioms to a proof, consider the following exercise.
 
 \textit{Exercise}  Complete the proof of the following theorem (adapted from Bernays):\\
 
@@ -292,7 +298,14 @@ This set is called the \textit{intersection} of the elements of $t$ and is denot
 
 
 \textit{Solution}\\
-Axiom of \textbf{Subsets}\\
+Axiom of \textbf{Subsets}\\\\
+
+The following exercise explores the Cartesian product.
+
+\textit{Exercise}  According to Bernays, for a disjointed set $t$, one has the Cartesian product, $\mathfrak{P}t=\emptyset$ if $\emptyset \in t.$  Prove this using the Cartesian Product Theorem stated above in Axiom of Choice section.\\
+
+\textit{Solution}
+According to the theorem, the Cartesian product is the set whose elements are the sets which contain a single element from each element of $t$.  Since $\emptyset \in t$ and contains no elements, the Cartesian product must be empty since there is no set possible that contains one element from $\emptyset$.\\
 
 \subsection{Set Operations}
 
