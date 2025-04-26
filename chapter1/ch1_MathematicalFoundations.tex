@@ -318,6 +318,10 @@ Definition:  $A \textit{ is a binary relation } \Longleftrightarrow (\forall x) 
 
 We note that in the above, $\langle y, z \rangle$ is called an \textit{ordered pair} and is formally defined in set notation as $\langle y, z \rangle = \{\{y\}, \{y,z\}\}$.  Note how the ordering is encoded.  So we have that a relation is a set of ordered pairs.\\
 
+The definition is read as ``$A$ is a binary relation if and only if for all $x$ if $x$ is in $A$, then there exists a $y$ and there exists a $z$ such that $x$ is equal to the ordered pair $\langle y, z \rangle$." \\
+
+It should be remembered that the phrases ``if and only if" and the ``if ... then" are used to refer to the truth tables for the corresponding symbols and not the casual english meaning.  If desired, we could express the definition by using a truth table as we did previously to be completely clear.\\
+
 Sometimes the following notation is used discussing relations: $x A y$.  This is formally defined as $x A y \Longleftrightarrow \langle x,y \rangle \in A$.\\
 
 Consider the following example set which is a relation:
@@ -338,6 +342,15 @@ $\langle 3, 1 \rangle, \langle 1, 3 \rangle$  \\
 $\langle 2, 3 \rangle, \langle 3, 2 \rangle$  \\
 $\langle 3, 2 \rangle, \langle 2, 3 \rangle$  \\ 
 
+We consider as an exercise, the proof that $\emptyset$ is a relation.\\
+
+\textit{Exercise} Prove that $\emptyset$ (the empty set) is a relation by appealing to the definition of relation given earlier.\\
+\textit{Solution}\\
+Recalling the definition: $A \textit{ is a binary relation } \Longleftrightarrow (\forall x) (x \in A \Longrightarrow (\exists y)(\exists z)(x=\langle y,z \rangle))$, we substitute $\emptyset$ for $A$ and obtain:\\
+
+$\emptyset \textit{ is a binary relation } \Longleftrightarrow (\forall x) (x \in \emptyset \Longrightarrow (\exists y)(\exists z)(x=\langle y,z \rangle))$.\\
+
+Now, since $x \in \emptyset$ is false (the empty set contains no members), the statement $(x \in \emptyset \Longrightarrow (\exists y)(\exists z)(x=\langle y,z \rangle))$ is true.  Recall the truth table for $\Longrightarrow$ whereby if the first term is false, the entire statement is true no matter what the second term is.  Therefore, we have shown the $\emptyset$ is a relation because it satisfies the definition.\\
 
 \subsubsection{Ordering Relations}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  25 APR 2025 20:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  26 APR 2025 13:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -523,31 +523,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--322
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--340
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
-) [15]
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+
+ []
+
+
+Overfull \hbox (10.58047pt too wide) in paragraph at lines 347--350
+\OT1/cmr/m/n/10 Recalling the def-i-ni-tion: $\OML/cmm/m/it/10 A[] \OMS/cmsy/m/
+n/10 ([]) \OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 
+)(\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 A [][]\OMS/cmsy/m/n/10
+ ) \OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )(\OMS/
+cmsy/m/n/10 9\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10 x \OT1/cmr/m/
+n/10 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+ []
+
+[15]) [16]
 \openout2 = `./chapter2/ch2_MethodsOfProof.aux'.
 
- (./chapter2/ch2_MethodsOfProof.tex [16
-
-
-
-
-]
+ (./chapter2/ch2_MethodsOfProof.tex
 Chapter 2.
-[17]) [18] (./PureMathematicsForEngineersAndScientists.ind [19
+[17
+
+
+
+
+]) [18] (./PureMathematicsForEngineersAndScientists.ind [19
 
 
 
@@ -584,8 +624,8 @@ ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (19 pages, 22935
-8 bytes).
+Output written on PureMathematicsForEngineersAndScientists.pdf (19 pages, 23087
+7 bytes).
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
  203 compressed objects within 3 object streams
