@@ -1,6 +1,12 @@
 \begin{theindex}
 
-  \item Cardinality, 12
+  \item antisymmetric, 16
+  \item asymmetric, 16
+
+  \indexspace
+
+  \item Cardinality, 13
+  \item connected, 16
 
   \indexspace
 
@@ -9,6 +15,20 @@
 
   \indexspace
 
+  \item irreflexive, 16
+
+  \indexspace
+
+  \item reflexive, 16
+
+  \indexspace
+
   \item Set builder notation, 8
+  \item strongly connected, 16
+  \item symmetric, 16
+
+  \indexspace
+
+  \item transitive, 16
 
 \end{theindex}

@@ -308,31 +308,31 @@ The following exercise explores the Cartesian product.
 According to the theorem, the Cartesian product is the set whose elements are the sets which contain a single element from each element of $t$.  Since $\emptyset \in t$ and contains no elements, the Cartesian product must be empty since there is no set possible that contains the required one element from $\emptyset$.\\
 
 \subsection{Set Operations}
-In this section, we present some set operations that are useful in much of the remainder of this book.  The reader may be familiar with some if not most of the material, so hopefully this review will remind and reinforce these concepts.  Concepts and proofs in mathematics are very frequently expressed in terms of set language to be precise, so utility with set operations is important.  For example, in later sections, we will discuss algebraic structures such as ``groups'' which will be defined in terms of sets with certain properties.  
+In this section, we present some set operations that are useful in much of the remainder of this book.  The reader may be familiar with some of the material, although perhaps not necessarily in the formalism presented. Concepts and proofs in mathematics are very frequently expressed in terms of set language to be precise, so utility with set operations is important.  For example, in later sections, we will discuss algebraic structures such as ``groups'' which will be defined in terms of sets with certain properties.  
 
 The emphasis here will be to continue the development following the axiomatic approach, largely adapted from \textit{Axiomatic Set Theory} by Patrick Suppes.  Hopefully, this will illustrate some of the notation and concepts we have been developing in the previous sections.\\
 
 \subsubsection{Binary Relations}
 
-Definition:  $A \textit{ is a binary relation } \Longleftrightarrow (\forall x) (x \in A \Longrightarrow (\exists y)(\exists z)(x=\langle y,z \rangle))$.
+Definition:  $R \textit{ is a binary relation } \Longleftrightarrow (\forall x) (x \in R \Longrightarrow (\exists y)(\exists z)(x=\langle y,z \rangle))$.
 
 We note that in the above, $\langle y, z \rangle$ is called an \textit{ordered pair} and is formally defined in set notation as $\langle y, z \rangle = \{\{y\}, \{y,z\}\}$.  Note how the ordering is encoded.  So we have that a relation is a set of ordered pairs.\\
 
-The definition is read as ``$A$ is a binary relation if and only if for all $x$ if $x$ is in $A$, then there exists a $y$ and there exists a $z$ such that $x$ is equal to the ordered pair $\langle y, z \rangle$." \\
+The definition is read as ``$R$ is a binary relation if and only if for all $x$ if $x$ is in $R$, then there exists a $y$ and there exists a $z$ such that $x$ is equal to the ordered pair $\langle y, z \rangle$." \\
 
 It should be remembered that the phrases ``if and only if" and the ``if ... then" are used to refer to the truth tables for the corresponding symbols and not the casual english meaning.  If desired, we could express the definition by using a truth table as we did previously to be completely clear.\\
 
-Sometimes the following notation is used discussing relations: $x A y$.  This is formally defined as $x A y \Longleftrightarrow \langle x,y \rangle \in A$.\\
+Sometimes the following notation is used discussing relations: $x R y$.  This is formally defined as $x R y \Longleftrightarrow \langle x,y \rangle \in R$.\\
 
 Consider the following example set which is a relation:
 
 \begin{displaymath}
-A=\{\langle 1,2 \rangle, \langle 2,1 \rangle,  \langle 1,3 \rangle,  \langle 3,1 \rangle,  \langle 2,3 \rangle,  \langle 3,2 \rangle \}.
+R=\{\langle 1,2 \rangle, \langle 2,1 \rangle,  \langle 1,3 \rangle,  \langle 3,1 \rangle,  \langle 2,3 \rangle,  \langle 3,2 \rangle \}.
 \end{displaymath}
 
-We have utilized the angle bracket notation for ordered pairs for simplicity.  Observe that this relation, $A$, has some special properties.  To begin with, this relation is called \textit{symmetric} because if $xAy$ is true then we have $yAx$ true.  For example, $\langle 1, 2 \rangle \in A $ and $\langle 2, 1 \rangle \in A$.\\
+We have utilized the angle bracket notation for ordered pairs for simplicity.  Observe that this relation, $R$, has some special properties.  To begin with, this relation is called \textit{symmetric} because if $x R y$ is true then we have $y R x$ true.  For example, $\langle 1, 2 \rangle \in R $ and $\langle 2, 1 \rangle \in R$.\\
 
-\textit{Exercise} For the relation $A$ defined above, verify that it is symmetric by explicitly listing the ordered pairs in question and their corresponding symmetric partners.\\
+\textit{Exercise} For the relation $R$ defined above, verify that it is symmetric by explicitly listing the ordered pairs in question and their corresponding symmetric partners.\\
 
 \textit{Solution}\\
 $\langle 1, 2 \rangle, \langle 2, 1 \rangle$  \\
@@ -346,13 +346,50 @@ We consider as an exercise, the proof that $\emptyset$ is a relation.\\
 
 \textit{Exercise} Prove that $\emptyset$ (the empty set) is a relation by appealing to the definition of relation given earlier.\\
 \textit{Solution}\\
-Recalling the definition: $A \textit{ is a binary relation } \Longleftrightarrow (\forall x) (x \in A \Longrightarrow (\exists y)(\exists z)(x=\langle y,z \rangle))$, we substitute $\emptyset$ for $A$ and obtain:\\
+Recalling the definition: $R \textit{ is a binary relation } \Longleftrightarrow (\forall x) (x \in R \Longrightarrow (\exists y)(\exists z)(x=\langle y,z \rangle))$, we substitute $\emptyset$ for $R$ and obtain:\\
 
 $\emptyset \textit{ is a binary relation } \Longleftrightarrow (\forall x) (x \in \emptyset \Longrightarrow (\exists y)(\exists z)(x=\langle y,z \rangle))$.\\
 
 Now, since $x \in \emptyset$ is false (the empty set contains no members), the statement $(x \in \emptyset \Longrightarrow (\exists y)(\exists z)(x=\langle y,z \rangle))$ is true.  Recall the truth table for $\Longrightarrow$ whereby if the first term is false, the entire statement is true no matter what the second term is.  Therefore, we have shown the $\emptyset$ is a relation because it satisfies the definition.\\
 
 \subsubsection{Ordering Relations}
+
+In the previous section, we introduced the idea of a \textit{symmetric} relation.  We now present a more complete list of such definitions:
+
+\begin{itemize}
+\item $R \textit{ is reflexive in }\index{reflexive} A \Longleftrightarrow (\forall x)(x \in A \Longrightarrow x R x)$.
+\item $R \textit{ is irreflexive in }\index{irreflexive} A \Longleftrightarrow (\forall x)(x \in A \Longrightarrow \neg (x R x))$.
+\item $R \textit{ is symmetric in }\index{symmetric} A \Longleftrightarrow (\forall x)(\forall y)(x,y \in A  \land x R y \Longrightarrow  y R x)$.
+\item $R \textit{ is asymmetric in }\index{asymmetric} A \Longleftrightarrow (\forall x)(\forall y)(x,y \in A \land x R y \Longrightarrow \neg (y R x))$.
+\item $R \textit{ is antisymmetric in }\index{antisymmetric} A \Longleftrightarrow (\forall x)(\forall y)(x,y \in A \land x R y \land y R x \Longrightarrow x = y)$.
+\item $R \textit{ is transitive in }\index{transitive}A \Longleftrightarrow (\forall x)(\forall y)(\forall z)(x,y,z \in A \land x R y \land y R z \Longrightarrow x R z)$.
+\item $R \textit{ is connected in }\index{connected} A \Longleftrightarrow (\forall x)(\forall y)(x,y \in A \land x \ne y \Longrightarrow x R y \lor y  R x)$.
+\item $R \textit{ is strongly connected in }\index{strongly connected} A \Longleftrightarrow (\forall x)(\forall y)(x,y \in A \Longrightarrow x R y \lor y R x)$.
+
+\end{itemize}
+
+A couple of items regarding notation.  The notation $x,y \in A$ means $x \in A \land y \in A$.  Also, by convention, the $\land$ and $\lor$ operations are performed before $\Longrightarrow$ which saves writing extra parentheses in the definitions.  For example, if we explicitly included the parentheses in the definition of symmetric to indicate order of operations, it would appear as $A(\forall x)(\forall y)(\textbf{(}x,y \in A  \land x R y \textbf{)} \Longrightarrow  y R x)$.
+
+If we consider the definition of \textit{symmetric} above, we see how this corresponds to the example symmetric  relation in the previous section.  The reader should be cautioned to carefully observe the difference between \textit{\underline{a}symmetric} and \textit{\underline{anti}symmetric} relations.\\
+
+\textit{Exercise} Prove that the relation from the previous section is irreflexive by appealing to the definition.  Define the set $A=\{1,2,3\}$ for purposes of this exercise.\\
+
+\textit{Solution}\\
+
+Recalling $R$:
+
+\begin{displaymath}
+R=\{\langle 1,2 \rangle, \langle 2,1 \rangle,  \langle 1,3 \rangle,  \langle 3,1 \rangle,  \langle 2,3 \rangle,  \langle 3,2 \rangle \}.
+\end{displaymath}
+
+we see that $\forall x \in A$, namely $1,2,3$, we are missing the corresponding ordered pairs $\langle 1,1 \rangle, \langle 2,2 \rangle, \langle 3,3 \rangle$ in the relation $R$.  Now if we consider the definition of \textit{irreflexive} we have: $R \textit{ is irreflexive in } A \Longleftrightarrow (\forall x)(x \in A \Longrightarrow \neg (x R x))$.  Clearly, $x R x$ is false for any choice of $x \in A$, thus we have have $\neg (x R x)$ true for all choices of $x \in A$ and we see that $R$ is therefore indeed \textit{irreflexive}.\\
+
+\textit{Exercise} Show by counterexample, that the relation from the previous section is not \textit{transitive}.  Once again, consider the set $A=\{1,2,3\}$ for purposes of this exercise.\\
+
+\textit{Solution}\\
+
+Recalling the definition: $R \textit{ is transitive in } A \Longleftrightarrow (\forall x)(\forall y)(\forall z)(x,y,z \in A \land x R y \land y R z \Longrightarrow x R z)$, we see that if we can find an instance where $x,y,z \in A \land x R y \land y R z \Longrightarrow x R z$ is false, we are done.  Consider $1 R 2$ and $2 R 1$ which are both true.  However, $1 R 1$ is false because $\langle 1,1 \rangle \notin R.$  Therefore, we conclude that $R$ is not transitive.\\
+
 
 \subsubsection{Equivalence Relations}
 
