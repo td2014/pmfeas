@@ -390,6 +390,44 @@ we see that $\forall x \in A$, namely $1,2,3$, we are missing the corresponding 
 
 Recalling the definition: $R \textit{ is transitive in } A \Longleftrightarrow (\forall x)(\forall y)(\forall z)(x,y,z \in A \land x R y \land y R z \Longrightarrow x R z)$, we see that if we can find an instance where $x,y,z \in A \land x R y \land y R z \Longrightarrow x R z$ is false, we are done.  Consider $1 R 2$ and $2 R 1$ which are both true.  However, $1 R 1$ is false because $\langle 1,1 \rangle \notin R.$  Therefore, we conclude that $R$ is not transitive.\\
 
+The following two definitions are important:
+
+\begin{itemize}
+\item $R \textit{ is a partial ordering of }\index{partial ordering}A \Longleftrightarrow R \textit{ is reflexive, anti-symmetric and transitive in }A$.
+\item $R \textit{ well-orders }\index{well-order}A \Longleftrightarrow R \textit{ is connected in } A \land (\forall B)(B \subseteq A \land B \ne \emptyset \Longrightarrow B \textit{ has an }R \textit{-minimal element})$.
+\end{itemize}
+
+The definition of $R$\textit{-minimal element}\index{R-minimal element} mentioned above is as follows:
+$x \textit{ is an }R\textit{-minimal element of }A \Longleftrightarrow x \in A \land (\forall y)(y \in A \Longrightarrow \neg(y R x))$.\\
+
+Let us examine the above two ordering definitions with some examples.  Firstly, let us consider \textit{partial ordering}.  We will take $A=\{1,2,3\}$ and construct an appropriate relation.  We can begin with taking all possible ordered pairs which gives us the following provisional relation:
+
+\begin{displaymath}
+R=\{\langle 1,1 \rangle, \langle 1,2 \rangle, \langle 1,3 \rangle, 
+\langle 2,1 \rangle,\langle 2,2 \rangle,\langle 2,3 \rangle, 
+\langle 3,1 \rangle,\langle 3,2 \rangle,\langle 3,3 \rangle\}
+\end{displaymath}
+
+The above relation is symmetric, because it contains $\langle 1,1 \rangle, \langle 2,2 \rangle, \langle 3,3 \rangle$.  The anti-symmetric requirement restricts the ordered pair partners.  For example, if we have $\langle 1,2 \rangle$ we cannot have $\langle 2, 1\rangle$.  So, let us remove those ordered pairs where the second element is smaller than the first:
+
+\begin{displaymath}
+R=\{\langle 1,1 \rangle, \langle 1,2 \rangle, \langle 1,3 \rangle, 
+\langle 2,2 \rangle,\langle 2,3 \rangle, \langle 3,3 \rangle\}
+\end{displaymath}
+
+Lastly, we need to verify transitivity:\\
+$1R1 \land 1R1 \Longrightarrow 1R1$ \\
+$1R1 \land 1R2 \Longrightarrow 1R2$ \\
+$1R1 \land 1R3 \Longrightarrow 1R3$ \\
+$1R2 \land 2R2 \Longrightarrow 1R2$ \\
+$1R2 \land 2R3 \Longrightarrow 1R3$ \\
+$1R3 \land 3R3 \Longrightarrow 1R3$ \\
+$2R2 \land 2R2 \Longrightarrow 2R2$ \\
+$2R2 \land 2R3 \Longrightarrow 2R3$ \\
+$2R3 \land 3R3 \Longrightarrow 2R3$ \\
+$3R3 \land 3R3 \Longrightarrow 3R3$ \\
+
+So, our revised $R$ is a partial ordering of the set $A$.  When dealing with real numbers, the symbol $\le$ (less than or equal to) represents a partial ordering relation.  The relation $R$ we constructed above parallels this.
 
 \subsubsection{Equivalence Relations}
 
