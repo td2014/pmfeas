@@ -509,12 +509,23 @@ $R[5]=\{5\}$\\
 Now, we can form a set of all the cosets, which will be a partition of $A$:\\
 $\Pi=\{\{1,2\},\{3\},\{4\},\{5\}\}$.
 
-
-
-
-
-
 \subsubsection{Functions}
+
+To help motivate the discussion of \textit{functions}, which presumably many readers will have encountered previously and have a fair degree of experience with, within the set theoretical framework, the following directly quoted passage from Suppes (p.86) may be helpful:\\
+
+``Since the eighteenth century, clarification and generalization of the concept of a function have attracted much attention.  Fourier's representation of 'arbitrary' functions (actually piecewise continuous ones) by trigonometric series encountered much opposition; and later when Weierstrass and Riemann gave examples of continuous functions without derivatives, mathematicians refused to consider them seriously.  Even today many textbooks of the differential and integral calculus do not give a mathematically satisfactory definition of functions.  An exact and completely general definition is immediate within our set-theoretical framework.  A function is simply a many-one relation, that is, a relation which to any element in its domain relates exactly one element in its range."\\
+
+We now present the formal definition:\\
+
+Definition: $f \textit{ is a function}\index{function} \Longleftrightarrow f \textit{ is a relation } \land (\forall x)(\forall y)(\forall z)(x f y \land x f z \Longrightarrow y = z)$.
+
+Here is an example from Suppes which we use as an exercise.\\
+
+\textit{Exercise} Argue that the following relation is not a function: $f=\{\langle 1,1\rangle, \langle 1,2 \rangle, \langle 3,4 \rangle\}$.\\
+
+\textit{Solution}:\\
+Appealing to the definition of function, we see that the statement $1f1 \land 1f2 \Longrightarrow 1=2$ is false, therefore we conclude $f$ is not a function.  In other words, the ordered pairs $\langle 1, 1 \rangle$ and $\langle 1, 2\rangle$ which appear in $f$ have the same first element, $1$, but different second elements, $1$ and $2$, which is not allowed for a function.
+
 
 
 \section{Peano Axioms of Arithmetic}
