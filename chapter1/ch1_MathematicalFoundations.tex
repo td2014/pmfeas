@@ -513,7 +513,7 @@ $\Pi=\{\{1,2\},\{3\},\{4\},\{5\}\}$.
 
 To help motivate the discussion of \textit{functions}, which presumably many readers will have encountered previously and have a fair degree of experience with, within the set theoretical framework, the following directly quoted passage from Suppes (p.86) may be helpful:\\
 
-``Since the eighteenth century, clarification and generalization of the concept of a function have attracted much attention.  Fourier's representation of 'arbitrary' functions (actually piecewise continuous ones) by trigonometric series encountered much opposition; and later when Weierstrass and Riemann gave examples of continuous functions without derivatives, mathematicians refused to consider them seriously.  Even today many textbooks of the differential and integral calculus do not give a mathematically satisfactory definition of functions.  An exact and completely general definition is immediate within our set-theoretical framework.  A function is simply a many-one relation, that is, a relation which to any element in its domain relates exactly one element in its range."\\
+``Since the eighteenth century, clarification and generalization of the concept of a function have attracted much attention.  Fourier's representation of `arbitrary' functions (actually piecewise continuous ones) by trigonometric series encountered much opposition; and later when Weierstrass and Riemann gave examples of continuous functions without derivatives, mathematicians refused to consider them seriously.  Even today many textbooks of the differential and integral calculus do not give a mathematically satisfactory definition of functions.  An exact and completely general definition is immediate within our set-theoretical framework.  A function is simply a many-one relation, that is, a relation which to any element in its domain relates exactly one element in its range."\\
 
 We now present the formal definition:\\
 
@@ -524,7 +524,24 @@ Here is an example from Suppes which we use as an exercise.\\
 \textit{Exercise} Argue that the following relation is not a function: $f=\{\langle 1,1\rangle, \langle 1,2 \rangle, \langle 3,4 \rangle\}$.\\
 
 \textit{Solution}:\\
-Appealing to the definition of function, we see that the statement $1f1 \land 1f2 \Longrightarrow 1=2$ is false, therefore we conclude $f$ is not a function.  In other words, the ordered pairs $\langle 1, 1 \rangle$ and $\langle 1, 2\rangle$ which appear in $f$ have the same first element, $1$, but different second elements, $1$ and $2$, which is not allowed for a function.
+Appealing to the definition of function, we see that the statement $1f1 \land 1f2 \Longrightarrow 1=2$ is false, therefore we conclude $f$ is not a function.  In other words, the ordered pairs $\langle 1, 1 \rangle$ and $\langle 1, 2\rangle$ which appear in $f$ have the same first element, $1$, but different second elements, $1$ and $2$, which is not allowed for a function.\\
+
+\textit{Composition} \index{composition} of functions is an important concept that appears quite frequently in some of the later topics.  The notation for this is $(f \circ g)(x)=f(g(x))$, where $f$ and $g$ are functions, $x$ is an element of a set, and the circle indicates composition.  In words, we can think of this as a chain, whereby, firstly the mapping is applied using the the $g$ function, then the result of this is mapped via the $f$ function.  Suppes provides a formal definition of composition using something called the \textit{relative product}\index{relative product}, so for completeness we provide the definitions:\\
+
+Definition: $f \circ g = g/f$.\\
+
+The relative product is given by the notation $g/f$ and is defined by the following:\\
+
+Definition: $g/f = \{\langle x,y \rangle\| (\exists z)(x g z \land z f y )\}$.\\
+
+\textit{Exercise}  Given the two functions $f=\{\langle 3,2 \rangle, \langle 4,5 \rangle, \langle 6, 7 \rangle \}$ and $g=\{\langle 1,3 \rangle , \langle 2,6 \rangle \}$, determine the composition $f \circ g$ using the definition $g/f$.
+
+\textit{Solution}:\\
+Let us pair up the terms $x g z$ and $z f y$ (in that order), where $z$ is common to both:\\
+$\langle 1, 3 \rangle , \langle 3, 2 \rangle$\\
+$\langle 2, 6 \rangle , \langle 6, 7 \rangle$\\
+
+Then we have $g/f = \{\langle 1,2 \rangle, \langle 2, 7 \rangle \}$.
 
 
 
