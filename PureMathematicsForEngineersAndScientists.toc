@@ -8,8 +8,8 @@
 \contentsline {subsubsection}{Ordering Relations}{16}{section*.4}%
 \contentsline {subsubsection}{Equivalence Relations}{19}{section*.5}%
 \contentsline {subsubsection}{Functions}{20}{section*.6}%
-\contentsline {section}{\numberline {1.4}Peano Axioms of Arithmetic}{21}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Godel Theorems}{21}{section.1.5}%
+\contentsline {section}{\numberline {1.4}Peano Axioms of Arithmetic}{22}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Godel Theorems}{22}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Methods of Proof}{23}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Induction}{23}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Weak Induction}{23}{subsection.2.1.1}%
