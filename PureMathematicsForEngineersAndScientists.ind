@@ -8,12 +8,15 @@
   \item Cardinality, 13
   \item composition, 21
   \item connected, 16, 18
+  \item converse domain, 22
   \item Coset, 19
+  \item counterdomain, 22
 
   \indexspace
 
   \item De Morgan's Law's, 10
   \item Dedekind Cuts, 7
+  \item domain, 22
 
   \indexspace
 
@@ -21,6 +24,7 @@
 
   \indexspace
 
+  \item image, 22
   \item inverse, 22
   \item irreflexive, 16
 
@@ -32,8 +36,10 @@
   \indexspace
 
   \item R-minimal element, 17
+  \item range, 22
   \item reflexive, 16
   \item relative product, 21
+  \item restriction, 22
 
   \indexspace
 

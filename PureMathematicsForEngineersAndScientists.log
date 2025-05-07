@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  6 MAY 2025 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  7 MAY 2025 13:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -795,17 +795,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 553--554
 
  []
 
-) [22]
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--562
+
+ []
+
+
+Overfull \hbox (12.85059pt too wide) in paragraph at lines 563--565
+\OT1/cmr/m/it/10 Solution\OT1/cmr/m/n/10 : Let us first de-ter-mine the con-ver
+se re-la-tion to $\OML/cmm/m/it/10 f$\OT1/cmr/m/n/10 : $[]= \OMS/cmsy/m/n/10 fh
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OMS/cmsy/m/n/10 i\OML/cmm
+/m/it/10 ; \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/1
+0 2\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 4\OML
+/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OMS/cmsy/m/n/10 ig$\OT1/cmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 563--565
+
+ []
+
+
+Overfull \hbox (19.03244pt too wide) in paragraph at lines 577--578
+[]\OT1/cmr/m/it/10 Exercise \OT1/cmr/m/n/10 What is the im-age of $\OML/cmm/m/i
+t/10 A \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; 
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cm
+r/m/n/10 6\OMS/cmsy/m/n/10 g$ \OT1/cmr/m/n/10 un-der $\OML/cmm/m/it/10 R \OT1/c
+mr/m/n/10 = \OMS/cmsy/m/n/10 fh\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n
+/10 10\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 2\
+OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 11\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ; \OMS/c
+msy/m/n/10 h\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 15\OMS/cmsy/m/n
+/10 ig$\OT1/cmr/m/n/10 ? 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 579--580
+
+ []
+
+
+Overfull \hbox (40.55568pt too wide) detected at line 582
+\OMS/cmsy/m/n/10 fh\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 10\OMS/c
+msy/m/n/10 i\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 1\OML/cmm/m/it
+/10 ; \OT1/cmr/m/n/10 11\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 h
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 15\OMS/cmsy/m/n/10 i\OML/cm
+m/m/it/10 ; \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/
+10 10\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 2\O
+ML/cmm/m/it/10 ; \OT1/cmr/m/n/10 11\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ; \OMS/cm
+sy/m/n/10 h\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 15\OMS/cmsy/m/n/
+10 i\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \O
+T1/cmr/m/n/10 10\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 h\OT1/cmr
+/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 11\OMS/cmsy/m/n/10 i\OML/cmm/m/it/1
+0 ; \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 15\OM
+S/cmsy/m/n/10 i\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 6\OML/cmm/m
+/it/10 ; \OT1/cmr/m/n/10 10\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/1
+0 h\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 11\OMS/cmsy/m/n/10 i\OML
+/cmm/m/it/10 ; \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m
+/n/10 15\OMS/cmsy/m/n/10 ig
+ []
+
+[22]) [23]
 \openout2 = `./chapter2/ch2_MethodsOfProof.aux'.
 
- (./chapter2/ch2_MethodsOfProof.tex
+ (./chapter2/ch2_MethodsOfProof.tex [24
+
+
+
+
+]
 Chapter 2.
-[23
-
-
-
-
-]) [24] (./PureMathematicsForEngineersAndScientists.ind [25
+[25]) [26] (./PureMathematicsForEngineersAndScientists.ind [27
 
 
 
@@ -819,8 +883,8 @@ Package rerunfilecheck Info: File `PureMathematicsForEngineersAndScientists.out
 (rerunfilecheck)             Checksum: 18F47518397E7FE6C40BDBFA18E533BD;2142.
  ) 
 Here is how much of TeX's memory you used:
- 7695 strings out of 476025
- 125775 string characters out of 5790017
+ 7697 strings out of 476025
+ 125789 string characters out of 5790017
  1873388 words of memory out of 5000000
  28003 multiletter control sequences out of 15000+600000
  523272 words of font info for 74 fonts, out of 8000000 for 9000
@@ -843,11 +907,11 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/t
 exlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (25 pages, 25983
+Output written on PureMathematicsForEngineersAndScientists.pdf (27 pages, 26360
 5 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

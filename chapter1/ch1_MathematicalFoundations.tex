@@ -558,8 +558,40 @@ The following definitions are key:
 \item Definition: $f \textit{ is 1-1 } \Longrightarrow f^{-1}= \stackrel{\smile}{f}$, where $f^{-1}$ is the \textit{inverse}\index{inverse} of $f$.
 \end{itemize}
 
-We note that ``1-1" is read ``one-one."
+We note that ``1-1" is read ``one-to-one."  We now illustrate a counter-example to a 1-1 function.\\
 
+\textit{Exercise}  Show that the following function, $f=\{\langle 1,2 \rangle, \langle 2,2 \rangle, \langle 3,4 \rangle \}$ is not 1-1.\\
+\textit{Solution}:  Let us first determine the converse relation to $f$: $\stackrel{\smile}{f}=\{\langle 2,1 \rangle, \langle 2,2 \rangle, \langle 4,3 \rangle \}$.  We see that this relation is not a function because the elements $\langle 2,1 \rangle, \langle 2,2 \rangle$ have the same first entry, but different second entries.  Therefore, we conclude $f$ is not 1-1.\\
+
+We now introduce some additional terminology:
+
+\begin{itemize}
+\item Definition: Domain\index{domain} of a relation $R$: $\mathcal{D}R=\{x | (\exists y) (x R y) \}$
+\item Definition: Range\index{range} of a relation $R$: $\mathcal{R}R=\{y | (\exists x) (x R y) \}$.  This is also referred to as the \textit{counterdomain}\index{counterdomain} or \textit{converse domain}\index{converse domain}.
+\item Definition: $f \textit{ is a function from set }A \textit{ \underline{into} set } B \Longleftrightarrow f \textit{ is a function } \land \mathcal{D}f=A \land \mathcal{R}f \subseteq B$.
+\item Definition: $f \textit{ is a function from set }A \textit{ \underline{onto} set } B \Longleftrightarrow f \textit{ is a function } \land \mathcal{D}f=A \land \mathcal{R}f = B$.
+\item Definition: \textit{Restriction}\index{restriction} of the domain of a relation $R$ to a given set $A$: $R|A = R \cap (A \times \mathcal{R} R)$.
+\item Definition: the \textit{image}\index{image} of the set $A$ under $R$: $R``A = \mathcal{R} (R|A)$.
+\end{itemize}
+
+\textit{Exercise} What is the image of $A=\{1,2,4,6\}$ under $R=\{\langle1,10 \rangle, \langle 2,11 \rangle, \langle 5,15 \rangle\}$?\\
+
+\textit{Solution}:  First, let us determine the restriction $R|A$.  We need to obtain the Cartesian product $A \times \mathcal{R} R$ which is:\\
+\begin{displaymath}
+ \{\langle1,10 \rangle, \langle1,11 \rangle, \langle1,15 \rangle, \langle2,10 \rangle, \langle 2,11\rangle, \langle2,15 \rangle, \langle4,10 \rangle, \langle 4,11\rangle, \langle4,15 \rangle, \langle6,10 \rangle, \langle 6,11\rangle, \langle6,15 \rangle\}
+ \end{displaymath}
+ 
+ Next, we determine the intersection with $R$:
+ \begin{displaymath}
+ R|A = R \cap (A \times \mathcal{R} R) = \{\langle1,10 \rangle,  \langle 2,11\rangle \}
+ \end{displaymath}
+ 
+ Lastly, we obtain the image of $A$ under $R$:
+  \begin{displaymath}
+ R``A = \mathcal{R} (R|A)=\{10,11\}
+  \end{displaymath}
+
+It should be kept in mind that we are always dealing with sets when we refer to functions now and later in the material, so if there is any confusion, the reader should always consult the pertinent definitions to see exactly what sets or subsets are being referenced in any manipulations or results.  For example, does a particular operation involve the entire set or only some portion of a set.  Typically, engineers and scientists may normally think of functions in terms of graphs on a say two-dimensional plot, but in the pure mathematical context, keeping in mind the underlying set framework as has been outlined in the above material is important.
 
 \section{Peano Axioms of Arithmetic}
 
