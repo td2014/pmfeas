@@ -595,4 +595,34 @@ It should be kept in mind that we are always dealing with sets when we refer to 
 
 \section{Peano Axioms of Arithmetic}
 
+In the previous section, we built up a basic framework for set theory based on the Zermelo-Frankel axioms.  We now establish the foundations of the natural numbers, founded on top of that set theory, by stating the Peano Axioms.  Much of this material is based directly on \textit{Schaum's Outline of Theory and Problems of Abstract Algebra} by Frank Ayres and LLoyd R. Jaisingh.\\
+
+Let there exist a non-empty set $\mathbb{N}$ such that:
+
+\begin{itemize}
+\item Axiom I:  $1 \in \mathbb{N}$.
+\item Axiom II:  For each $n \in \mathbb{N}$ there exists a unique $n^{*} \in \mathbb{N}$, called the \textit{successor} of $n$.
+\item Axiom III:  For each $n \in \mathbb{N}$ we have $n^{*} \ne 1$.
+\item Axiom IV:  If $m,n \in \mathbb{N}$ and $m^{*}=n^{*}$, then $m=n$.
+\item Axiom V:  Any subset $K$ of $\mathbb{N}$ having the properties (a) $1 \in K$, (b) $k^{*} \in K$ whenever $k \in K$ is equal to $\mathbb{N}$. 
+\end{itemize}
+
+We now define addition and multiplication on $\mathbb{N}$.\\
+
+Addition:\\
+(i) $n+1=n^{*}$, for every $n \in \mathbb{N}$\\
+(ii) $n+m^{*}=(n+m)^{*}$, whenever $n+m$ is defined.\\
+
+We then have the following laws for addition.  For all $m,n,p \in \mathbb{N}$:\\
+\begin{itemize}
+\item Closure: $n+m \in \mathbb{N}$
+\item Commutative: $n+m=m+n$
+\item Associative: $m + ( n+p) =(m+n)+p$
+\item Cancellation: If $m+p=n+p$, then $m=n$
+\end{itemize}
+
+Multiplication:\\
+(i) $n \cdot 1 = n$\\
+(ii) $n \cdot m^{*}=n \cdot m + n$, whenever $n \cdot m$ is defined.
+
 \section{Godel Theorems}
