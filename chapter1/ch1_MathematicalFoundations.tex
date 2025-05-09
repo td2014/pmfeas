@@ -595,7 +595,7 @@ It should be kept in mind that we are always dealing with sets when we refer to 
 
 \section{Peano Axioms of Arithmetic}
 
-In the previous section, we built up a basic framework for set theory based on the Zermelo-Frankel axioms.  We now establish the foundations of the natural numbers, founded on top of that set theory, by stating the Peano Axioms.  Much of this material is based directly on \textit{Schaum's Outline of Theory and Problems of Abstract Algebra} by Frank Ayres and LLoyd R. Jaisingh.\\
+In the previous section, we built up a basic framework for set theory based on the Zermelo-Frankel axioms.  We now establish the foundations of the natural numbers, founded on top of that set theory, by stating the Peano Axioms.  Much of this material is based directly on \textit{Schaum's Outline of Theory and Problems of Abstract Algebra} by Frank Ayres and Lloyd R. Jaisingh.\\
 
 Let there exist a non-empty set $\mathbb{N}$ such that:
 
@@ -629,5 +629,28 @@ Multiplication:\\
 (i) $n \cdot 1 = n$\\
 (ii) $n \cdot m^{*}=n \cdot m + n$, whenever $n \cdot m$ is defined.\\
 
+Similar to addition, we have laws for multiplication.  For all $m,n,p \in \mathbb{N}$:\\
+\begin{itemize}
+\item Closure: $n \cdot m \in \mathbb{N}$
+\item Commutative: $m \cdot n = n \cdot m$
+\item Associative: $m \cdot (n \cdot p) = (m \cdot n) \cdot p$
+\item Cancellation: If $m \cdot p = n \cdot p$, then $m=n$.
+\end{itemize} 
+
+If we consider both addition and multiplication, there are so-called distributive laws.  For all $m,n,p \in \mathbb{N}$:\\
+\begin{itemize}
+\item $D_{1}$: $m \cdot (n+p)=m \cdot n + m \cdot p$
+\item $D_{2}$: $(n+p) \cdot m = n \cdot m + p \cdot m$.
+\end{itemize}
+
+The reader should be cautioned or reminded at this point that the order of the variables and operations in laws such as in the above are important to observe in general.  With certain mathematical objects that we will consider, such as \textit{groups}, swapping the positions of variables may not necessarily yield the same results.  Therefore, one must carefully consider the definitions relevant to each mathematical object in question.\\
+
+\textit{Exercise}  How are we justified in asserting that $m \cdot n = n \cdot m$, when $m,n \in \mathbb{N}$?\\
+\textit{Solution}:  The commutative law for multiplication under $\mathbb{N}$ provides the justification.\\ 
+
+\textit{Exercise}  Suppose we have $m,n \in \mathbb{N}$ and form the product $p=n \cdot m$.  Is the result $p \in \mathbb{N}$?\\
+\textit{Solution}:  Yes.  The closure law for multiplication under $\mathbb{N}$ provides the justification.\\
+
+Note in the above exercises, even though we may have some intuitive sense for the reasons, we must appeal to an exact statement which justifies the assertion.  This may be an axiom, definition, theorem, law etc. which has been established for the objects in question.  This habit will be important to form as we consider other contexts in pure mathematics.
 
 \section{Godel Theorems}

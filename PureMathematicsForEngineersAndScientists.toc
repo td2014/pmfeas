@@ -9,10 +9,10 @@
 \contentsline {subsubsection}{Equivalence Relations}{19}{section*.5}%
 \contentsline {subsubsection}{Functions}{20}{section*.6}%
 \contentsline {section}{\numberline {1.4}Peano Axioms of Arithmetic}{23}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Godel Theorems}{24}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Methods of Proof}{25}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Induction}{25}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Weak Induction}{25}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Strong Induction}{25}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Proof by Contradiction}{25}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Direct Proof}{26}{section.2.3}%
+\contentsline {section}{\numberline {1.5}Godel Theorems}{25}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Methods of Proof}{27}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Induction}{27}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Weak Induction}{27}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Strong Induction}{27}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Proof by Contradiction}{27}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Direct Proof}{28}{section.2.3}%
