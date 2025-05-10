@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  9 MAY 2025 16:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  10 MAY 2025 10:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1014,7 +1014,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 675--677
 
  []
 
-[25]) [26]
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 685--688
+
+ []
+
+) [26]
 \openout2 = `./chapter2/ch2_MethodsOfProof.aux'.
 
  (./chapter2/ch2_MethodsOfProof.tex
@@ -1038,10 +1043,10 @@ Package rerunfilecheck Info: File `PureMathematicsForEngineersAndScientists.out
 (rerunfilecheck)             Checksum: 86F3AA1E95A1D8D4A4E834FAEDE106C4;2145.
  ) 
 Here is how much of TeX's memory you used:
- 8407 strings out of 476025
- 135317 string characters out of 5790017
+ 8408 strings out of 476025
+ 135332 string characters out of 5790017
  1872388 words of memory out of 5000000
- 28689 multiletter control sequences out of 15000+600000
+ 28690 multiletter control sequences out of 15000+600000
  524589 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,76p,903b,513s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1062,8 +1067,8 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/t
 exlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (29 pages, 27374
-8 bytes).
+Output written on PureMathematicsForEngineersAndScientists.pdf (29 pages, 27705
+0 bytes).
 PDF statistics:
  310 PDF objects out of 1000 (max. 8388607)
  242 compressed objects within 3 object streams
