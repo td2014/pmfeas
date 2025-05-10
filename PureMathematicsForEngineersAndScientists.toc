@@ -11,11 +11,11 @@
 \contentsline {section}{\numberline {1.4}Peano Axioms of Arithmetic}{23}{section.1.4}%
 \contentsline {section}{\numberline {1.5}G\"odel Theorems}{25}{section.1.5}%
 \contentsline {subsubsection}{The Completeness Theorem}{25}{section*.7}%
-\contentsline {subsubsection}{The First Incompleteness Theorem}{26}{section*.8}%
-\contentsline {subsubsection}{The Second Incompleteness Theorem}{26}{section*.9}%
-\contentsline {chapter}{\numberline {2}Methods of Proof}{27}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Induction}{27}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Weak Induction}{27}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Strong Induction}{27}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Proof by Contradiction}{27}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Direct Proof}{28}{section.2.3}%
+\contentsline {subsubsection}{The First Incompleteness Theorem}{27}{section*.8}%
+\contentsline {subsubsection}{The Second Incompleteness Theorem}{27}{section*.9}%
+\contentsline {chapter}{\numberline {2}Methods of Proof}{29}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Induction}{29}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Weak Induction}{29}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Strong Induction}{29}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Proof by Contradiction}{29}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Direct Proof}{30}{section.2.3}%

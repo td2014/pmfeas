@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  10 MAY 2025 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  10 MAY 2025 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -271,9 +271,7 @@ Package index Info: Writing index file PureMathematicsForEngineersAndScientists
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box53
-) (./PureMathematicsForEngineersAndScientists.aux
-(./chapter1/ch1_MathematicalFoundations.aux) (./chapter2/ch2_MethodsOfProof.aux
-))
+) (./PureMathematicsForEngineersAndScientists.aux)
 \openout1 = `PureMathematicsForEngineersAndScientists.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -295,7 +293,8 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 Package hyperref Info: Link coloring OFF on input line 12.
- (./PureMathematicsForEngineersAndScientists.out)
+
+(./PureMathematicsForEngineersAndScientists.out)
 (./PureMathematicsForEngineersAndScientists.out)
 \@outlinefile=\write4
 \openout4 = `PureMathematicsForEngineersAndScientists.out'.
@@ -1019,17 +1018,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 685--688
 
  []
 
-) [26]
+
+Underfull \hbox (badness 10000) in paragraph at lines 689--691
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--693
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
+
+ []
+
+[26]) [27]
 \openout2 = `./chapter2/ch2_MethodsOfProof.aux'.
 
- (./chapter2/ch2_MethodsOfProof.tex
+ (./chapter2/ch2_MethodsOfProof.tex [28
+
+
+
+
+]
 Chapter 2.
-[27
-
-
-
-
-]) [28] (./PureMathematicsForEngineersAndScientists.ind [29
+[29]) [30] (./PureMathematicsForEngineersAndScientists.ind [31
 
 
 
@@ -1038,15 +1052,22 @@ Chapter 2.
 (./PureMathematicsForEngineersAndScientists.aux
 (./chapter1/ch1_MathematicalFoundations.aux) (./chapter2/ch2_MethodsOfProof.aux
 ))
-Package rerunfilecheck Info: File `PureMathematicsForEngineersAndScientists.out
-' has not changed.
-(rerunfilecheck)             Checksum: 86F3AA1E95A1D8D4A4E834FAEDE106C4;2145.
+
+Package rerunfilecheck Warning: File `PureMathematicsForEngineersAndScientists.
+out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `PureMathematicsForEngineersAndScien
+tists.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  86F3AA1E95A1D8D4A4E834FAEDE106C4;2145.
  ) 
 Here is how much of TeX's memory you used:
- 8408 strings out of 476025
- 135332 string characters out of 5790017
+ 8389 strings out of 476025
+ 134923 string characters out of 5790017
  1872388 words of memory out of 5000000
- 28690 multiletter control sequences out of 15000+600000
+ 28673 multiletter control sequences out of 15000+600000
  524589 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,76p,903b,513s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1067,11 +1088,11 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/t
 exlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (29 pages, 27705
-0 bytes).
+Output written on PureMathematicsForEngineersAndScientists.pdf (31 pages, 27713
+8 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
