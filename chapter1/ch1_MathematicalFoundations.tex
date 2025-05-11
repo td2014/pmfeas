@@ -689,7 +689,7 @@ Case 2:  Each $\phi_{n}$ is satisfiable.  This implies the original $\phi$ is sa
 The Stanford reference states that ``logical expression" in the terminology of the theorem is ``a well-formed first order formula without identity."  G\"odel's 1929 dissertation \textit{On the Completeness of the Calculus of Logic} which is the source of the theorem, states the following:\\
 ``The main object of the following investigations is the proof of the completeness of the axiom system for what is called the restricted functional calculus, namely the system given in \textit{Whitehead and Russell 1910}, Part I, *1 and *10, and, in a similar way, in \textit{Hilbert and Ackermann 1928} (hereafter cited as H.A.) , III, \S 5."  (Source: Kurt G\"odel \textit{Collected Works} Vol.1 by Feferman, et al. (1986) - Page 61.)\\
 
-The specific notation and axioms for this system are then specified in the same reference.  Briefly, the logic symbols are the same we have seen previously, namely: $\lor, \land, \Longrightarrow, \Longleftrightarrow, \neg$ and the axioms are as follows:\\
+The notation and axioms for this system are then specified in the same reference.  Briefly, the logic symbols are the same we have seen previously, namely: $\lor, \land, \Longrightarrow, \Longleftrightarrow, \neg$ and the axioms are as follows:\\
 
 \begin{itemize}
 \item (1) $X \lor X \Longrightarrow X$
@@ -730,7 +730,7 @@ T & F & T & F \\
 \end{displaymath}
 \\
 \textit{Exercise} Is the following logical expression provable (within the above axiom system): $(X\Longrightarrow Y)\lor (X \Longrightarrow Y)  \Longrightarrow (X \Longrightarrow Y)$?\\\\
-\textit{Solution}: Yes, according to G\"odel's Completeness Theorem, since the formula is valid (correctly/well-formed).  In fact, in this case it was obtained from Axiom (1) by substituting $X \Longrightarrow Y$ for $X$, immediately verifying the theorem.
+\textit{Solution}: Yes, according to G\"odel's Completeness Theorem, since the formula is valid (taking ``valid" to mean true for any combination of true or false for the variables $X$ and $Y$).  In fact, in this case it was obtained from Axiom (1) by substituting $X \Longrightarrow Y$ for $X$, immediately verifying the theorem.
  
 
 \subsubsection{The First Incompleteness Theorem}
