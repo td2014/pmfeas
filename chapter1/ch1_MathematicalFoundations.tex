@@ -717,6 +717,20 @@ F & T & F  \\
 \end{displaymath}
 
 we can see by inspection that if we negate the $A$ column, and use $\lor$ instead of $\Longrightarrow$ we will reproduce the same truth table.  To confirm, let us do this explicity:
+
+\begin{displaymath}
+\begin{array}{|c|c|c|c|}
+(\neg & A) & \lor & B \\
+\hline
+F & T & T & T  \\
+F & T & F & F  \\
+T & F & T & T  \\
+T & F & T & F \\
+\end{array}
+\end{displaymath}
+\\
+\textit{Exercise} Is the following logical expression provable (within the above axiom system): $(X\Longrightarrow Y)\lor (X \Longrightarrow Y)  \Longrightarrow (X \Longrightarrow Y)$?\\\\
+\textit{Solution}: Yes, according to G\"odel's Completeness Theorem, since the formula is valid (correctly/well-formed).  In fact, in this case it was obtained from Axiom (1) by substituting $X \Longrightarrow Y$ for $X$, immediately verifying the theorem.
  
 
 \subsubsection{The First Incompleteness Theorem}
