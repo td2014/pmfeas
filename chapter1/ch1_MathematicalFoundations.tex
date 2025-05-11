@@ -730,7 +730,9 @@ T & F & T & F \\
 \end{displaymath}
 \\
 \textit{Exercise} Is the following logical expression provable (within the above axiom system): $(X\Longrightarrow Y)\lor (X \Longrightarrow Y)  \Longrightarrow (X \Longrightarrow Y)$?\\\\
-\textit{Solution}: Yes, according to G\"odel's Completeness Theorem, since the formula is valid (taking ``valid" to mean true for any combination of true or false for the variables $X$ and $Y$).  In fact, in this case it was obtained from Axiom (1) by substituting $X \Longrightarrow Y$ for $X$, immediately verifying the completeness theorem.
+\textit{Solution}: Yes, according to G\"odel's Completeness Theorem, since the formula is valid (taking ``valid" to mean true for any combination of true or false for the variables $X$ and $Y$).  In fact, in this case it was obtained from Axiom (1) by substituting $X \Longrightarrow Y$ for $X$, immediately verifying the completeness theorem.\\
+
+It is worth emphasizing the following point, raised by G\"odel in his dissertation.  Namely, since the logical axioms are valid and the rules of inference preserve truth, this means that every provable formula (i.e. derived from the axioms using the rules of inference) is valid.  G\"odel's Completeness Theorem actually states the \underline{converse}:  \textit{Every valid logical expression is provable}.  Again, this is within the specific system described above.
  
 
 \subsubsection{The First Incompleteness Theorem}
