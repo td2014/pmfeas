@@ -700,6 +700,10 @@ The notation and axioms for this system are then specified in the same reference
 \item (6) $(\forall x)[X \lor F(x)] \Longrightarrow X \lor (\forall x)F(x)$
 \end{itemize}
 
+The notation $F(x)$ above refers to a ``predicate" that can be true or false depending on the value of $x$.  For example, $F(x)$ can be true if $x \in A$, where $A$ is some set.
+
+There are also rules of inference, one of which is the ``modus ponens" introduced previously.  Namely, $(p \land (p \Longrightarrow q)) \Longrightarrow q$ where $p$ and $q$ are statements that can be true or false.
+
 \textit{Exercise} In the text of G\"odel's dissertation, it is stated that $\Longrightarrow$ is used as an abbreviation.  Also, it is implied that only $\lor$ and $\neg$ are necessary in order to represent the needed logic.  Substantiate this by showing that it is possible to obtain the truth table for $\Longrightarrow$ only using $\lor$ and $\neg$.\\
 \textit{Solution}:
 
