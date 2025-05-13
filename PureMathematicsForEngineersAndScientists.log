@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  12 MAY 2025 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  13 MAY 2025 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1044,18 +1044,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 734--738
 
  []
 
-) [27]
+
+Overfull \hbox (21.20961pt too wide) in paragraph at lines 744--746
+\OT1/cmr/m/it/10 cy-clo-pe-dia of Phi-los-o-phy \OT1/cmr/m/n/10 en-try on G^^?o
+del (https://plato.stanford.edu/entries/goedel/)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--746
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
+
+ []
+
+
+Overfull \hbox (111.84265pt too wide) in paragraph at lines 749--750
+\OT1/cmr/m/it/10 Stan-ford En-cy-clo-pe-dia of Phi-los-o-phy \OT1/cmr/m/n/10 fo
+r G^^?odel In-com-plete-ness (https://plato.stanford.edu/entries/goedel-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 749--750
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 751--752
+
+ []
+
+
+Overfull \hbox (6.75073pt too wide) in paragraph at lines 753--754
+\OT1/cmr/m/n/10 https://plato.stanford.edu/entries/goedel-incompleteness/sup1.h
+tml), which pro-
+ []
+
+) [28]
 \openout2 = `./chapter2/ch2_MethodsOfProof.aux'.
 
- (./chapter2/ch2_MethodsOfProof.tex [28
-
-
-
-
-]
+ (./chapter2/ch2_MethodsOfProof.tex
 Chapter 2.
-[29]) [30] (./PureMathematicsForEngineersAndScientists.ind [31
+[29
 
+
+
+
+]) [30] (./PureMathematicsForEngineersAndScientists.ind [31
 
 
 
@@ -1092,8 +1129,8 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/t
 exlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (31 pages, 28209
-7 bytes).
+Output written on PureMathematicsForEngineersAndScientists.pdf (31 pages, 28448
+5 bytes).
 PDF statistics:
  320 PDF objects out of 1000 (max. 8388607)
  250 compressed objects within 3 object streams
