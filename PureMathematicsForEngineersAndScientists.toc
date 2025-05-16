@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {1.5}G\"odel Theorems}{25}{section.1.5}%
 \contentsline {subsubsection}{The Completeness Theorem}{25}{section*.7}%
 \contentsline {subsubsection}{The First Incompleteness Theorem}{27}{section*.8}%
-\contentsline {subsubsection}{The Second Incompleteness Theorem}{29}{section*.9}%
+\contentsline {subsubsection}{The Second Incompleteness Theorem}{30}{section*.9}%
 \contentsline {chapter}{\numberline {2}Methods of Proof}{31}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Induction}{31}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Weak Induction}{31}{subsection.2.1.1}%
