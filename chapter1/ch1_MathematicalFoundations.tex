@@ -773,6 +773,13 @@ The basic functions are:
 \item 3. The projection functions $p_{i}^{k}: D_{N}^{k} \rightarrow D_{N}$, given by $p_{i}^{k}(n_{1}, \ldots,n_{k})=n_{i}$, for every $n_{1}, \ldots, n_{k} \in D_{N}$.
 \end{itemize}
 
+The rules are as follows:
+\begin{itemize}
+\item R1.  Composition.  If $g: D_{N}^{j} \rightarrow D_{N}$ and $h_{i}:D_{N}^{k} \rightarrow D_{N}$ for $1 \le i \le j$, then $f:D_{N}^{k} \rightarrow D_{N}$, defined by $f(n_{1}, \ldots, n_{k})=g(h_{1}(n_{1},\ldots,n_{k}), \ldots , h_{j}(n_{1}, \ldots, n_{k}))$ is obtained by composition from $g$ and $h_{1}, \ldots, h_{j}$.
+\item R2. Recursion. If $g:D_{N}^{k} \rightarrow D_{N}$ and $h:D_{N}^{k+2} \rightarrow D_{N}$, then the function $f: D_{N}^{k+1} \rightarrow D_{N}$, defined by $f(n_{1}, \ldots, n_{k},0)=g(n_{1}, \ldots, n_{k})$, and $f(n_{1}, \ldots, n_{k}, n+1)=h(n_{1}, \ldots, n_{k}, n, f(n_{1}, \ldots, n_{k}, n))$ is said to be obtained by recursion from $g$ and $h$.  We can also have recursion with all the $n_{i}$ absent, as in $f(0)=a$ and $f(n+1)=h(n,f(n))$, where $a$ is a fixed member of $D_{N}$.
+\item R3. Least Number Operator.  Let $g:D_{N}^{k+1} \rightarrow D_{N}$ be any function with the property that for each $n_{1}, \ldots, n_{k} \in D_{N}$ there is at least one $n \in D_{N}$ such that $g(n_{1}, \ldots, n_{k}, n)=0$.  Then the function $f:D_{N}^{k} \rightarrow D_{N}$, defined by $f(n_{1}, \ldots, n_{k})$
+\end{itemize}
+
 
 
 
