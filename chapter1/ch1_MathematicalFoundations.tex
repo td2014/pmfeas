@@ -777,8 +777,17 @@ The rules are as follows:
 \begin{itemize}
 \item R1.  Composition.  If $g: D_{N}^{j} \rightarrow D_{N}$ and $h_{i}:D_{N}^{k} \rightarrow D_{N}$ for $1 \le i \le j$, then $f:D_{N}^{k} \rightarrow D_{N}$, defined by $f(n_{1}, \ldots, n_{k})=g(h_{1}(n_{1},\ldots,n_{k}), \ldots , h_{j}(n_{1}, \ldots, n_{k}))$ is obtained by composition from $g$ and $h_{1}, \ldots, h_{j}$.
 \item R2. Recursion. If $g:D_{N}^{k} \rightarrow D_{N}$ and $h:D_{N}^{k+2} \rightarrow D_{N}$, then the function $f: D_{N}^{k+1} \rightarrow D_{N}$, defined by $f(n_{1}, \ldots, n_{k},0)=g(n_{1}, \ldots, n_{k})$, and $f(n_{1}, \ldots, n_{k}, n+1)=h(n_{1}, \ldots, n_{k}, n, f(n_{1}, \ldots, n_{k}, n))$ is said to be obtained by recursion from $g$ and $h$.  We can also have recursion with all the $n_{i}$ absent, as in $f(0)=a$ and $f(n+1)=h(n,f(n))$, where $a$ is a fixed member of $D_{N}$.
-\item R3. Least Number Operator.  Let $g:D_{N}^{k+1} \rightarrow D_{N}$ be any function with the property that for each $n_{1}, \ldots, n_{k} \in D_{N}$ there is at least one $n \in D_{N}$ such that $g(n_{1}, \ldots, n_{k}, n)=0$.  Then the function $f:D_{N}^{k} \rightarrow D_{N}$, defined by $f(n_{1}, \ldots, n_{k})$
+\item R3. Least Number Operator.  Let $g:D_{N}^{k+1} \rightarrow D_{N}$ be any function with the property that for each $n_{1}, \ldots, n_{k} \in D_{N}$ there is at least one $n \in D_{N}$ such that $g(n_{1}, \ldots, n_{k}, n)=0$.  Then the function $f:D_{N}^{k} \rightarrow D_{N}$, defined by $f(n_{1}, \ldots, n_{k})=$ least number $n \in D_{N}$ such that $g(n_{1}, \ldots, n_{k}, n)=0$, is said to be obtained from $g$ by the use of the least number operator.
 \end{itemize}
+
+Let us consider some examples to illustrate the above functions and rules.\\
+
+Taking the projection function $p_{2}^{3}$, we can apply it to $\langle 4,6,9 \rangle$ and obtain $p_{2}^{3}(4,6,9)=6$.  This is the second value in the triplet $\langle 4,6,9 \rangle$ extracted (or ``projected").\\
+
+Now, moving to composition, take $g(n_{1},n_{2},n_{3})=n_{1}n_{2}+n_{3}$ and $h_{1}(m_{1},m_{2})=m_{1}+m_{2}, h_{2}(m_{1},m_{2})=m_{1}m_{2}, h_{3}(m_{1},m_{2})=m_{1}+2 m_{2}$.  
+Then, the composition is $f(m_{1}, m_{2})=g(h_{1}(m_{1},m_{2}), h_{2}(m_{1}, m_{2}), h_{3}(m_{1},m_{2}))=(m_{1}+m_{2})(m_{1}m_{2})+(m_{1}+2m_{2})$.\\
+
+Lastly, let us consider recursion.  Let $h(m_{1},m_{2})=m_{1}+m_{2}$ and $f(0)=1$.  Then, $f(1)=h(0,f(0))=0+1=1$, $f(2)=h(1,f(1))=1+1=2$, $f(3)=h(2,f(2))=2+2=4$, $f(4)=h(3,f(3))=3+4=7$, and so forth.
 
 
 
