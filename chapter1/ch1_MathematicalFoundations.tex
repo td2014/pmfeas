@@ -787,8 +787,65 @@ Taking the projection function $p_{2}^{3}$, we can apply it to $\langle 4,6,9 \r
 Now, moving to composition, take $g(n_{1},n_{2},n_{3})=n_{1}n_{2}+n_{3}$ and $h_{1}(m_{1},m_{2})=m_{1}+m_{2}, h_{2}(m_{1},m_{2})=m_{1}m_{2}, h_{3}(m_{1},m_{2})=m_{1}+2 m_{2}$.  
 Then, the composition is $f(m_{1}, m_{2})=g(h_{1}(m_{1},m_{2}), h_{2}(m_{1}, m_{2}), h_{3}(m_{1},m_{2}))=(m_{1}+m_{2})(m_{1}m_{2})+(m_{1}+2m_{2})$.\\
 
-Lastly, let us consider recursion.  Let $h(m_{1},m_{2})=m_{1}+m_{2}$ and $f(0)=1$.  Then, $f(1)=h(0,f(0))=0+1=1$, $f(2)=h(1,f(1))=1+1=2$, $f(3)=h(2,f(2))=2+2=4$, $f(4)=h(3,f(3))=3+4=7$, and so forth.
+Lastly, let us consider recursion.  Let $h(m_{1},m_{2})=m_{1}+m_{2}$ and $f(0)=1$.  Then, $f(1)=h(0,f(0))=0+1=1$, $f(2)=h(1,f(1))=1+1=2$, $f(3)=h(2,f(2))=2+2=4$, $f(4)=h(3,f(3))=3+4=7$, and so forth.\\
 
+We now show that the ``addition function", which is one of the basic operators in our formal system for arithmetic, is recursive.  In other words, it can be constructed from the above basic functions and finite application of the rules.  We show how this example (taken from Hamilton) is done.\\
+
+We want to show that the addition function $f_{1}(p,q)=p+q$ can be constructed as recursive.  If we take the projection functions $p_{1}^{1}$, $p_{3}^{3}$, and the successor function $s$ we can form the following:
+
+\begin{flalign*}
+f_{1}(m,0)&=p_{1}^{1}(m)\\
+f_{1}(m,n+1)&=s(p_{3}^{3}(m,n,f_{1}(m,n))
+\end{flalign*}
+ 
+
+Let's check this for $f_{1}(2,3)$ which we anticipate should be $2+3=5$.  We start by working backwards from the final function:
+\begin{flalign*}
+f_{1}(2,3)&=s(p_{3}^{3}(2,2,f_{1}(2,2))\\
+f_{1}(2,2)&=s(p_{3}^{3}(2,1,f_{1}(2,1))\\
+f_{1}(2,1)&=s(p_{3}^{3}(2,0,f_{1}(2,0))\\
+f_{1}(2,0)&=p_{1}^{1}(2)=2\\
+\end{flalign*}
+
+We have reached the ``base case" and now we can evaluate the function working in the forward direction:
+
+\begin{flalign*}
+f_{1}(2,0)&=p_{1}^{1}(2)=2\\
+f_{1}(2,1)&=s(p_{3}^{3}(2,0,f_{1}(2,0))=s(p_{3}^{3}(2,0,2))=3\\
+f_{1}(2,2)&=s(p_{3}^{3}(2,1,f_{1}(2,1))=s(p_{3}^{3}(2,1,3))=4\\
+f_{1}(2,3)&=s(p_{3}^{3}(2,2,f_{1}(2,2))=s(p_{3}^{3}(2,2,4))=5\\
+\end{flalign*}
+
+\textit{Exercise} Show how to construct the multiplication function, $f_{2}(m,n)=mn$ as a recursive, using the addition function, $f_{1}$ defined above recursively, as well as the appropriate projection functions.\\
+
+\textit{Solution} If we consider what $mn$ means as an addition problem, this can give us a clue how to proceed.  Namely, we know that $mn=\overbrace{m+m+\ldots+m}^{n}$.  So, if we start with a base case of $0$, and then add $m$ to that base value $n$ times, we should get the desired result.  Putting this into the recursive format, and leveraging the addition function, $f_{1}$ defined earlier, we obtain:
+
+\begin{flalign*}
+f_{2}(m,0)&=z(m)=0, \text{ where } z \text{ is the zero function defined earlier }\\
+f_{2}(m,n+1)&=f_{1}(p_{3}^{3}(m,n,f_{2}(m,n)),p_{1}^{3}(m,n,f_{2}(m,n)))
+\end{flalign*}
+
+Let's check this for a simple case to see if it works.  Take $f_{2}(3,5)$ which we expect should be $15$.  As before let us start by working backwards from the final function:
+
+\begin{flalign*}
+f_{2}(3,5)&=f_{1}(f_{2}(3,4),3)\\
+f_{2}(3,4)&=f_{1}(f_{2}(3,3),3)\\
+f_{2}(3,3)&=f_{1}(f_{2}(3,2),3)\\
+f_{2}(3,2)&=f_{1}(f_{2}(3,1),3)\\
+f_{2}(3,1)&=f_{1}(f_{2}(3,0),3)\\
+f_{2}(3,0)&=0
+\end{flalign*}
+
+We have reached the ``base case", so now we can evaluate the function working in the forward direction:
+
+\begin{flalign*}
+f_{2}(3,0)&=0\\
+f_{2}(3,1)&=f_{1}(f_{2}(3,0),3)=0+3=3\\
+f_{2}(3,2)&=f_{1}(f_{2}(3,1),3)=3+3=6\\
+f_{2}(3,3)&=f_{1}(f_{2}(3,2),3)=6+3=9\\
+f_{2}(3,4)&=f_{1}(f_{2}(3,3),3)=9+3=12\\
+f_{2}(3,5)&=f_{1}(f_{2}(3,4),3)=12+3=15\\
+\end{flalign*}
 
 
 
