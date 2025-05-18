@@ -847,7 +847,20 @@ f_{2}(3,4)&=f_{1}(f_{2}(3,3),3)=9+3=12\\
 f_{2}(3,5)&=f_{1}(f_{2}(3,4),3)=12+3=15\\
 \end{flalign*}
 
+We now expand the idea of recursion to apply to relations more generally.  First we define a characteristic function (adapted from Hamilton Def 6.17):
 
+\textit{Definition}  Let $R$ be a $k$-place relation on $D_{N}$.  The \textit{characteristic function}\index{characteristic function} of $R$, denoted $C_{R}$ is defined by 
+
+\begin{displaymath}
+C_{R}(n_{1}, \ldots, n_{k})= 
+\begin{cases} 
+0 \text{ if } R(n_{1}, \ldots, n_{k}) \\
+1 \text{ if } \neg R(n_{1}, \ldots, n_{k}) \\
+\end{cases}
+\end{displaymath}  
+
+
+Note that previously we only considered binary relations in detail (i.e. two place), but we can extend that to three place, four place, etc.  For example, we can think of an entry in a three place relations using the ordered pair notation as $\langle \langle x,y \rangle, z \rangle$ and describe it generally as the set $R(x,y,z)$.  If a particular triplet, in this case, is present in the set $R(x,y,z)$, then the relation is true otherwise it is false.
 
 \subsubsection{The Second Incompleteness Theorem}
 
