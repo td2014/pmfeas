@@ -860,7 +860,32 @@ C_{R}(n_{1}, \ldots, n_{k})=
 \end{displaymath}  
 
 
-Note that previously we only considered binary relations in detail (i.e. two place), but we can extend that to three place, four place, etc.  For example, we can think of an entry in a three place relations using the ordered pair notation as $\langle \langle x,y \rangle, z \rangle$ and describe it generally as the set $R(x,y,z)$.  If a particular triplet, in this case, is present in the set $R(x,y,z)$, then the relation is true otherwise it is false.
+Note that previously we only considered binary relations in detail (i.e. two place), but we can extend that to three place, four place, etc.  For example, we can think of an entry in a three place relations using the ordered pair notation as $\langle \langle x,y \rangle, z \rangle$ and describe it generally as the set $R(x,y,z)$.  If a particular triplet, in this case, is present in the set $R(x,y,z)$, then the relation is true otherwise it is false.\\
+
+Given the definition of a characteristic function of a relation, we make the following definition (Hamilton Def. 6.18):\\
+
+
+\textit{Definition} A relation $R$ on $D_{N}$ is \textit{recursive}\index{recursive relation} if its characteristic function is a recursive function.\\
+
+We adapt an example from Hamilton to illustrate this.  Define a binary relation $R(m,n)$ on $D_{N}$ to be true whenever $m+n$ is odd.  If we can show that the associated characteristic function is recursive, then by definition, so is the relation $R$.  The characteristic function is given as:\\
+\begin{displaymath}
+C_{R}(m, n)= 
+\begin{cases} 
+0 \text{ if } R(m,n) \text{ is true, which means } m+n \text{ is odd} \\
+1 \text{ if } \neg R(m,n) \text{ is true, which means } m+n \text{ is even}\\
+\end{cases}
+\end{displaymath}
+
+%Before we can show this characteristic as being recursive or not, we first define a helper function which determines the remainder after division by $2$. 
+
+%\begin{displaymath}
+%rm(m, n)= 
+%\begin{cases} 
+%0 \text{ if } R(m,n) \text{ is true, which means } m+n \text{ is odd} \\
+%1 \text{ if } \neg R(m,n) \text{ is true, which means } m+n \text{ is even}\\
+%\end{cases}
+%\end{displaymath} 
+
 
 \subsubsection{The Second Incompleteness Theorem}
 

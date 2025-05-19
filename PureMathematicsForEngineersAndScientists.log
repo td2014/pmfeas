@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  19 MAY 2025 12:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  19 MAY 2025 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1164,22 +1164,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 819--820
 
  []
 
-[31]) [32]
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 863--864
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 865--866
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 870--871
+
+ []
+
+[32]) [33]
 \openout2 = `./chapter2/ch2_MethodsOfProof.aux'.
 
- (./chapter2/ch2_MethodsOfProof.tex
+ (./chapter2/ch2_MethodsOfProof.tex [34
+
+
+
+
+]
 Chapter 2.
-[33
-
-
-
-
-]) [34]
+[35]) [36]
 \openout2 = `./modern_algebra/ModernAlgebra.aux'.
 
  (./modern_algebra/ModernAlgebra.tex
 Chapter 3.
-) [35
+) [37
 
 
 
@@ -1187,59 +1207,59 @@ Chapter 3.
 ]
 \openout2 = `./real_analysis/RealAnalysis.aux'.
 
- (./real_analysis/RealAnalysis.tex [36
+ (./real_analysis/RealAnalysis.tex [38
 
 
 
 
 ]
 Chapter 4.
-) [37]
+) [39]
 \openout2 = `./non_euclidean_geometry_and_topology/NonEuclideanGeometryAndTopol
 ogy.aux'.
 
 
 (./non_euclidean_geometry_and_topology/NonEuclideanGeometryAndTopology.tex
-[38
+[40
 
 
 
 
 ]
 Chapter 5.
-) [39]
+) [41]
 \openout2 = `./number_theory/NumberTheory.aux'.
 
- (./number_theory/NumberTheory.tex [40
+ (./number_theory/NumberTheory.tex [42
 
 
 
 
 ]
 Chapter 6.
-) [41]
+) [43]
 \openout2 = `./category_theory/CategoryTheory.aux'.
 
- (./category_theory/CategoryTheory.tex [42
+ (./category_theory/CategoryTheory.tex [44
 
 
 
 
 ]
 Chapter 7.
-) [43]
+) [45]
 \openout2 = `./computational_complexity_theory/ComputationalComplexityTheory.au
 x'.
 
  (./computational_complexity_theory/ComputationalComplexityTheory.tex
-[44
+[46
 
 
 
 
 ]
 Chapter 8.
-) [45] (./PureMathematicsForEngineersAndScientists.ind [46
+) [47] (./PureMathematicsForEngineersAndScientists.ind [48
 
 
 
@@ -1255,8 +1275,8 @@ Package rerunfilecheck Info: File `PureMathematicsForEngineersAndScientists.out
 (rerunfilecheck)             Checksum: 3B2F697EFE4306D1C43085983818D049;3041.
  ) 
 Here is how much of TeX's memory you used:
- 8611 strings out of 476025
- 145589 string characters out of 5790017
+ 8613 strings out of 476025
+ 145603 string characters out of 5790017
  1872388 words of memory out of 5000000
  28822 multiletter control sequences out of 15000+600000
  524589 words of font info for 78 fonts, out of 8000000 for 9000
@@ -1279,11 +1299,11 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/t
 exlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (46 pages, 30813
-5 bytes).
+Output written on PureMathematicsForEngineersAndScientists.pdf (48 pages, 30945
+1 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 339 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
