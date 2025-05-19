@@ -876,15 +876,12 @@ C_{R}(m, n)=
 \end{cases}
 \end{displaymath}
 
-%Before we can show this characteristic as being recursive or not, we first define a helper function which determines the remainder after division by $2$. 
+%Before we can show this characteristic as being recursive or not, we first define a helper function which determines the remainder after division by $2$.  Let this function be called $``rm"$ for remainder.  How might we construct such a function using the base functions and rules described earlier?  One approach might be to start with a given natural number and subtract $2$ until either $0$ or $1$ is reached. 
 
-%\begin{displaymath}
-%rm(m, n)= 
-%\begin{cases} 
-%0 \text{ if } R(m,n) \text{ is true, which means } m+n \text{ is odd} \\
-%1 \text{ if } \neg R(m,n) \text{ is true, which means } m+n \text{ is even}\\
-%\end{cases}
-%\end{displaymath} 
+%\begin{flalign*}
+%rm(m,0)&=z(m)=0, \text{ where } z \text{ is the zero function defined earlier }\\
+%rm(m,n+1)&=h(m,n,rm(m,n))
+%\end{flalign*}
 
 
 \subsubsection{The Second Incompleteness Theorem}
