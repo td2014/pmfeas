@@ -19,3 +19,9 @@
 \contentsline {subsection}{\numberline {2.1.2}Strong Induction}{33}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Proof by Contradiction}{33}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Direct Proof}{34}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Modern Algebra}{35}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Real Analysis}{37}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Non-Euclidean Geometry and Topology}{39}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Number Theory}{41}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Category Theory}{43}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Computational Complexity Theory}{45}{chapter.8}%
