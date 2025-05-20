@@ -876,18 +876,18 @@ C_{R}(m, n)=
 \end{cases}
 \end{displaymath}
 
-In order to proceed, we assume a recursive function exists which computes the remainder after division by $2$.  Call this function $rm(n)$.  For example, $rm(5)=1$ and $rm(8)=0$.  In other words, this function returns $1$ for odd arguments and $0$ for even.  This function $rm$ is actually shown to be recursive in Hamilton, so we leverage that result.  We know that the addition function $f_{2}(m,n)$ is recursive, since we showed that earlier.  We almost have all the necessary building blocks.  We will need a recursive function to represent a constant.  It is also shown in Hamilton that such a function $f(a)=a$, where $a \in D_{N}$ is some constant, is indeed recursive.\\
+In order to proceed, we assume a recursive function exists which computes the remainder after division by $2$.  Call this function $rm(n)$.  For example, $rm(5)=1$ and $rm(8)=0$.  In other words, this function returns $1$ for odd arguments and $0$ for even.  This function $rm$ is actually shown to be recursive in Hamilton, so we leverage that result.  We know that the addition function $f_{2}(m,n)$ is recursive, since we showed that earlier.  We almost have all the necessary building blocks.  We will need a recursive function to represent a constant.  It is also stated in Hamilton that such a function $f(n)=k$, where $k \in D_{N}$ is some constant, is indeed recursive.\\
 
-However, we still need a recursive function which returns $0$ when the argument is $1$ and vice versa, so that we can construct our characteristic function $C_{R}(m,n)$ to have the correct result for when $R(m,n)$ is true (i.e. when $m+n$ is odd).  We now construct such a recursive function, and call it $\overline{sg}$, as is done in Hamilton.  We now define it as follows:
+However, we still need a recursive function which returns $0$ when the argument is non-zero and returns $1$ when the argument is $0$, so that we can construct our characteristic function $C_{R}(m,n)$ to have the correct result for when $R(m,n)$ is true (i.e. when $m+n$ is odd).  We now construct such a recursive function, and call it $\overline{sg}$, as is done in Hamilton.  We now define it as follows:
 
 \begin{flalign*}
-\overline{sg}(f(1),n=0)&=p_{1}^{1}(f(1))\\
-\overline{sg}(f(1),n+1=1)&=p_{2}^{2}(f(1),n=0,\overline{sg}(m,n))\\
+\overline{sg}(0)&=f(0), \text{ where }f(n)=1, \text{ the constant function }1\\
+\overline{sg}(n+1)&=z(p_{1}^{2}(n,\overline{sg}(n))=0\\
 \end{flalign*}
 
 Given all these functions, we can now construct the characteristic function by using ``composition" (i.e. Rule R1.):\\
 \begin{displaymath}
-C_{R}(m,n)=\overline{sg}(f(1),rm(m+n))
+C_{R}(m,n)=\overline{sg}(rm(f_{2}(m,n)))
 \end{displaymath}
 
 Since each individual function is recursive (i.e. constructed using the base functions and rules R1-R3), and we constructed $C_{R}$ using the composition rule, the resulting function $C_{R}$ is also recursive.  This then implies that the relation $R(m,n)$ is also recursive (by the earlier definition) and we are done.
