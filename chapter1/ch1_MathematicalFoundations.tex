@@ -890,7 +890,11 @@ Given all these functions, we can now construct the characteristic function by u
 C_{R}(m,n)=\overline{sg}(rm(f_{2}(m,n)))
 \end{displaymath}
 
-Since each individual function is recursive (i.e. constructed using the base functions and rules R1-R3), and we constructed $C_{R}$ using the composition rule, the resulting function $C_{R}$ is also recursive.  This then implies that the relation $R(m,n)$ is also recursive (by the earlier definition) and we are done.
+Since each individual function is recursive (i.e. constructed using the base functions and rules R1-R3), and we constructed $C_{R}$ using the composition rule, the resulting function $C_{R}$ is also recursive.  This then implies that the relation $R(m,n)$ is also recursive (by the earlier definition) and we are done.\\
+
+We note that the definition of recursiveness applies to sets of numbers.  In particular, if $A \subseteq D_{N}$, the set $A$ is recursive if the characteristic function of the relation $\in A$ is recursive.  An example is given to show that the set of even numbers is recursive.  The remainder function $rm$ discussed above, which is recursive, can act as the characteristic function in this case.  In particular, $n \in A$, where $A$ is the set of even natural numbers, then $rm(n)=0$ otherwise $rm(n)=1$.\\
+
+An important connection exist between recursive relations and the formal system we are considering, namely the system of first order arithmetic.  In particular, a recursive relation is ``expressible" \index{expressible} in this system. 
 
 \subsubsection{The Second Incompleteness Theorem}
 
