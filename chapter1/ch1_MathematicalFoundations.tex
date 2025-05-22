@@ -894,7 +894,18 @@ Since each individual function is recursive (i.e. constructed using the base fun
 
 We note that the definition of recursiveness applies to sets of numbers.  In particular, if $A \subseteq D_{N}$, the set $A$ is recursive if the characteristic function of the relation $\in A$ is recursive.  An example is given to show that the set of even numbers is recursive.  The remainder function $rm$ discussed above, which is recursive, can act as the characteristic function in this case.  In particular, $n \in A$, where $A$ is the set of even natural numbers, then $rm(n)=0$ otherwise $rm(n)=1$.\\
 
-An important connection exist between recursive relations and the formal system we are considering, namely the system of first order arithmetic.  In particular, a recursive relation is ``expressible" \index{expressible} in this system. 
+An important connection exist between recursive relations and the formal system we are considering, namely the system of first order arithmetic.  In particular, a recursive relation is ``expressible" \index{expressible} in this system, which is referred to as $\mathcal{N}$.\\
+
+To continue this discussion towards a proof of G\"odel's First Incompleteness Theorem, let us consider the following recursive relation $W(m,n)$ defined on $D_{N}$, (the natural numbers), which is expressible in $\mathcal{N}$ (adapted from Proposition 6.29 in Hamilton)\\
+
+$W(m,n)$ holds if and only if $m$ is the G\"odel number of a \textit{wf} $\mathcal{A}(x_{1})$ in which $x_{1}$ occurs free, and $n$ is the G\"odel number of a proof in $\mathcal{N}$ of $\mathcal{A}(0^{(m)})$.\\
+
+Then, since $W$ is expressible in $\mathcal{N}$, this means there is a well-formed formula (\textit{wf}) $\mathcal{W}(x_{1}, x_{2})$ such that:\\
+
+If $W(m,n)$ holds then $\vdash_{\mathcal{N}} \mathcal{W}(0^{(m)}, 0^{(n)})$, where $\vdash_{\mathcal{N}}$ means that the formula is derivable or is a theorem of the system, $\mathcal{N}$.  The symbol $0^{(m)}$ corresponds to the natural number $m$.  Conversely, if $W(m,n)$ does not hold then $\vdash_{\mathcal{N}} \neg \mathcal{W}(0^{(m)}, 0^{(n)})$.
+
+
+
 
 \subsubsection{The Second Incompleteness Theorem}
 
