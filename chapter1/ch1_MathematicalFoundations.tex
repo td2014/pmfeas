@@ -904,12 +904,24 @@ Then, since $W$ is expressible in $\mathcal{N}$, this means there is a well-form
 
 If $W(m,n)$ holds then $\vdash_{\mathcal{N}} \mathcal{W}(0^{(m)}, 0^{(n)})$, where $\vdash_{\mathcal{N}}$ means that the formula is derivable or is a theorem of the system, $\mathcal{N}$.  The symbol $0^{(m)}$ corresponds to the natural number $m$.  Conversely, if $W(m,n)$ does not hold then $\vdash_{\mathcal{N}} \neg \mathcal{W}(0^{(m)}, 0^{(n)})$.\\
 
-Let us examine expressibility with an example adapted from Hamilton (Example 6.8).  The function $f:D_{N} \rightarrow D_{N}$ given by $f(m)=2m$ is expressible in $\mathcal{N}$.  Let $\mathcal{A}(x_{1},x_{2})$ be the \text{wf} $x_{2}=x_{1} \times 0^{(2)}$.  By using the axioms of $\mathcal{N}$ (which is done in Hamilton) the two following required statements can be established.
+Let us examine expressibility with an example adapted from Hamilton (Example 6.8).  The function $f:D_{N} \rightarrow D_{N}$ given by $f(m)=2m$ is expressible in $\mathcal{N}$.  Let $\mathcal{A}(x_{1},x_{2})$ be the \textit{wf} $x_{2}=x_{1} \times 0^{(2)}$.  By using the axioms of $\mathcal{N}$ (which is done in Hamilton) the two following required statements can be established.
 
 \begin{flalign*}
 \text{if } n&=2m \text{ then }  \vdash_{\mathcal{N}} 0^{(n)}=0^{(m)} \times 0^{(2)} \\
 \text{if } n &\ne 2m \text{ then }  \vdash_{\mathcal{N}}  \neg (0^{(n)}=0^{(m)} \times 0^{(2)}) \\
 \end{flalign*}
+
+To illustrate the first couple of steps in the proof, we have:
+
+\begin{flalign*}
+0^{(m)} \times 0^{(2)}&= 0^{(m)} \times 0'' &\text{ (Reason: notation) } \\
+&=(0^{(m)} \times 0') + 0^{(m)} &\text{ (Reason: Axiom N6*) } \\
+& \ldots \\
+&=0^{(n)}
+\end{flalign*}
+
+Axiom N6* is given in Hamilton as:  $(\forall x_{1})(\forall x_{2})(x_{1} \times x_{2}'=(x_{1} \times x_{2})+x_{1})$.  We note that the prime on $x_{2}$ means the  ``successor" of $x_{2}$, for example, $3$ is the successor of $2$ in the natural numbers.
+
 
 
 
