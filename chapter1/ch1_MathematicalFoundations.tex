@@ -902,8 +902,14 @@ $W(m,n)$ holds if and only if $m$ is the G\"odel number of a \textit{wf} $\mathc
 
 Then, since $W$ is expressible in $\mathcal{N}$, this means there is a well-formed formula (\textit{wf}) $\mathcal{W}(x_{1}, x_{2})$ such that:\\
 
-If $W(m,n)$ holds then $\vdash_{\mathcal{N}} \mathcal{W}(0^{(m)}, 0^{(n)})$, where $\vdash_{\mathcal{N}}$ means that the formula is derivable or is a theorem of the system, $\mathcal{N}$.  The symbol $0^{(m)}$ corresponds to the natural number $m$.  Conversely, if $W(m,n)$ does not hold then $\vdash_{\mathcal{N}} \neg \mathcal{W}(0^{(m)}, 0^{(n)})$.
+If $W(m,n)$ holds then $\vdash_{\mathcal{N}} \mathcal{W}(0^{(m)}, 0^{(n)})$, where $\vdash_{\mathcal{N}}$ means that the formula is derivable or is a theorem of the system, $\mathcal{N}$.  The symbol $0^{(m)}$ corresponds to the natural number $m$.  Conversely, if $W(m,n)$ does not hold then $\vdash_{\mathcal{N}} \neg \mathcal{W}(0^{(m)}, 0^{(n)})$.\\
 
+Let us examine expressibility with an example adapted from Hamilton (Example 6.8).  The function $f:D_{N} \rightarrow D_{N}$ given by $f(m)=2m$ is expressible in $\mathcal{N}$.  Let $\mathcal{A}(x_{1},x_{2})$ be the \text{wf} $x_{2}=x_{1} \times 0^{(2)}$.  By using the axioms of $\mathcal{N}$ (which is done in Hamilton) the two following required statements can be established.
+
+\begin{flalign*}
+\text{if } n&=2m \text{ then }  \vdash_{\mathcal{N}} 0^{(n)}=0^{(m)} \times 0^{(2)} \\
+\text{if } n &\ne 2m \text{ then }  \vdash_{\mathcal{N}}  \neg (0^{(n)}=0^{(m)} \times 0^{(2)}) \\
+\end{flalign*}
 
 
 
