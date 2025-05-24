@@ -12,16 +12,16 @@
 \contentsline {section}{\numberline {1.5}G\"odel Theorems}{25}{section.1.5}%
 \contentsline {subsubsection}{The Completeness Theorem}{25}{section*.7}%
 \contentsline {subsubsection}{The First Incompleteness Theorem}{27}{section*.8}%
-\contentsline {subsubsection}{The Second Incompleteness Theorem}{34}{section*.9}%
-\contentsline {chapter}{\numberline {2}Methods of Proof}{35}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Induction}{35}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Weak Induction}{35}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Strong Induction}{35}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Proof by Contradiction}{35}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Direct Proof}{36}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Modern Algebra}{37}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Real Analysis}{39}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Non-Euclidean Geometry and Topology}{41}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Number Theory}{43}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Category Theory}{45}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Computational Complexity Theory}{47}{chapter.8}%
+\contentsline {subsubsection}{The Second Incompleteness Theorem}{35}{section*.9}%
+\contentsline {chapter}{\numberline {2}Methods of Proof}{37}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Induction}{37}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Weak Induction}{37}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Strong Induction}{37}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Proof by Contradiction}{37}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Direct Proof}{38}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Modern Algebra}{39}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Real Analysis}{41}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Non-Euclidean Geometry and Topology}{43}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Number Theory}{45}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Category Theory}{47}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Computational Complexity Theory}{49}{chapter.8}%

@@ -920,7 +920,23 @@ To illustrate the first couple of steps in the proof, we have:
 &=0^{(n)}
 \end{flalign*}
 
-Axiom N6* is given in Hamilton as:  $(\forall x_{1})(\forall x_{2})(x_{1} \times x_{2}'=(x_{1} \times x_{2})+x_{1})$.  We note that the prime on $x_{2}$ means the  ``successor" of $x_{2}$. For example, $3$ is the successor of $2$ in the natural numbers.
+Axiom N6* is given in Hamilton as:  $(\forall x_{1})(\forall x_{2})(x_{1} \times x_{2}'=(x_{1} \times x_{2})+x_{1})$.  We note that the prime on $x_{2}$ means the  ``successor" of $x_{2}$. For example, $3$ is the successor of $2$ in the natural numbers.\\
+
+We now state G\"odel's First Incompleteness Theorem in precise language, followed by the proof, based on Hamilton (Proposition 6.32):\\
+
+\textit{Under the assumption that $\mathcal{N}$ is $\omega$-consistent, the \textit{wf} $\mathcal{U}$ is not a theorem of $\mathcal{N}$, nor is its negation.  Hence, if $\mathcal{N}$ is $\omega$-consistent, then $\mathcal{N}$ is not complete}\\
+
+The well-formed formula $\mathcal{U}$ is defined as $(\forall x_{2}) \neg \mathcal{W}(0^{(p)}, x_{2})$, where $p$ is the G\"odel number of the \textit{wf} $(\forall x_{2}) \neg \mathcal{W}(x_{1}, x_{2})$.\\
+
+The term $\omega$-consistent asserts that if each well-formed formula $\mathcal{A}(0^{(n)})$ is a theorem of $\mathcal{N}$ (where $n \in D_{N}$), then $\neg(\forall x_{1})\mathcal{A}(x_{1})$ is not a theorem.\\
+
+The proof is below:\\
+
+Suppose that $\mathcal{U}$ is a theorem of $\mathcal{N}$.  Let $q$ be the G\"odel number of a proof of $\mathcal{U}$ in $\mathcal{N}$.  Let $p$ be the G\"odel number of $(\forall x_{2}) \neg \mathcal{W}(x_{1}, x_{2})$.  Thus $W(p,q)$ holds.  $W$ is expressible in $\mathcal{N}$ so we have $\vdash_{\mathcal{N}} \mathcal{W}(0^{(p)}, 0^{(q)})$.  In other words, $\mathcal{W}$ is derivable from the axioms of $\mathcal{N}$.\\
+But we assumed  $\mathcal{U}$ is theorem, which means $\vdash_{\mathcal{N}} (\forall x_{2}) \neg  \mathcal{W}(0^{(p)}, x_{2})$, and so $\vdash_{\mathcal{N}} \neg \mathcal{W}(0^{(p)}, 0^{(q)})$, using Axiom K5 and modus ponens.  This contradicts the consistency of $\mathcal{N}$ (note that $\omega$-consistency implies consistency), so $\mathcal{U}$ cannot be a theorem of $\mathcal{N}$.\\
+
+Axiom K5 of the system is: $((\forall x_{i})\mathcal{A}(x_{i}) \Longrightarrow \mathcal{A}(t))$. 
+
 
 
 
