@@ -924,7 +924,7 @@ Axiom N6* is given in Hamilton as:  $(\forall x_{1})(\forall x_{2})(x_{1} \times
 
 We now state G\"odel's First Incompleteness Theorem in precise language, followed by the proof, based on Hamilton (Proposition 6.32):\\
 
-\textit{Under the assumption that $\mathcal{N}$ is $\omega$-consistent, the \textit{wf} $\mathcal{U}$ is not a theorem of $\mathcal{N}$, nor is its negation.  Hence, if $\mathcal{N}$ is $\omega$-consistent, then $\mathcal{N}$ is not complete}\\
+\textit{Under the assumption that $\mathcal{N}$ is $\omega$-consistent, the \textit{wf} $\mathcal{U}$ is not a theorem of $\mathcal{N}$, nor is its negation.  Hence, if $\mathcal{N}$ is $\omega$-consistent, then $\mathcal{N}$ is not complete.}\\
 
 The well-formed formula $\mathcal{U}$ is defined as $(\forall x_{2}) \neg \mathcal{W}(0^{(p)}, x_{2})$, where $p$ is the G\"odel number of the \textit{wf} $(\forall x_{2}) \neg \mathcal{W}(x_{1}, x_{2})$.\\
 
@@ -932,10 +932,39 @@ The term $\omega$-consistent asserts that if each well-formed formula $\mathcal{
 
 The proof is below:\\
 
+\underline{Part I: We show that $\mathcal{U}$ is not a theorem of $\mathcal{N}$}.\\
 Suppose that $\mathcal{U}$ is a theorem of $\mathcal{N}$.  Let $q$ be the G\"odel number of a proof of $\mathcal{U}$ in $\mathcal{N}$.  Let $p$ be the G\"odel number of $(\forall x_{2}) \neg \mathcal{W}(x_{1}, x_{2})$.  Thus $W(p,q)$ holds.  $W$ is expressible in $\mathcal{N}$ so we have $\vdash_{\mathcal{N}} \mathcal{W}(0^{(p)}, 0^{(q)})$.  In other words, $\mathcal{W}$ is derivable from the axioms of $\mathcal{N}$.\\
 But we assumed  $\mathcal{U}$ is theorem, which means $\vdash_{\mathcal{N}} (\forall x_{2}) \neg  \mathcal{W}(0^{(p)}, x_{2})$, and so $\vdash_{\mathcal{N}} \neg \mathcal{W}(0^{(p)}, 0^{(q)})$, using Axiom K5 and modus ponens.  This contradicts the consistency of $\mathcal{N}$ (note that $\omega$-consistency implies consistency), so $\mathcal{U}$ cannot be a theorem of $\mathcal{N}$.\\
 
-Axiom K5 of the system is: $((\forall x_{i})\mathcal{A}(x_{i}) \Longrightarrow \mathcal{A}(t))$. 
+Axiom K5 of the system is: $((\forall x_{i})\mathcal{A}(x_{i}) \Longrightarrow \mathcal{A}(t))$.\\ 
+
+\underline{Part II: We show that $\neg \mathcal{U}$ is not a theorem of $\mathcal{N}$}.\\
+From Part I, we know that $\mathcal{U}$ is not a theorem of $\mathcal{N}$, i.e. there is no proof in $\mathcal{N}$ of $\mathcal{U}$, so for no number $q$ is $q$ the G\"odel number of a proof in $\mathcal{N}$ of $\mathcal{U}$, i.e. of $(\forall x_{2}) \neg \mathcal{W}(0^{(p)}, x_{2})$, thus $W(p,q)$ does not hold for any number $q$.  Therefore 
+
+\begin{displaymath}
+\vdash_{N} \neg \mathcal{W}(0^{(p)}, 0^{(q)}) \text{ for every }q.
+\end{displaymath}
+
+By $\omega$-consistency, then,
+\begin{displaymath}
+\neg(\forall x_{2}) \neg \mathcal{W}(0^{(p)}, x_{2})
+\end{displaymath}
+is not a theorem of $\mathcal{N}$ i.e. $(\neg \mathcal{U})$ is not a theorem of $\mathcal{N}$.
+
+\underline{End of proof.}\\
+
+Since we have shown that a formula exists in $\mathcal{N}$, called $\mathcal{U}$ which is not a theorem, and the negation $(\neg \mathcal{U})$ is not a theorem, this means that $\mathcal{N}$ is not complete.\\
+
+We now consider some exercises to better understand the proof.\\
+
+\textit{Exercise}  In Part I of the proof, it was stated that there was a contradiction to the consistency of $\mathcal{N}$.  Please explain why this statement could be made.\\
+
+\textit{Solution}  First recall the definition of consistency: \textit{A formal system for which there is no statement such that the statement and its negation are both derivable is consistent}.  In Part I of the proof, under the assumption that $\mathcal{U}$ was a theorem of $\mathcal{N}$, we obtained $\vdash_{\mathcal{N}} \mathcal{W}(0^{(p)}, 0^{(q)})$ and $\vdash_{\mathcal{N}} \neg \mathcal{W}(0^{(p)}, 0^{(q)})$.  Since we know that $\mathcal{N}$ is consistent, obtaining both these results, as one is the negation of the other, violates consistency.  From this contradiction, we conclude that our original assumption that $\mathcal{U}$ is a theorem of $\mathcal{N}$ must be false.\\
+
+\textit{Exercise} In Part II of the proof, please explain how $\omega$-consistency implies that if we have $\vdash_{N} \neg \mathcal{W}(0^{(p)}, 0^{(q)}) \text{ for every }q$, we get that $\neg(\forall x_{2}) \neg \mathcal{W}(0^{(p)}, x_{2})$ is not a theorem of $\mathcal{N}$.\\
+
+\textit{Solution}  Recalling that the term $\omega$-consistent asserts that if each well-formed formula $\mathcal{A}(0^{(q)})$ is a theorem of $\mathcal{N}$ (where $q \in D_{N}$), then $\neg(\forall x_{1})\mathcal{A}(x_{1})$ is not a theorem, we first let $\mathcal{A}(0^{(q)})=\neg \mathcal{W}(0^{(p)}, 0^{(q)})$.  (Note that we substituted $q$ for $n$ in the original statement of $\omega$-consistency).  Then, we have that $\neg(\forall x_{2})\mathcal{A}(x_{2})$ is not a theorem.  (Note that we have substituted $x_{2}$ for $x_{1}$).  Substituting in for $\mathcal{A}$, we obtain finally that  $\neg(\forall x_{2}) \neg \mathcal{W}(0^{(p)}, x_{2})$ is not a theorem of $\mathcal{N}$.
+
 
 
 
