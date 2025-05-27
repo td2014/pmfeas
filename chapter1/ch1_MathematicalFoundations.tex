@@ -928,7 +928,7 @@ We now state G\"odel's First Incompleteness Theorem in precise language, followe
 
 The well-formed formula $\mathcal{U}$ is defined as $(\forall x_{2}) \neg \mathcal{W}(0^{(p)}, x_{2})$, where $p$ is the G\"odel number of the \textit{wf} $(\forall x_{2}) \neg \mathcal{W}(x_{1}, x_{2})$.\\
 
-The term $\omega$-consistent asserts that if each well-formed formula $\mathcal{A}(0^{(n)})$ is a theorem of $\mathcal{N}$ (where $n \in D_{N}$), then $\neg(\forall x_{1})\mathcal{A}(x_{1})$ is not a theorem.\\
+The term $\omega$-consistent asserts that if each well-formed formula $\mathcal{A}(0^{(n)})$ is a theorem of $\mathcal{N}$ (where $n \in D_{N}$), then $\neg(\forall x_{1})\mathcal{A}(x_{1})$ is not a theorem.  We note that in Hamilton, Remark 6.33 states that ``We have explicitly stated the assumption of $\omega$-consistency, although there is an obvious demonstration that $\mathcal{N}$ is $\omega$-consistent, using the model $N$ ($N$ refers to the an interpretation of arithmetic in natural numbers, including the distinguished element $0$, addition and multiplication, the successor function, and the equality relation $=$).
 
 The proof is below:\\
 
@@ -966,9 +966,10 @@ We now consider some exercises to better understand the proof.\\
 \textit{Solution}  Recalling that the term $\omega$-consistent asserts that if each well-formed formula $\mathcal{A}(0^{(q)})$ is a theorem of $\mathcal{N}$ (where $q \in D_{N}$), then $\neg(\forall x_{1})\mathcal{A}(x_{1})$ is not a theorem, we first let $\mathcal{A}(0^{(q)})=\neg \mathcal{W}(0^{(p)}, 0^{(q)})$.  (Note that we substituted $q$ for $n$ in the original statement of $\omega$-consistency).  Then, we have that $\neg(\forall x_{2})\mathcal{A}(x_{2})$ is not a theorem.  (Note that we have substituted $x_{2}$ for $x_{1}$).  Substituting in for $\mathcal{A}$, we obtain finally that  $\neg(\forall x_{2}) \neg \mathcal{W}(0^{(p)}, x_{2})$ is not a theorem of $\mathcal{N}$.
 
 
-
-
-
-
 \subsubsection{The Second Incompleteness Theorem}
 
+We now present G\"odel Second Incompleteness Theorem, largely following the Stanford Encyclopedia of Philosophy entry on Kurt G\"odel (https://plato.stanford.edu/entries/goedel/).  We note that in this reference, the formal system is called $P$ and ``contains" Peano arithmetic.\\
+
+In summary, the Second Incompleteness Theorem establishes that the consistency of $P$ cannot be \textit{proved} in $P$.  Here, ``consistency' is meant in the technical term we defined earlier, namely in a consistent formal system, you cannot derive both a statement and its negation.  We state the theorem below in precise terms:\\
+
+\textit{If $P$ is consistent, then $\neg \text{ Prov }(\ulcorner 0=1 \urcorner)$ is not provable from $P$.}
