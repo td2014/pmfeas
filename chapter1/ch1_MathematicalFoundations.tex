@@ -972,4 +972,12 @@ We now present G\"odel Second Incompleteness Theorem, largely following the Stan
 
 In summary, the Second Incompleteness Theorem establishes that the consistency of $P$ cannot be \textit{proved} in $P$.  Here, ``consistency' is meant in the technical term we defined earlier, namely in a consistent formal system, you cannot derive both a statement and its negation.  We state the theorem below in precise terms:\\
 
-\textit{If $P$ is consistent, then $\neg \text{ Prov }(\ulcorner \underline{0=1} \urcorner)$ is not provable from $P$.}
+\textit{If $P$ is consistent, then $\neg \text{ Prov }(\ulcorner \underline{0=1} \urcorner)$ is not provable from $P$.}\\
+
+In the above statement of the theorem, the relation $\text{Prov}(y)$ is true whenever the ``sentence" (formula) with G\"odel number $y$ is provable in the system $P$.  The sequence $\ulcorner x \urcorner$ means the G\"odel number of the sentence $x$.
+
+In order to give the proof, we must define a ``sentence" $\phi$ in the following manner:\\
+
+\begin{displaymath}
+P \vdash (\phi \Longleftrightarrow \neg Prov(\ulcorner \underline{\phi} \urcorner))
+\end{displaymath}
