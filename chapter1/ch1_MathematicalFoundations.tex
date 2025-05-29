@@ -972,12 +972,26 @@ We now present G\"odel Second Incompleteness Theorem, largely following the Stan
 
 In summary, the Second Incompleteness Theorem establishes that the consistency of $P$ cannot be \textit{proved} in $P$.  Here, ``consistency' is meant in the technical term we defined earlier, namely in a consistent formal system, you cannot derive both a statement and its negation.  We state the theorem below in precise terms:\\
 
-\textit{If $P$ is consistent, then $\neg \text{ Prov }(\ulcorner \underline{0=1} \urcorner)$ is not provable from $P$.}\\
+\textit{If $P$ is consistent, then $\neg Prov (\ulcorner \underline{0=1} \urcorner)$ is not provable from $P$.}\\
 
-In the above statement of the theorem, the relation $\text{Prov}(y)$ is true whenever the ``sentence" (formula) with G\"odel number $y$ is provable in the system $P$.  The sequence $\ulcorner x \urcorner$ means the G\"odel number of the sentence $x$.
+In the above statement of the theorem, the relation $Prov (y)$ is true whenever the ``sentence" (formula) with G\"odel number $y$ is provable in the system $P$.  The sequence $\ulcorner x \urcorner$ means the G\"odel number of the sentence $x$.  The underline signifies the formal term corresponding to the natural number code of the argument.  For example, assume the G\"odel number of the statement $0=1$ is $57$, i.e. $\ulcorner 0=1 \urcorner=57$.  Then, $\underline{57}$ would be how that number is represented in the formal system $P$.  In particular, it would be whatever formula represents $57$ applications of the successor function on $0$, say $0^{(57)}$.  It should be emphasized that the sentence $\neg Prov (\ulcorner \underline{0=1} \urcorner)$ is a statement which asserts the consistency of $P$.\\
 
-In order to give the proof, we must define a ``sentence" $\phi$ in the following manner:\\
+In order to give the proof of the Second Incompleteness Theorem, we define a ``sentence" $\phi$ in the following manner:\\
 
 \begin{displaymath}
 P \vdash (\phi \Longleftrightarrow \neg Prov(\ulcorner \underline{\phi} \urcorner))
-\end{displaymath}
+\end{displaymath}\\
+
+In words, the $\phi$ in the above definition is not provable in $P$.  It is shown in the Stanford reference that $P \not \vdash \phi$, meaning $\phi$ cannot be derived in $P$, (i.e. is not a theorem in $P$.)\\
+
+We now continue with the proof of the Second Incompleteness Theorem (again following the Stanford reference):\\
+
+Utilize the definition of $\phi$ stated above.  It is first assumed that the reasoning to obtain the statement  ``if $P \vdash \phi$, then $P \vdash 0 \ne 1$" can be stated in $P$.  This yields: $P \vdash (Prov(\ulcorner \underline{\phi} \urcorner) \Longrightarrow Prov(\ulcorner \underline{0=1} \urcorner))$.  Then we also have, by the definition of $\phi$, $P \vdash ( \neg Prov(\ulcorner \underline{0=1} \urcorner) \Longrightarrow \phi)$.  Since we know that actually $P \not \vdash \phi$, this means that $P \not \vdash \neg Prov(\ulcorner \underline{0=1} \urcorner)$.  This means that a statement which asserts the consistency of $P$ cannot be proved in $P$.\\
+
+\textit{End of proof}.\\
+
+\textit{Exercise}  It was stated in the proof from the definition of $\phi$ we can state $P \vdash ( \neg Prov(\ulcorner \underline{0=1} \urcorner) \Longrightarrow \phi)$.  Explain how this is possible.\\
+
+\textit{Solution}
+
+  
