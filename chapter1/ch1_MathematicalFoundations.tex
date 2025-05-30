@@ -968,7 +968,7 @@ We now consider some exercises to better understand the proof.\\
 
 \subsubsection{The Second Incompleteness Theorem}
 
-We now present G\"odel Second Incompleteness Theorem, largely following the Stanford Encyclopedia of Philosophy entry on Kurt G\"odel (https://plato.stanford.edu/entries/goedel/).  We note that in this reference, the formal system is called $P$ and ``contains" Peano arithmetic.\\
+We now present G\"odel Second Incompleteness Theorem, largely following the Stanford Encyclopedia of Philosophy entry on Kurt G\"odel (https://plato.stanford.edu/entries/goedel/).  We note that in this reference, the formal system is called $P$ and ``contains" Peano arithmetic.  (Note:  Please be aware that in this particular case of Peano arithmetic, the minimal value is $0$ as opposed to $1$).\\
 
 In summary, the Second Incompleteness Theorem establishes that the consistency of $P$ cannot be \textit{proved} in $P$.  Here, ``consistency' is meant in the technical term we defined earlier, namely in a consistent formal system, you cannot derive both a statement and its negation.  We state the theorem below in precise terms:\\
 
@@ -992,6 +992,8 @@ Utilize the definition of $\phi$ stated above.  It is first assumed that the rea
 
 \textit{Exercise}  It was stated in the proof from the definition of $\phi$ we can state $P \vdash ( \neg Prov(\ulcorner \underline{0=1} \urcorner) \Longrightarrow \phi)$.  Explain how this is possible.\\
 
-\textit{Solution}
+\textit{Solution}  %We can rewrite $P \vdash (\phi \Longleftrightarrow \neg Prov(\ulcorner \underline{\phi} \urcorner))$ as $P \vdash ((\phi \Longrightarrow \neg Prov(\ulcorner \underline{\phi} \urcorner)) \land  ( \neg Prov(\ulcorner \underline{\phi} \urcorner)  \Longrightarrow \phi ))$ and as both terms must be true for the $\land$ to be true, the second term corresponds to what we seek. 
+
+
 
   
