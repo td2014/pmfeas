@@ -1007,6 +1007,10 @@ and thus we can finally write
 P \vdash( (\neg Prov(\ulcorner \underline{0=1} \urcorner)  \Longrightarrow \phi ).
 \end{displaymath}
 
+\textit{Exercise}  It was emphasized that the sentence $\neg Prov (\ulcorner \underline{0=1} \urcorner)$ is a statement which asserts the consistency of $P$.  Does this make sense, since it is only a single formula and the definition of consistency is a statement about a formula and the negation of that formula?\\
+
+\textit{Solution}  This does makes sense, if we take consider the negation of  $0=1$, which would be $0 \ne 1$.  In the system $P$, which contains Peano arithmetic, there is an axiom (Axiom III in our earlier section on Peano Arithmetic) which states:  ``Axiom III:  For each $n \in \mathbb{N}$ we have $n^{*} \ne 1$."  If we replace $1$ with $0$ (since the system $P$ we are using for the Second Incompleteness Theorem uses $0$ as the minimal element), we see that $n^{*}$, the successor of any $n$, does not equal the minimal element.  Thus, $0 \ne 1$ is true by Axiom III and indeed derivable in one step, if we let $n=0$ and $n^{*}=1$.  Therefore, if $P$ is consistent, then we must have  $\neg Prov (\ulcorner \underline{0=1} \urcorner)$ since $Prov (\ulcorner \underline{0\ne1} \urcorner)$ as we just showed.  However, note carefully that we cannot actual \textit{prove} $\neg Prov (\ulcorner \underline{0=1} \urcorner)$ in $P$, as we learned by the Second Incompleteness Theorem.
+
 
 
   
