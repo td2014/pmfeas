@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  30 MAY 2025 20:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  1 JUN 2025 10:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1376,87 +1376,112 @@ Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
 
  (./chapter2/ch2_MethodsOfProof.tex
 Chapter 2.
-[39
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
 
 
-]) [40]
-\openout2 = `./modern_algebra/ModernAlgebra.aux'.
+Overfull \hbox (133.25111pt too wide) in paragraph at lines 7--8
+\OT1/cmr/m/n/10 ``Math Ma-jor Ba-sics" by Math-Doc-tor-Bob (https://www.youtube
+.com/playlist?list=PLF2DF6C3C8015DF5F). 
+ []
 
- (./modern_algebra/ModernAlgebra.tex
-Chapter 3.
-) [41
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39
 
 
 
 
 ]
+[40]) [41]
+\openout2 = `./modern_algebra/ModernAlgebra.aux'.
+
+ (./modern_algebra/ModernAlgebra.tex [42
+
+
+
+
+]
+Chapter 3.
+) [43]
 \openout2 = `./real_analysis/RealAnalysis.aux'.
 
- (./real_analysis/RealAnalysis.tex [42
+ (./real_analysis/RealAnalysis.tex [44
 
 
 
 
 ]
 Chapter 4.
-) [43]
+) [45]
 \openout2 = `./complex_analysis/ComplexAnalysis.aux'.
 
- (./complex_analysis/ComplexAnalysis.tex [44
+ (./complex_analysis/ComplexAnalysis.tex [46
 
 
 
 
 ]
 Chapter 5.
-) [45]
+) [47]
 \openout2 = `./non_euclidean_geometry_and_topology/NonEuclideanGeometryAndTopol
 ogy.aux'.
 
 
 (./non_euclidean_geometry_and_topology/NonEuclideanGeometryAndTopology.tex
-[46
+[48
 
 
 
 
 ]
 Chapter 6.
-) [47]
+) [49]
 \openout2 = `./number_theory/NumberTheory.aux'.
 
- (./number_theory/NumberTheory.tex [48
+ (./number_theory/NumberTheory.tex [50
 
 
 
 
 ]
 Chapter 7.
-) [49]
+) [51]
 \openout2 = `./category_theory/CategoryTheory.aux'.
 
- (./category_theory/CategoryTheory.tex [50
+ (./category_theory/CategoryTheory.tex [52
 
 
 
 
 ]
 Chapter 8.
-) [51]
+) [53]
 \openout2 = `./computational_complexity_theory/ComputationalComplexityTheory.au
 x'.
 
  (./computational_complexity_theory/ComputationalComplexityTheory.tex
-[52
+[54
 
 
 
 
 ]
 Chapter 9.
-) [53] (./PureMathematicsForEngineersAndScientists.ind [54
+) [55] (./PureMathematicsForEngineersAndScientists.ind [56
 
 
 
@@ -1473,8 +1498,8 @@ Package rerunfilecheck Info: File `PureMathematicsForEngineersAndScientists.out
 (rerunfilecheck)             Checksum: 196CF17A8A8FB910E4563FD155C036E3;3168.
  ) 
 Here is how much of TeX's memory you used:
- 8651 strings out of 476025
- 147131 string characters out of 5790017
+ 8653 strings out of 476025
+ 147145 string characters out of 5790017
  1872388 words of memory out of 5000000
  28845 multiletter control sequences out of 15000+600000
  524589 words of font info for 78 fonts, out of 8000000 for 9000
@@ -1498,11 +1523,11 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 ve/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/t
 exlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/loc
 al/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (54 pages, 33761
-6 bytes).
+Output written on PureMathematicsForEngineersAndScientists.pdf (56 pages, 33950
+1 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 375 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
