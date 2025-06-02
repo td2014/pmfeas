@@ -10,9 +10,36 @@ We first remark that a \textit{theorem} is a set of valid statements chained tog
 
 \section{Induction}
 
-In the \textit{induction} type of proof, the statements in question will be associated with an index which is used to construct the proof.
+In the \textit{induction}\index{induction} type of proof, the statements in question will be associated with an index which is used to construct the proof.
 
 \subsection{Weak Induction}
+
+Let us begin by stating the ``principle of mathematic induction", based on the presentation in Schaum's Outline of Theory and Problems of Set Theory and Related Topics (2nd Ed), by Seymour Lipschutz.\\
+
+Let $A(n)$ be an assertion defined on the set of positive integers, $\mathbb{P}$.  $A(n)$ is true or false for each integer $n \ge 1.$  Suppose $A(n)$ has the following two properties:\\
+
+\begin{itemize}
+\item $A(1)$ is true (sometimes called the ``base case")
+\item $A(n+1)$ is true whenever $A(n)$ is true (sometimes called the ``inductive hypothesis")
+\end{itemize}
+
+Then $A(n)$ is true for every $n \ge 1$.\\
+
+Let us see an example of this in practice.\\
+
+We wish to prove that $\Sigma_{i=1}^{n}i=\frac{n(n+1)}{2}$ using (weak) induction.  That is, the sum of the first $n$ positive integers is equal to $\frac{n(n+1)}{2}$.  For example: $1+2+3+4+5=15, \frac{5(6)}{2}=\frac{30}{2}=15 \checkmark$.\\
+
+We can first check the base case: $\Sigma_{i=1}^{1}i=1, \frac{1(1+1)}{2}=1 \checkmark$.  Thus $A(1)$ is true, where $A(n)$ is the assertion that $\Sigma_{i=1}^{n}i=\frac{n(n+1)}{2}$.\\
+
+Now, suppose that $A(n)$ is true.  We then check $A(n+1)$.  This yields: $\Sigma_{i=1}^{n+1}i=\frac{(n+1)(n+2)}{2}$.  If $A(n+1)$ is true, then $A(n+1)=A(n)+(n+1)$.  So we check:
+
+\begin{flalign*}
+\frac{(n+1)(n+2)}{2}&=\frac{n(n+1)}{2}+(n+1)?\\
+\frac{n(n+1)}{2}+(n+1)&=\frac{n(n+1)+2(n+1)}{2}\\
+\frac{n(n+1)+2(n+1)}{2}\\&=\frac{(n+1)(n+1)}{2} \checkmark \\
+\end{flalign*}
+
+Thus, we conclude that $A(n)$ is true for $n \ge 1$ which completes our proof.
 
 \subsection{Strong Induction}
 
