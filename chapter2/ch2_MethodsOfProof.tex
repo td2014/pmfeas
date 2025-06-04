@@ -39,7 +39,17 @@ Now, suppose that $A(n)$ is true.  We then check $A(n+1)$.  This yields: $\Sigma
 \frac{n(n+1)+2(n+1)}{2}\\&=\frac{(n+1)(n+1)}{2} \checkmark \\
 \end{flalign*}
 
-Thus, we conclude that $A(n)$ is true for $n \ge 1$ which completes our proof.
+Thus, we conclude that $A(n)$ is true for $n \ge 1$ which completes our proof.\\
+
+We consider a second example, taken from Schaum's Outline of Theory and Problems of Abstract Algebra (2nd Ed.) by Frank Ayres, Jr. and Lloyd R. Jaisingh.  This is associated with the Peano Postulates of Arithmetic that we considered in Chapter 1.  We wish to prove the Closure Law for Addition, namely $n+m \in \mathbb{N}$, for all $n,m \in \mathbb{N}$, using induction.  Recall that $\mathbb{N}$ is the set of natural numbers (which starts at $1$ in this case).  We proceed as follows:\\
+
+We use the two definitions associated with addition on $\mathbb{N}$, namely (i) $n+1=n^{*}$, for every $n \in \mathbb{N}$, where $n^{*}$ is the successor of $n$, and (ii) $n+m^{*}=(n+m)^{*}$, whenever $n+m$ is defined (i.e. whenever $n+m$ is a natural number), as well as Peano Postulate II: For each $n \in \mathbb{N}$, there exists a unique $n^{*} \in \mathbb{N}$, called the successor of $n$. 
+
+We first fix $n$ as some natural number, and define the proposition $P(m): n+m \in \mathbb{N}$ for every $m \in \mathbb{N}$.  That is, $P(m)$ is true, whenever $n+m$ is a natural number.  First, let us determine if $P(1)$ is true (i.e. the base case).  Since $n+1=n^{*}$, from Postulate II we know that $n^{*} \in \mathbb{N}$, so $P(1)$ is true.  Now, for the inductive hypothesis portion.  Suppose that $P(m)$ is true, then we want to see if $P(m+1)$ is true, which is the same as $P(m^{*})$ by Definition (i).  Now, $P(m^{*})$ is true if $n+m^{*} \in \mathbb{N}$.  From Definition (ii), we have that $n+m^{*}=(n+m)^{*}$ whenever, $n+m$ is defined (i.e. is a natural number).  Since we assumed $P(m)$ was true, this means that $n+m$ is a natural number, and by Postulate II, $(n+m)^{*}$ is also a natural number, so we are done.  
+
+
+
+
 
 \subsection{Strong Induction}
 
