@@ -14,7 +14,7 @@ In the \textit{induction}\index{induction} type of proof, the statements in ques
 
 \subsection{Weak Induction}
 
-Let us begin by stating the ``principle of mathematic induction", based on the presentation in Schaum's Outline of Theory and Problems of Set Theory and Related Topics (2nd Ed), by Seymour Lipschutz.\\
+Let us begin by stating the ``principle of mathematic induction", based on the presentation in Schaum's Outline of Theory and Problems of Set Theory and Related Topics (2nd Ed), by Seymour Lipschutz (SST).\\
 
 Let $A(n)$ be an assertion defined on the set of positive integers, $\mathbb{P}$.  $A(n)$ is true or false for each integer $n \ge 1.$  Suppose $A(n)$ has the following two properties:\\
 
@@ -41,17 +41,33 @@ Now, suppose that $A(n)$ is true.  We then check $A(n+1)$.  This yields: $\Sigma
 
 Thus, we conclude that $A(n)$ is true for $n \ge 1$ which completes our proof.\\
 
-We consider a second example, taken from Schaum's Outline of Theory and Problems of Abstract Algebra (2nd Ed.) by Frank Ayres, Jr. and Lloyd R. Jaisingh.  This is associated with the Peano Postulates of Arithmetic that we considered in Chapter 1.  We wish to prove the Closure Law for Addition, namely $n+m \in \mathbb{N}$, for all $n,m \in \mathbb{N}$, using induction.  Recall that $\mathbb{N}$ is the set of natural numbers (which starts at $1$ in this case).  We proceed as follows:\\
+We consider a second example, taken from Schaum's Outline of Theory and Problems of Abstract Algebra (2nd Ed.) by Frank Ayres, Jr. and Lloyd R. Jaisingh (SAA).  This is associated with the Peano Postulates of Arithmetic that we considered in Chapter 1.  We wish to prove the Closure Law for Addition, namely $n+m \in \mathbb{N}$, for all $n,m \in \mathbb{N}$, using induction.  Recall that $\mathbb{N}$ is the set of natural numbers (which starts at $1$ in this case).  We proceed as follows:\\
 
 We use the two definitions associated with addition on $\mathbb{N}$, namely (i) $n+1=n^{*}$, for every $n \in \mathbb{N}$, where $n^{*}$ is the successor of $n$, and (ii) $n+m^{*}=(n+m)^{*}$, whenever $n+m$ is defined (i.e. whenever $n+m$ is a natural number), as well as Peano Postulate II: For each $n \in \mathbb{N}$, there exists a unique $n^{*} \in \mathbb{N}$, called the successor of $n$. 
 
-We first fix $n$ as some natural number, and define the proposition $P(m): n+m \in \mathbb{N}$ for every $m \in \mathbb{N}$.  That is, $P(m)$ is true, whenever $n+m$ is a natural number.  First, let us determine if $P(1)$ is true (i.e. the base case).  Since $n+1=n^{*}$, from Postulate II we know that $n^{*} \in \mathbb{N}$, so $P(1)$ is true.  Now, for the inductive hypothesis portion.  Suppose that $P(m)$ is true, then we want to see if $P(m+1)$ is true, which is the same as $P(m^{*})$ by Definition (i).  Now, $P(m^{*})$ is true if $n+m^{*} \in \mathbb{N}$.  From Definition (ii), we have that $n+m^{*}=(n+m)^{*}$ whenever, $n+m$ is defined (i.e. is a natural number).  Since we assumed $P(m)$ was true, this means that $n+m$ is a natural number, and by Postulate II, $(n+m)^{*}$ is also a natural number, so we are done.  
+We first fix $n$ as some natural number, and define the proposition $P(m): n+m \in \mathbb{N}$ for every $m \in \mathbb{N}$.  That is, $P(m)$ is true, whenever $n+m$ is a natural number.  First, let us determine if $P(1)$ is true (i.e. the base case).  Since $n+1=n^{*}$, from Postulate II we know that $n^{*} \in \mathbb{N}$, so $P(1)$ is true.  Now, for the inductive hypothesis portion.  Suppose that $P(m)$ is true, then we want to see if $P(m+1)$ is true, which is the same as $P(m^{*})$ by Definition (i).  Now, $P(m^{*})$ is true if $n+m^{*} \in \mathbb{N}$.  From Definition (ii), we have that $n+m^{*}=(n+m)^{*}$ whenever, $n+m$ is defined (i.e. is a natural number).  Since we assumed $P(m)$ was true, this means that $n+m$ is a natural number, and by Postulate II, $(n+m)^{*}$ is also a natural number, so we are done.\\
 
+\textit{Exercise}  (Adapted from SST) Prove the following assertion (for $n \ge 1$) using (weak) induction:\\
+\begin{displaymath}
+A(n): 1 + 2 + 2^{2} + \ldots + 2^{(n-1)}=2^{n}-1
+\end{displaymath}
 
-
-
+\textit{Solution} We begin by checking if the base case is true, namely $A(1)$.  We obtain $2^{(1-1)}=1=2^{1}-1 \checkmark$.  Now we check the induction hypothesis portion.  Suppose $A(n)$ is true, then if $A(n+1)=A(n)+2^{(n+1-1)}=A(n)+2^{n}=2^{n}-1+2^{n}=2(2^{n})-1=2^{(n+1)}-1$, we are done.  Since $A(n+1)=2^{(n+1)}-1$ we see that the proof is therefore complete.
 
 \subsection{Strong Induction}
+
+There is a second formulation of induction called ``complete" or ``strong" induction.  It is defined in the SST reference as follows:\\
+
+Let $A(n)$ be an assertion defined on the set of positive integers, $\mathbb{P}$.  Suppose $A(n)$ has the following two properties:\\
+
+\begin{itemize}
+\item $A(1)$ is true.
+\item $A(n)$ is true whenever $A(k)$ is true for $1 \le k < n$.
+\end{itemize}
+
+Then $A(n)$ is true for every $n \ge 1$.\\
+
+
 
 \section{Proof by Contradiction}
 
