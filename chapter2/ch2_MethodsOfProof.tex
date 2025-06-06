@@ -97,7 +97,12 @@ We will examine a portion of the proof in the following exercise.\\
 
 \begin{flalign*}
 \phi_{1}^{n}&=\phi_{1}^{(n-1)}+\phi_{1}^{(n-2)}?\\
+\phi_{1}^{n}-\phi_{1}^{(n-1)}&=\phi_{1}^{(n-2)}?\\
+\phi_{1}^{n}(1-\phi_{1}^{-1})&=\phi_{1}^{n}\phi_{1}^{-2}?\\
+1-\phi_{1}^{-1}&=\phi_{1}^{-2}?\\
 \end{flalign*}
+
+Now, $1-\phi_{1}^{-1}=1-\frac{2}{1+\sqrt{5}}=\frac{1+\sqrt{5}-2}{1+\sqrt{5}}=\frac{\sqrt{5}-1}{\sqrt{5}+1}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\frac{\sqrt{5}+1}{\sqrt{5}+1}=\frac{4}{\left(\sqrt{5}+1\right)^{2}}=\phi_{1}^{-2} \checkmark$.  We would proceed in a similar way to verify the other part of the assertion involving $\phi_{2}$ to complete the inductive hypothesis portion of the proof.
  
 
 \section{Proof by Contradiction}
