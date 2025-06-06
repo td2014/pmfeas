@@ -67,7 +67,38 @@ Let $A(n)$ be an assertion defined on the set of positive integers, $\mathbb{P}$
 
 Then $A(n)$ is true for every $n \ge 1$.\\
 
+The process for doing strong/complete induction proofs is essentially identical to the weak induction.  The interested reader can see the MathDoctorBob videos cited above for some examples.  We briefly outline one such example.\\
 
+In order to prove that the following formula, called ``Binet's Formula" produces the $n$'th Fibonacci number, it is argued in the MathDoctorBob videos (video BM4.1) that strong induction can be used.  Recall that Fibonacci numbers, $F_{n}$, are obtained by taking the sum of the previous two Fibonacci numbers beginning with $F_{1}=1$ and $F_{2}=1$, whereby $F_{3}=F_{2}+F_{1}=1+1=2$, and $F_{4}=F_{3}+F_{2}=2+1=3$ and so forth.  Binet's formula gives the $n$'th Fibonacci number as:
+
+\begin{displaymath}
+F_{n}=\frac{1}{\sqrt{5}}\left[\phi_{1}^{n}-\phi_{2}^{n}\right]
+\end{displaymath} 
+
+where
+
+\begin{displaymath}
+\phi_{1}=\frac{1+\sqrt{5}}{2}, \phi_{2}=\frac{1-\sqrt{5}}{2}.
+\end{displaymath}
+
+In order to proceed with the proof, it is necessary to assume (in the inductive hypothesis step) that \textit{two} immediately prior values of the Binet formula are true, since we stated that $F_{n}=F_{n-1}+F_{n-2}$.  Thus, we must assume that both $F_{n-1}$ and $F_{n-2}$ are true and then inquire about $F_{n}$.  In the weak induction method, we only had to assume that one immediate prior value is true for the assertion in question.\\
+
+To sketch the inductive hypothesis step, we would assume that $F_{n-1}$ and $F_{n-2}$ are both true (i.e. Binet's formula holds for both of those cases) and then check to see if Binet's formula for $F_{n}$ is then true:
+
+\begin{displaymath}
+F_{n}=\frac{1}{\sqrt{5}}\left[\phi_{1}^{n}-\phi_{2}^{n}\right]=\frac{1}{\sqrt{5}}\left[\phi_{1}^{n-1}-\phi_{2}^{n-1}\right]+\frac{1}{\sqrt{5}}\left[\phi_{1}^{n-2}-\phi_{2}^{n-2}\right]?
+\end{displaymath}
+
+We will examine a portion of the proof in the following exercise.\\
+
+\textit{Exercise}  In order to establish part of the proof above, we need to determine if $\phi_{1}^{n}=\phi_{1}^{(n-1)}+\phi_{1}^{(n-2)}$ (The factors of $\frac{1}{\sqrt{5}}$ are irrelevant here).  Please show this equation is indeed correct.\\
+
+\textit{Solution}  We proceed with some algebraic manipulation:
+
+\begin{flalign*}
+\phi_{1}^{n}&=\phi_{1}^{(n-1)}+\phi_{1}^{(n-2)}?\\
+\end{flalign*}
+ 
 
 \section{Proof by Contradiction}
 
