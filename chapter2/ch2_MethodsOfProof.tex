@@ -169,6 +169,19 @@ As a second example, let us take a known true statement and negate the conclusio
 
 Suppose $P$ is true, and $P \Longrightarrow Q$ is true.  Then by ``modus ponens,'' we have $\left(P \land \left(P \Longrightarrow Q \right) \right) \Longrightarrow Q$ is true, so that $Q$ is true.
 
-Now, suppose we wanted to prove that $Q$ is true by contradiction.
+Now, suppose we wanted to prove that $Q$ is true by contradiction.  We will do this proof in a list format (also called ``formal") in contrast with the ``informal" prose style used above.  Our statements will be on the left, and the reason will be on the right.
+
+\begin{displaymath}
+\begin{matrix}
+1. & \neg Q & \text{Hypothesis} \\
+2. & P & \text{Hypothesis} \\
+3. & P \Longrightarrow Q & \text{Hypothesis} \\
+4. &  \neg Q \Longrightarrow \neg P & \text{Logical equivalence to (3)} \\
+5. & \neg P & \text{modus ponens (1) and (4)} \\
+6. & \neg P \land P & \text{Contradiction between (2) and (5)} \\
+\end{matrix}
+\end{displaymath}
+
+Since we arrived at a contradiction in Step 6, we conclude that our assumption $\neg Q$ must be false and thus $Q$ true.  End of proof.
 
 \section{Direct Proof}
