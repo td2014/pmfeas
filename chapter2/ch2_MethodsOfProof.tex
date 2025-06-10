@@ -188,7 +188,39 @@ Since we arrived at a contradiction in Step 6, we conclude that our assumption $
 
 The direct proof method is perhaps the conceptually most straightforward method, although it seems, at least ``anecdotally" that the other two methods appear as often as direct methods.  In any case, we will examine a few illustrations of this approach.  Following MathDoctorBob's video, we emphasize that a direct proof is a sequence of true statements (which we can think of as joined together with logical ``ands") that logically imply a conclusion.  That is to say, that if all the statements are true and the conclusion is true, then we have proved the theorem.  Symbollically, this is $H_{1} \land H_{2} \land \ldots \land H_{n} \Longrightarrow T$ where $T$ is the conclusion.\\
 
-We first do an example, following MathDoctorBob example, using predicate logic in list format (i.e. formal proof).\\
+We first do an example, following MathDoctorBob, using predicate logic in list format (i.e. formal proof).\\
 
 We wish to prove that if $P \Longrightarrow Q \land R, Q \lor S \Longrightarrow T, P \lor S$ (i.e. each of the statements separated by commas is individually true), then $T$ (is true).
 
+\begin{displaymath}
+\begin{matrix}
+1. & P \Longrightarrow Q \land R & \text{Hypothesis} \\
+2. & Q \lor S \Longrightarrow T & \text{Hypothesis} \\
+3. & P \lor S & \text{Hypothesis} \\
+4. & Q \land R \Longrightarrow Q  & \text{Simplification} \\
+5. & P \Longrightarrow Q & \text{Hypothetical syllogism (1) and (4)} \\
+6. & P \lor S \Longrightarrow Q \lor S & \text{Constructive dilemma (5)} \\
+7. & Q \lor S & \text{modus ponens (3) and (6)} \\
+8. & T & \text{modus ponens (2) and (7)} \\
+\end{matrix}
+\end{displaymath}
+
+
+We note that statements 4,5, and 6 introduce some new terminology.  Furthermore, it may or may not be clear how to proceed from the hypotheses (statements 1,2, and 3) to the conclusion (statement 8).  As MathDoctorBob points out, it takes some experience to learn the appropriate rules and patterns, and one must rely on experts to guide a learner through this process.  For independent study, reading a variety of proofs, attempting to understand each step, and trying to reproduce them is helpful in this regard.  We will do a few exercises to gain a better understanding of the above proof.\\
+
+\textit{Exercise}  As was mentioned earlier, each statement must be true for the theorem to be proved.  Please verify that the statement in step 4 is in fact true by constructing the truth table.  Furthermore, what is such a statement called?\\
+
+\textit{Solution}  We construct the truth table for $Q \land R \Longrightarrow Q$ which will require four rows.
+
+\begin{displaymath}
+\begin{array}{|c|c|c|c|c|}
+(Q & \land & R) & \Longrightarrow & Q \\
+\hline
+T & T & T & T &T \\
+T & F & F & T &T \\
+F & F & T & T &F \\
+F & F & F & T &F \\
+\end{array}
+\end{displaymath}
+
+We see that this statement is true (i.e. the entries in the column for $\Longrightarrow$) for every possible combination of true and false values of $P$ and $Q$.  This type of statement is called a ``tautology."
