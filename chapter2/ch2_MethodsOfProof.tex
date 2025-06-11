@@ -232,4 +232,21 @@ We see that this statement is true (i.e. the entries in the column for $\Longrig
 
 \textit{Exercise} Consider statement (6) which is constructed from statement (5) by logical ``or" with $S$ on each side.  Please show statement (6) is true for all allowed values of $P,Q,$ and $S$.\\
 
-\textit{Solution} We will proceed in a similar approach to the previous exercise.  Suppose $S$ is true.  Then statement (6) is always true regardless of the values of $P$ and $Q$.  Now suppose $S$ is false.
+\textit{Solution} We will proceed in a similar approach to the previous exercise.  Suppose $S$ is true.  Then statement (6) is always true regardless of the values of $P$ and $Q$.  Now suppose $S$ is false.  If $P$ is false, then (6) is true no matter what $Q$ is.  Suppose $P$ is true.  If $Q$ is false, then (6) would be false.  However, statement (5), $P \Longrightarrow Q$, prevents this possibility, since if $P$ true then $Q$ true.  Therefore, we have verified that (6) is true for all allowed values of the variables $P, Q, S$.  To verify that we didn't overlook a legitimate combination, we may construct using a truth table with eight rows:
+
+\begin{displaymath}
+\begin{array}{|c|c|c|c|c|c|c|}
+ (P& \lor& S) &\Longrightarrow & (Q & \lor & S)  \\
+\hline
+T & T & T & T & T & T & T \\
+T & T & F & T & T & T & F \\
+T & T & T & T & F & T & T \\
+T & T & F & F & F & F & F \\
+F & T & T & T & T & T & T \\
+F & F & F & T & T & T & F \\
+F & T & T & T & F & T & T \\
+F & F & F & T & F & F & F \\
+\end{array}
+\end{displaymath}
+
+As we can see, only the entry in row 4, in the column for $\Longrightarrow$ is false.  However, this value is not possible because we cannot have $P$ true and $Q$ false, due to statement (5) as was previously mentioned.
