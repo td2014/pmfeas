@@ -283,6 +283,12 @@ F & F & F & F & F & T & F & F & F \\
 \end{array}
 \end{displaymath}
 
-We see the entries in the column for $\Longrightarrow$ are all true, thus the new statement is indeed a tautology.
+We see the entries in the column for $\Longrightarrow$ are all true, thus the new statement is indeed a tautology.\\
+
+Let us consider a case where we perform an improper substitution.\\
+
+\textit{Exercise}  Suppose we consider the same statement as in the previous exercise, $Q \land R \Longrightarrow Q$, but this time treat $Q \land R$ as the formula we wish to replace with a substitution, $R$.  Show this does not yield a tautology and suggest why the (improper) substitution fails in this case.\\
+
+\textit{Solution} If we make the indicated substitution, we obtain $R \Longrightarrow Q$.  This is no longer a tautology, since we can have $R$ true and $Q$ false, leading to $R \Longrightarrow Q$ false.  As to why this substitution didn't work as expected, we can see that in the original statement, the term on the left of the $\Longrightarrow$ has some relationship with the term on the right, namely through the sharing of $Q$.  The new statement, $R \Longrightarrow Q$, breaks this connection, thus having a different outcome is not entirely surprising, but perhaps interesting.
 
 
