@@ -8,7 +8,21 @@ The reader may be familiar with some of the topics such as groups from courses i
 
 Informally, groups capture the notion of a \textit{symmetry}\index{symmetry}, which can be thought of as a transformation of an object which leaves it apparently unchanged.  For example, consider a square cut from a piece of paper.  If we place the square in front of us flat on the table, then rotate it by one-quarter turn, the square will return to its original appearance.  We can repeat this operation and observe the same result.  We can imagine doing some kind of arithmetic with the square by doing a single rotation, followed by a double rotation, resulting in a sort of addition operation.\\  
 
-To make this more concrete, consider marking each corner of the square by a different letter.  Perhaps the top left corner will be $a$, top right $b$, bottom right $c$ and bottom left $d$.  Let us define a quarter clockwise turn by the symbol $x$, a half clockwise turn $y$, and a three quarter clockwise turn by $z$.  Lastly, let us denote no rotation as $e$, representing the ``identity" symmetry.  We can no specify some particular orientations as follows.  Consider two $x$ operations, which we will call $x^{2}$ (that is, $x \cdot x$).  Now we can see that $x^{2}=y$, as an example.  We now can consider our ``group" to consist of the set of elements $\{x,y,z,e\}$.  Each element represents one of the possible operations.
+To make this more concrete, consider marking each corner of the square by a different letter.  Perhaps the top left corner will be $a$, top right $b$, bottom right $c$ and bottom left $d$.  Let us define a quarter clockwise turn by the symbol $x$, a half clockwise turn $y$, and a three quarter clockwise turn by $z$.  Lastly, let us denote no rotation as $e$, representing the ``identity" symmetry.  We can no specify some particular orientations as follows.  Consider two $x$ operations, which we will call $x^{2}$ (that is, $x \cdot x$).  Now we can see that $x^{2}=y$, as an example.  We now can consider our ``group" to consist of the set of elements $\{x,y,z,e\}$.  Each element represents one of the possible operations.\\
+
+Now, suppose we start with the square with the top left corner $a$, and we apply the $x$ operation to the square.  We will then have the top left corner as $d$ and the top right corner as $a$.  This way we can follow the square through all the symmetries, as each one except $e$, the identity, will change which letters are in which locations.
+
+To move beyond a rough intuitive concept, let us now more precisely define a group, following Artin.
+
+\textit{Definition} A \textit{group}\index{group} is a set $G$ together with a law of composition\index{law of composition} that has the following properties:
+
+\begin{itemize}
+\item The law of composition is associative:  $(ab)c = a(bc)$ for all $a,b,c \in G.$
+\item $G$ contains an identity element $1$, such that $1a=a$ and $a1=a$ for all $a$ in $G.$
+\item Every element $a$ of $G$ has an inverse, an element $b$ such that $ab=1$ and $ba=1.$
+\end{itemize}
+
+The \textit{law of composition} is the manner by which we combine elements of the group to form new objects.  Note carefully that the definition refers to a \textit{set}, so we may recall the axioms and properties of set theory from Chapter 1.  Also, note that Artin uses $1$ for the identity element instead of $e$.  Both are present in different material on groups, but they amount to the same concept.  
 
 \section{Rings}
 
