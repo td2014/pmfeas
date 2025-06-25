@@ -85,7 +85,21 @@ We now do a theorem involving subgroups as an exercise.\\
 
 Let us assume $G'$ is a subgroup of $G$. Since $a,b \in G'$, so are all the inverses, by definition of subgroup (inverses property).  Then $a^{-1}b \in G'$ by definition of a subgroup (closure property).  Thus we have proved $A \Longrightarrow B$, where $A$ is``$G'$ is a subgroup of $G$'', and $B$ is``for all $a,b \in G', a^{-1}b \in G'$''.\\
 
-Let us now assume for all $a,b \in G', a^{-1}b \in G'$.  At this point, all we know about $G'$ is that it is a non-empty subset of the group $G$, along with $a^{-1}b \in G'$.  We have to show this satisfies all the properties required for the definition of a subgroup. Clearly, the identity is in $G'$ since $a^{-1}a \in G'$ and $a^{-1}a=1$ by definition of identity.  Secondly, since we know the identity is in $G^{-1}$, then so are all the inverses for any $a \in G'$ because $a^{-1}b \in G'$ and if $b=1$, then we have $a^{-1}1 \in G'$ or $a^{-1} \in G'$ by the property of the identity.  Finally, we must show closure.  That is we must show that $ab \in G'$ for all $a,b \in G'$.  Since we have $a^{-1} b \in G'$, let us substitute $a^{-1}$ for $a$, yielding $(a^{-1})^{-1}b \in G'$ or $ab \in G'$, thus showing the closure law holds and completing the proof.  That is we showed $B \Longrightarrow A$ is true, where $A$ and $B$ are statements defined in the previous paragraph.
+Let us now assume for all $a,b \in G', a^{-1}b \in G'$.  At this point, all we know about $G'$ is that it is a non-empty subset of the group $G$, along with $a^{-1}b \in G'$.  We have to show this satisfies all the properties required for the definition of a subgroup. Clearly, the identity is in $G'$ since $a^{-1}a \in G'$ and $a^{-1}a=1$ by definition of identity.  Secondly, since we know the identity is in $G^{-1}$, then so are all the inverses for any $a \in G'$ because $a^{-1}b \in G'$ and if $b=1$, then we have $a^{-1}1 \in G'$ or $a^{-1} \in G'$ by the property of the identity.  Finally, we must show closure.  That is we must show that $ab \in G'$ for all $a,b \in G'$.  Since we have $a^{-1} b \in G'$, let us substitute $a^{-1}$ for $a$, yielding $(a^{-1})^{-1}b \in G'$ or $ab \in G'$, thus showing the closure law holds and completing the proof.  That is we showed $B \Longrightarrow A$ is true, where $A$ and $B$ are statements defined in the previous paragraph.\\
+
+Let us now consider a new group called the ``additive group of integers" written as $\mathbb{Z}^{+}$ in Artin.  The composition law for this group is ordinary addition, written as $a+b$, where $a,b \in \mathbf{Z}$.  We are interested in subgroups of this group.  Per Artin, we say that a subset $S$ of a group $G$ with law of composition written additively is a subgroup if it has the following properties:
+
+\begin{itemize}
+\item \textit{Closure}: If $a$ and $b$ are in $S$, then $a+b$ is in $S$.
+\item \textit{Identity}: $0$ is in $S$.
+\item \textit{Inverses}: If $a$ is in $S$, then $-a$ is in $S$.
+\end{itemize}
+
+We should recall that a group is a set with a law of composition.  In other words, the law of composition is some kind of ``attachment" that goes along with the set.  We need both component in order to define the group.  Therefore, we augment the set of integers $\mathbb{Z}$ with the superscript $+$ sign to indicate the (additive) group, rather than just the set of integers.\\
+
+The subset of $\mathbb{Z}$ consisting of all multiples of a non-zero integer $a$ is denoted (in Artin) as $\mathbb{Z}a$.  We now will prove a related theorem as an exercise.\\
+
+\textit{Exercise} Prove the following theorem (Theorem 2.3.3 in Artin): Let $S$ be a subgroup of the additive group $\mathbb{Z}^{+}$.  Either $S$ is the trivial subgroup $\{0\}$, or it has the form $\mathbb{Z}a$, where $a$ is the smallest positive integer in $S$.
 
 
 \section{Rings}
