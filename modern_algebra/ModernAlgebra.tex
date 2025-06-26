@@ -103,12 +103,14 @@ The subset of $\mathbb{Z}$ consisting of all multiples of a non-zero integer $a$
 
 \textit{Solution} If $S$ is a subgroup of $\mathbb{Z}^{+}$ then it clearly contains the identity element $0$ by the identity property of subgroups.  Furthermore, if $0$ is the only element, then we are done with the first part of proof, namely we have that $S$ is the trivial subgroup.\\
 
-Our general strategy for the second part of the proof where subgroups $S$ contain more than the identity element $0$ is the following:  we will proceed by showing that $S \subseteq \mathbb{Z}a$ and $\mathbb{Z}a \subseteq S$, which means that $\mathbb{Z}a=S$, i.e. the sets are equal and in fact the same set.\\
+Our general strategy for the second part of the proof where subgroups $S$ contain more than the identity element $0$ is the following:  we will proceed by showing that $\mathbb{Z}a \subseteq S$ and $S \subseteq \mathbb{Z}a$ which means that $\mathbb{Z}a=S$, i.e. the sets are equal, meaning they have the same elements.\\
 
-%Let us first show that $S \subseteq \mathbb{Z}a$, for some positive integer $a$.  Clearly, this is true, since we know that $S$ must at least be a subset of $\mathbb{Z}$, i.e. where $a=1$.\\
+Let us first show that $\mathbb{Z}a \subseteq S$, for some positive integer $a$. Since subgroup $S$ has more than the identity $0$, it has at least one non-zero integer $n$.  As $S$ is a subgroup, it must satisfy the properties of a subgroup, therefore we know that $S$ must also contain $-n$ in order to satisfy the inverses property, and furthermore, $S$ must contain a positive number since one or the other of $n$ or $-n$ must be positive.  Let us consider the smallest positive number in $S$ and call it $a$ without loss of generality.  Clearly, $a+a=2a$ must also be in $S$ by the closure property of subgroups, and likewise $a+2a=3a$ and so on for any positive multiple of $a$.  Also, since $a$ is in $S$, so is $-a$, and we thus have $-a+(-a)=-2a$ and likewise for any negative multiple of $a$.  This is the definition of $\mathbb{Z}a$ and thus we conclude $\mathbb{Z}a \subseteq S.$
 
-%We now show that $\mathbb{Z}a \subseteq S$.  Since subgroup $S$ has more than the identity $0$, it has at least one non-zero integer $n$.  As $S$ is a subgroup, it must satisfy the properties of a subgroup, therefore we know that $S$ must also contain $-n$ in order to satisfy the inverses property, and furthermore, $S$ must contain a positive number since one or the other of $n$ or $-n$ must be positive.  Let us consider the smallest positive number in $S$ and call it $a$ without loss of generality.  
+Now, we show $S \subseteq \mathbb{Z}a$.
 
+
+%We now show that $\mathbb{Z}a \subseteq S$. 
 
 \section{Rings}
 
