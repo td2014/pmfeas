@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  26 JUN 2025 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  27 JUN 2025 10:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1748,72 +1748,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-) [54]
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+[55]
 \openout2 = `./real_analysis/RealAnalysis.aux'.
 
- (./real_analysis/RealAnalysis.tex
-Chapter 4.
-) [55
+ (./real_analysis/RealAnalysis.tex [56
 
 
 
 
 ]
+Chapter 4.
+) [57]
 \openout2 = `./complex_analysis/ComplexAnalysis.aux'.
 
- (./complex_analysis/ComplexAnalysis.tex [56
+ (./complex_analysis/ComplexAnalysis.tex [58
 
 
 
 
 ]
 Chapter 5.
-) [57]
+) [59]
 \openout2 = `./non_euclidean_geometry_and_topology/NonEuclideanGeometryAndTopol
 ogy.aux'.
 
 
 (./non_euclidean_geometry_and_topology/NonEuclideanGeometryAndTopology.tex
-[58
+[60
 
 
 
 
 ]
 Chapter 6.
-) [59]
+) [61]
 \openout2 = `./number_theory/NumberTheory.aux'.
 
- (./number_theory/NumberTheory.tex [60
+ (./number_theory/NumberTheory.tex [62
 
 
 
 
 ]
 Chapter 7.
-) [61]
+) [63]
 \openout2 = `./category_theory/CategoryTheory.aux'.
 
- (./category_theory/CategoryTheory.tex [62
+ (./category_theory/CategoryTheory.tex [64
 
 
 
 
 ]
 Chapter 8.
-) [63]
+) [65]
 \openout2 = `./computational_complexity_theory/ComputationalComplexityTheory.au
 x'.
 
  (./computational_complexity_theory/ComputationalComplexityTheory.tex
-[64
+[66
 
 
 
 
 ]
 Chapter 9.
-) [65] (./PureMathematicsForEngineersAndScientists.ind [66
+) [67] (./PureMathematicsForEngineersAndScientists.ind [68
 
 
 
@@ -1830,8 +1839,8 @@ Package rerunfilecheck Info: File `PureMathematicsForEngineersAndScientists.out
 (rerunfilecheck)             Checksum: 0FF76D649FBF7F80115893EBA2585C85;4047.
  ) 
 Here is how much of TeX's memory you used:
- 8679 strings out of 476025
- 147407 string characters out of 5790017
+ 8681 strings out of 476025
+ 147421 string characters out of 5790017
  1872388 words of memory out of 5000000
  28853 multiletter control sequences out of 15000+600000
  524589 words of font info for 78 fonts, out of 8000000 for 9000
@@ -1856,11 +1865,11 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texl
 ive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (66 pages, 39171
-9 bytes).
+Output written on PureMathematicsForEngineersAndScientists.pdf (68 pages, 39265
+8 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 452 compressed objects within 5 object streams
- 105 named destinations out of 1000 (max. 500000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
+ 107 named destinations out of 1000 (max. 500000)
  233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
