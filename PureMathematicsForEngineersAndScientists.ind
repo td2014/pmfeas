@@ -7,6 +7,7 @@
 
   \item cancellation law for groups, 51
   \item Cardinality, 13
+  \item center, 55
   \item characteristic function, 32
   \item Complete, 25
   \item composition, 21
@@ -14,6 +15,7 @@
   \item Consistent, 25
   \item converse domain, 22
   \item Coset, 19
+  \item coset, 55
   \item counterdomain, 22
   \item cyclic groups, 54
 
@@ -43,14 +45,22 @@
 
   \indexspace
 
-  \item image, 22
+  \item image, 22, 55
   \item induction, 39
   \item inverse, 22
   \item irreflexive, 16
 
   \indexspace
 
+  \item kernel, 55
+
+  \indexspace
+
   \item law of composition, 50
+
+  \indexspace
+
+  \item normal subgroup, 55
 
   \indexspace
 
