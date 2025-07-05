@@ -141,7 +141,17 @@ We now introduce some important additional terminology (following Artin) related
 
 Let us consider each of the above concepts.\\
 
-The \textit{image} of homomorphism $\phi$ is $\text{im} \phi = \{x \in G' | x=\phi(a) \text{ for some } a \in G \}$, where we have $\phi: G \rightarrow G'$, with $G,G'$ groups.
+The \textit{image} of homomorphism $\phi$ is $\text{im} \phi = \{x \in G' | x=\phi(a) \text{ for some } a \in G \}$, where we have $\phi: G \rightarrow G'$, with $G,G'$ groups.\\
+
+The concept of a \textit{kernel} appears frequently, and should be kept in mind.  It is the set of elements of a group $G$ that are mapped to the identity of $G'$ by the homomorphism.  That is, $\text{ker} \phi = \{a \in G | \phi(a) =1 \}$, where $1$ is the identity of $G'.$\\
+
+We do a proof exercise to illustrate the kernel as a subgroup.\\
+
+\textit{Exercise} Prove the kernel of the homomorphism $\phi: G \rightarrow G'$ is a subgroup of $G$. (Adapted from Artin).\\
+
+\textit{Solution} We must show that the kernel $\text{ker} \phi$ meets all the properties of a subgroup, namely, closure, identity, and inverses.  First, we verify closure.  Suppose $a$ and $b$ are in the kernel, i.e., $a,b$ are in the subset of $G$ that $\phi$ maps to the identity of $G'$.  Since $\phi$ is a homomorphism, we have that $\phi(a)\phi(b)=\phi(ab)=1$, since $\phi(a)\phi(b)=1 \cdot 1 = 1$.  Thus $ab$ must also be in the kernel and so we have verified closure.  
+
+To verify that the identity is in the kernel, we must have that $\phi(1_{G})=1$ where we have emphasized that $1_{G}$ is the identity element of group $G.$
 
 
 
