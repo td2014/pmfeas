@@ -149,9 +149,11 @@ We do a proof exercise to illustrate the kernel as a subgroup.\\
 
 \textit{Exercise} Prove the kernel of the homomorphism $\phi: G \rightarrow G'$ is a subgroup of $G$. (Adapted from Artin).\\
 
-\textit{Solution} We must show that the kernel $\text{ker} \phi$ meets all the properties of a subgroup, namely, closure, identity, and inverses.  First, we verify closure.  Suppose $a$ and $b$ are in the kernel, i.e., $a,b$ are in the subset of $G$ that $\phi$ maps to the identity of $G'$.  Since $\phi$ is a homomorphism, we have that $\phi(a)\phi(b)=\phi(ab)=1$, since $\phi(a)\phi(b)=1 \cdot 1 = 1$.  Thus $ab$ must also be in the kernel and so we have verified closure.  
+\textit{Solution} We must show that the kernel $\text{ker} \phi$ meets all the properties of a subgroup, namely, closure, identity, and inverses.  First, we verify closure.  Suppose $a$ and $b$ are in the kernel, i.e., $a,b$ are in the subset of $G$ that $\phi$ maps to the identity of $G'$.  Since $\phi$ is a homomorphism, we have that $\phi(a)\phi(b)=\phi(ab)=1$, since $\phi(a)\phi(b)=1 \cdot 1 = 1$.  Thus $ab$ must also be in the kernel and so we have verified closure.\\  
 
-To verify that the identity is in the kernel, we must have that $\phi(1_{G})=1$ where we have emphasized that $1_{G}$ is the identity element of group $G.$
+To verify that the identity is in the kernel, we must have that $\phi(1_{G})=1$ where we have emphasized that $1_{G}$ is the identity element of group $G$ by using the subscript $G$.  Suppose $a$ is in the kernel.  Then we have $a=1_{G}a$ by property of the identity.  Thus we have $1=\phi(a)=\phi(1_{G}a)=\phi(1_{G})\phi(a)$, with the last equality true since $\phi$ is a homomorphism.  Since we have $1=\phi(1_{G})\phi(a)$, we obtain $1=\phi(1_{G})\cdot 1$, and we know by the cancellation law of groups, $\phi(1_{G})=1$, which means $1_{G}$ is also in the kernel.\\
+
+Lastly, we must check for inverses.  Suppose that $a$ is in the kernel.  We then have $aa^{-1}=1_{G}$, where $a^{-1}$ is the inverse of $a$.  Since $\phi$ is a homomorphism and we know that the identity $1_{G}$ is in the kernel, we have that $1=\phi(1_{G})=\phi(aa^{-1})=\phi(a)\phi(a^{-1})$.  We then have $1=\phi(a)\phi(a^{-1})$ and since $a$ is in the kernel, we have $1=1 \cdot \phi(a^{-1})$.  Again, by the cancellation law of groups, we conclude the $\phi(a^{-1})=1$, and therefore $a^{-1}$ must also be in the kernel.
 
 
 
