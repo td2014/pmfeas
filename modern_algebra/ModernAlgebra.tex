@@ -134,7 +134,7 @@ We now introduce some important additional terminology (following Artin) related
 \begin{itemize}
 \item The \textit{image}\index{image} of a homomorphism.
 \item The \textit{kernel}\index{kernel} of a homomorphism.
-\item The \textit{coset}\index{coset} of a group.
+\item The \textit{coset}\index{Coset} of a group.
 \item A \textit{normal subgroup}\index{normal subgroup} of a group.
 \item The \textit{center}\index{center} of a group.
 \end{itemize}
@@ -153,9 +153,33 @@ We do a proof exercise to illustrate the kernel as a subgroup.\\
 
 To verify that the identity is in the kernel, we must have that $\phi(1_{G})=1$ where we have emphasized that $1_{G}$ is the identity element of group $G$ by using the subscript $G$.  Suppose $a$ is in the kernel.  Then we have $a=1_{G}a$ by property of the identity.  Thus we have $1=\phi(a)=\phi(1_{G}a)=\phi(1_{G})\phi(a)$, with the last equality true since $\phi$ is a homomorphism.  Since we have $1=\phi(1_{G})\phi(a)$, we obtain $1=\phi(1_{G})\cdot 1$, and we know by the cancellation law of groups, $\phi(1_{G})=1$, which means $1_{G}$ is also in the kernel.\\
 
-Lastly, we must check for inverses.  Suppose that $a$ is in the kernel.  We then have $aa^{-1}=1_{G}$, where $a^{-1}$ is the inverse of $a$.  Since $\phi$ is a homomorphism and we know that the identity $1_{G}$ is in the kernel, we have that $1=\phi(1_{G})=\phi(aa^{-1})=\phi(a)\phi(a^{-1})$.  We then have $1=\phi(a)\phi(a^{-1})$ and since $a$ is in the kernel, we have $1=1 \cdot \phi(a^{-1})$.  Again, by the cancellation law of groups, we conclude the $\phi(a^{-1})=1$, and therefore $a^{-1}$ must also be in the kernel.
+Lastly, we must check for inverses.  Suppose that $a$ is in the kernel.  We then have $aa^{-1}=1_{G}$, where $a^{-1}$ is the inverse of $a$.  Since $\phi$ is a homomorphism and we know that the identity $1_{G}$ is in the kernel, we have that $1=\phi(1_{G})=\phi(aa^{-1})=\phi(a)\phi(a^{-1})$.  We then have $1=\phi(a)\phi(a^{-1})$ and since $a$ is in the kernel, we have $1=1 \cdot \phi(a^{-1})$.  Again, by the cancellation law of groups, we conclude the $\phi(a^{-1})=1$, and therefore $a^{-1}$ must also be in the kernel.\\
 
+We now discuss the concept of \textit{coset} of a group.  We will speak in some detail about ``left cosets," but note that ``right cosets" also exist with a similar discussion, but are not necessarily equal to left coset.  Following Artin, we make the following definition for a left coset:
 
+\textit{Definition} If $H$ is a subgroup of $G$ and if $a$ is an element of $G$, the following subset is called a \textit{left coset}
+
+\begin{displaymath}
+aH=\{ah | h \in H \}
+\end{displaymath}
+
+where $ah$ is a product (i.e. application of law of composition) of the element $a$ with $h$.  One can think of the left cosets as dividing up, or partitioning, the group $G$ into separate ``equivalence classes."  We briefly introduced the concept of equivalence (relations) and partitions in Chapter 1.  We will now consider equivalence relations in the context of groups.\\
+
+\textit{Definition} (from Artin) The cosets of $H$ in $G$, where $H$ is a subgroup of group $G$, are called \textit{equivalence classes}\index{equivalence classes} for the congruence relation
+
+\begin{displaymath}
+a \equiv b, \text{ if } b=ah \text{ for some } h \in H.
+\end{displaymath}
+
+We use the notation $a \equiv b$ to indicate the congruence relation between $a$ and $b$.  We recall (from Chapter 1) that a partition of a set is an exhaustive, mutually exclusive decomposition of a set into subsets, whose union is the set itself.\\
+
+\textit{Exercise} Prove that the congruence relation defined above is indeed an equivalence relation, in that it satisfies the reflexive, symmetric, and transitive properties.\\
+
+\textit{Solution} Let us consider reflexive first.  This means that $a \equiv a$.  This is clearly satisfied by the definition as follows.  Let $b=a \cdot 1$, where $1$ is the identity in $H$, which exists because $H$ is a subgroup.  Then we have $a \equiv b$ yielding $a \equiv a \cdot 1$, which leads to $a \equiv a$.\\
+
+Now, the symmetric property.  This means that $a \equiv b \Longrightarrow b \equiv a$ and $b \equiv a \Longrightarrow a \equiv b$.  Suppose $a \equiv b$.  This means that $b=ah$ for some $h$ in $H$.  Right multiplying both sides by $h^{-1}$, which is the inverse of $h$ and is also in $H$ since $H$ is a subgroup, we get $bh^{-1}=a$.  This implies $b \equiv a$.
+
+Last, we wish to prove transitivity.  This means that if $a \equiv b$ and $b \equiv c$, then $a \equiv c$, where $a,b,c \in G$.  Suppose $a \equiv b$.  This means $b=ah$ for some $h \in H$.  Now, suppose $b \equiv c$.  This means that $c=bh'$, where $h' \in H$.  Note, we have a prime on the second $h$ to distinguish it from the first.  We now, have that $c=(ah)h'$ by combining the two results.  By associativity of the law of composition we have $c=a(hh')$, which implies $a \equiv c$ since $hh'$ is also in $H$ because $H$ is a subgroup and thus is closed.
 
 \section{Rings}
 
