@@ -179,7 +179,15 @@ We use the notation $a \equiv b$ to indicate the congruence relation between $a$
 
 Now, the symmetric property.  This means that $a \equiv b \Longrightarrow b \equiv a$ and $b \equiv a \Longrightarrow a \equiv b$.  Suppose $a \equiv b$.  This means that $b=ah$ for some $h$ in $H$.  Right multiplying both sides by $h^{-1}$, which is the inverse of $h$ and is also in $H$ since $H$ is a subgroup, we get $bh^{-1}=a$.  This implies $b \equiv a$.\\
 
-Last, we wish to prove transitivity.  This means that if $a \equiv b$ and $b \equiv c$, then $a \equiv c$, where $a,b,c \in G$.  Suppose $a \equiv b$.  This means $b=ah$ for some $h \in H$.  Now, suppose $b \equiv c$.  This means that $c=bh'$, where $h' \in H$.  Note, we have a prime on the second $h$ to distinguish it from the first.  We now, have that $c=(ah)h'$ by combining the two results.  By associativity of the law of composition we have $c=a(hh')$, which implies $a \equiv c$ since $hh'$ is also in $H$ because $H$ is a subgroup and thus is closed.
+Last, we wish to prove transitivity.  This means that if $a \equiv b$ and $b \equiv c$, then $a \equiv c$, where $a,b,c \in G$.  Suppose $a \equiv b$.  This means $b=ah$ for some $h \in H$.  Now, suppose $b \equiv c$.  This means that $c=bh'$, where $h' \in H$.  Note, we have a prime on the second $h$ to distinguish it from the first.  We now, have that $c=(ah)h'$ by combining the two results.  By associativity of the law of composition we have $c=a(hh')$, which implies $a \equiv c$ since $hh'$ is also in $H$ because $H$ is a subgroup and thus is closed.\\
+
+We note that all left cosets of a subgroup $H$ of a group $G$ have the same order (i.e. same number of elements) and this results in something called the ``Counting Formula"\index{Counting Formula} which is:\\
+
+\begin{displaymath}
+|G| = |H| [G:H]
+\end{displaymath}
+
+where $|G|$ is the order of $G$, $|H|$ is the order of $H$ and $[G:H]$ is the number of cosets of $H$ in $G$.  Recall that the cosets partition $G$.
 
 \section{Rings}
 
