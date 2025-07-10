@@ -193,7 +193,7 @@ where $|G|$ is the order of $G$, $|H|$ is the order of $H$ and $[G:H]$ is the nu
 
 \textit{Solution}  The powers of an element form a cyclic subgroup $H$ of a given group $G$, and since we know $|G| = |H| [G:H]$, clearly $H$ divides $G$.  We note that when the term ``divides" in used in these contexts, integer division is meant.  In other words, each term $|G|$, $|H|$, and $[G:H]$ is a positive integer, so of course $|G| / |H|$ is an integer.\\
 
-We prove the first sentence here, namely the powers of an element of a finite group form a cyclic subgroup.  The order of an element $x$ is the smallest positive integer $n$ such that $x^{n}=1$.  We wish to show that $\{x, x^{2}, \ldots, x^{n} \}$ are distinct.  Suppose $x^{p}=x^{q}$ for $1 \le p,q \le n$, and $p \ne q$.
+We prove the first sentence here, namely the powers of an element of a finite group form a cyclic subgroup.  The order of an element $x$ is the smallest positive integer $n$ such that $x^{n}=1$.  We wish to show that $\{x, x^{2}, \ldots, x^{n} \}$ are distinct.  Suppose $x^{p}=x^{q}$ for $1 \le p,q \le n$, and $p \ne q$.  Clearly, this is a contradiction with the condition that $n$ is the smallest positive integer such that $x^{n}=1$, because suppose $p < q$, then we would have two distinct values for $n$, contradicting that there is a single smallest integer.  Thus $x^{p} \ne x^{q}$.  Alternatively, we can say that two powers $x^{r}=x^{s}$, if and only if $x^{r-s}=1$, with $r \ge s$.  This means that $r-s=n$ or some multiple of $n$. 
 
 \section{Rings}
 
