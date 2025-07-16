@@ -199,7 +199,17 @@ We will do a proof (from Artin) illustrating the normal subgroup.\\
 
 \textit{Exercise} Show the kernel of a homomorphism is a normal subgroup.\\
 
-\textit{Solution} We first recall that the kernel of a homomorphism is the set of elements of one group $G$ which map to the identity of a second group $G'$ via the homomorphism $\phi$.  We previously showed that the kernel of a homomorphism is a subgroup, so now we must show it is a \textit{normal} subgroup.  Let $g,g^{-1} \in G$ and $a \in K$, where $K$ is the kernel.  Now, if $\phi(gag^{-1})=1_{G'}$, then $K$ is a normal subgroup.  Since $\phi$ is a homomorphism, $\phi(gag^{-1})=\phi(g)\phi(a)\phi(g^{-1})=\phi(g)1_{G'}\phi(g^{-1})=\phi(g)\phi(g^{-1})=\phi(gg^{-1})=\phi(1)=1_{G'}$.  The last equality is due to the fact the kernel is a subgroup and thus contains the identity $1$ (of $G$) and therefore $\phi(1)=1_{G'}$.   
+\textit{Solution} We first recall that the kernel of a homomorphism is the set of elements of one group $G$ which map to the identity of a second group $G'$ via the homomorphism $\phi$.  We previously showed that the kernel of a homomorphism is a subgroup, so now we must show it is a \textit{normal} subgroup.  Let $g,g^{-1} \in G$ and $a \in K$, where $K$ is the kernel.  Now, if $\phi(gag^{-1})=1_{G'}$, then $K$ is a normal subgroup.  Since $\phi$ is a homomorphism, $\phi(gag^{-1})=\phi(g)\phi(a)\phi(g^{-1})=\phi(g)1_{G'}\phi(g^{-1})=\phi(g)\phi(g^{-1})=\phi(gg^{-1})=\phi(1)=1_{G'}$.  The last equality is due to the fact the kernel is a subgroup and thus contains the identity $1$ (of $G$) and therefore $\phi(1)=1_{G'}$. 
+
+We now describe the \textit{center} of a group $G$, following Artin.  The center, denoted by $Z$ in Artin, is the set of elements of $G$ that commute with every element of $G$:
+
+\begin{displaymath}
+Z=\{z \in G | zx = xz \forall x \in G \}
+\end{displaymath}
+
+We now define an important concept called an \textit{isomorphism}, following Artin.
+
+\textit{Definition} An \textit{isomorphism}\index{isomorphism} $\phi: G \rightarrow G'$, from a group $G$ to a group $G'$ is a bijective group homomorphism.  Bijective means a unique element in $G$ is mapped to a unique element in $G'$ and furthermore, every element in $G'$ is mapped from a corresponding element in $G.$ 
 
 \section{Rings}
 
