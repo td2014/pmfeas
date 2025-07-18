@@ -211,7 +211,13 @@ We now define an important concept called an \textit{isomorphism}, following Art
 
 \textit{Definition} An \textit{isomorphism}\index{isomorphism} $\phi: G \rightarrow G'$, from a group $G$ to a group $G'$ is a bijective group homomorphism.  Bijective means a unique element in $G$ is mapped to a unique element in $G'$ and furthermore, every element in $G'$ is mapped from a corresponding element in $G.$\\
  
-\textit{Exercise} Prove that if $\phi: G \rightarrow G'$ is an isomorphism, the inverse map $\phi^{-1}: G' \rightarrow G$ is also an isomorphism.  (Adapted from Artin).
+\textit{Exercise} Prove that if $\phi: G \rightarrow G'$ is an isomorphism, the inverse map $\phi^{-1}: G' \rightarrow G$ is also an isomorphism.  (Adapted from Artin).\\
+
+\textit{Solution}  We must show that the inverse map is both ``injective", meaning that a unique element in $G'$ is mapped to a unique element in $G$, and that every element in $G$ is mapped from a corresponding element in $G'$.\\
+
+We first prove that a homomorphism is injective if and only if its kernel is the trivial subgroup.  That is, $\phi: G \rightarrow G'$ is injective $\Longleftrightarrow$ the kernel $K = \{1 \}$.  Suppose $\phi$ is injective.  This means that a unique element of $G$ maps to a unique element of $G'$.  If the kernel exists, then it must contain at least the identity since it is a subgroup.
+
+
 
 \section{Rings}
 
