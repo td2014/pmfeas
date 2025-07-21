@@ -213,7 +213,15 @@ We now define an important concept called an \textit{isomorphism}, following Art
  
 \textit{Exercise} Prove that if $\phi: G \rightarrow G'$ is an isomorphism, the inverse map $\phi^{-1}: G' \rightarrow G$ is also an isomorphism.  (Adapted from Artin).\\
 
-\textit{Solution}  We must show that the inverse map is both ``injective", meaning that a unique element in $G'$ is mapped to a unique element in $G$, and that every element in $G$ is mapped from a corresponding element in $G'$, which is ``surjective."  The inverse of a homomorphism is also a homomorphism.  We can show this as follows.  Consider a homomorphism $\gamma: H \rightarrow H'$ and two elements $a,b \in H$.  We have $\gamma(ab)=\gamma(a)\gamma(b)$.  Now, apply the inverse mapping $\gamma^{-1}(\gamma(ab))=\gamma^{-1}(\gamma(a)\gamma(b))$.  This leads to $ab=\gamma^{-1}(\gamma(a)\gamma(b))$.  This is the same as $\gamma^{-1(}\gamma(a))\gamma^{-1}(\gamma(b))$.
+\textit{Solution}  We must prove the following:
+
+\begin{itemize}
+\item The inverse of a group homomorphism is also a homomorphism.
+\item The inverse of a group homomorphism is injective.
+\item The inverse of a group homomorphism is surjective.
+\end{itemize}
+
+We must show that the inverse map is both ``injective", meaning that a unique element in $G'$ is mapped to a unique element in $G$, and that every element in $G$ is mapped from a corresponding element in $G'$, which is ``surjective."  The inverse of a homomorphism is also a homomorphism.  We can show this as follows.  Consider a homomorphism $\gamma: H \rightarrow H'$ and two elements $a,b \in H$.  We have $\gamma(ab)=\gamma(a)\gamma(b)$.  Now, apply the inverse mapping $\gamma^{-1}(\gamma(ab))=\gamma^{-1}(\gamma(a)\gamma(b))$.  This leads to $ab=\gamma^{-1}(\gamma(a)\gamma(b))$.  This is the same as $\gamma^{-1(}\gamma(a))\gamma^{-1}(\gamma(b))$.
 
 We first prove that a homomorphism is injective if and only if its kernel is the trivial subgroup (Corollary 2.5.9 in Artin).  That is, $\phi: G \rightarrow G'$ is injective $\Longleftrightarrow$ the kernel $K = \{1 \}$.  Suppose $\phi$ is injective.  This means that a unique element of $G$ maps to a unique element of $G'$.  If the kernel exists, then it must contain at least the identity since it is a subgroup.  We know that the identity is unique, therefore since $\phi$ is injective, it must map the identity of $G$ to the identity of $G'$ and the identity of $G$ is the only element in the kernel, and in fact is the trivial subgroup of $\{1\}$ of $G$ by definition.  Now suppose that the kernel $K$ is the trivial subgroup of $G$.  Let $a,b \in G$ be two distinct elements.  Now, suppose $\phi(a)=\phi(b)$.  This means that $[\phi(a)]^{-1}\phi(a)=1_{G'}=[\phi(a)]^{-1}\phi(b)$.\\
 
