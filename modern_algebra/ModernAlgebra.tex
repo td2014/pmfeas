@@ -221,7 +221,9 @@ We now define an important concept called an \textit{isomorphism}, following Art
 \item The inverse map, $\phi^{-1}$, is surjective.
 \end{itemize}
 
-However, first we must be clear on what is meant by ``inverse map."  To begin with, let us emphasize what is meant by a ``map."  Following \textit{Schaum's Outline of Theory and Problems of Abstract Algebra} by Ayres and Jaisingh, we can consider a mapping to be a subset of the product set $G \times G'$.  Considering individual elements of this product set as ordered pairs, we may write $G \times G' = \{ (g_{1}, g'_{1}), (g_{2}, g'_{1}), \ldots, (g_{m}, g'_{n}) \}$, where $g_{i} \in G$ and $g'_{i} \in G'$, where $m$ is the order of $G$ and $n$ is the order of $G'$.\\
+However, first we must be clear on what is meant by ``inverse map."  To begin with, let us emphasize what is meant by a ``map."  Following \textit{Schaum's Outline of Theory and Problems of Abstract Algebra} by Ayres and Jaisingh, we can consider a mapping to be a subset of the product set $G \times G'$.  Considering individual elements of this product set as ordered pairs, we may write $G \times G' = \{ (g_{1}, g'_{1}), (g_{2}, g'_{1}), \ldots, (g_{m}, g'_{n}) \}$, where $g_{i} \in G$ and $g'_{i} \in G'$, where $m$ is the order of $G$ and $n$ is the order of $G'$ (We are considering finite groups in this illustration).\\  
+
+Now, to qualify as a ``map," the subset must be such that for each unique element of $G$ that appears in the first position of the ordered pair, only one element of $G'$ can be associated with that element of $G$.  For example, $\{(g_{1}, g'_{2}), (g_{2}, g'_{2}) \}$ is allowed, but $\{(g_{1}, g'_{2}), (g_{1}, g'_{3}) \}$ is not allowed. \\
   
 
 \textit{Proof that the inverse map, $\phi^{-1}$, is a group homomorphism:}
