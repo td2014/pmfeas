@@ -216,12 +216,12 @@ We now define an important concept called an \textit{isomorphism}, following Art
 \textit{Solution}  Since $\phi$ is an isomorphism, by definition it is a bijective (i.e. both injective and surjective) group homomorphism.  To complete the proof, we must show that 
 
 \begin{itemize}
-\item The inverse map, $\phi^{-1}$, is a group homomorphism.
 \item The inverse map, $\phi^{-1}$, is injective.
 \item The inverse map, $\phi^{-1}$, is surjective.
+\item The inverse map, $\phi^{-1}$, is a group homomorphism.
 \end{itemize}
 
-However, first we must be clear on what is meant by ``inverse map."  To begin with, let us emphasize what is meant by a ``map."  Following \textit{Schaum's Outline of Theory and Problems of Abstract Algebra} by Ayres and Jaisingh, we can consider a mapping to be a subset of the product set $G \times G'$.  Considering individual elements of this product set as ordered pairs, we may write $G \times G' = \{ (g_{1}, g'_{1}), (g_{2}, g'_{1}), \ldots, (g_{m}, g'_{n}) \}$, where $g_{i} \in G$ and $g'_{i} \in G'$, where $m$ is the order of $G$ and $n$ is the order of $G'$ (We are considering finite groups in this illustration).\\  
+However, first we must be clear on what is meant by ``inverse map."  To begin with, let us emphasize what is meant by a ``map."  Following \textit{Schaum's Outline of Theory and Problems of Abstract Algebra} by Ayres and Jaisingh, we can consider a map to be a subset of the product set $G \times G'$.  Considering individual elements of this product set as ordered pairs, we may write $G \times G' = \{ (g_{1}, g'_{1}), (g_{2}, g'_{1}), \ldots, (g_{m}, g'_{n}) \}$, where $g_{i} \in G$ and $g'_{j} \in G'$, $m$ is the order of $G$, and $n$ is the order of $G'$ (we are considering finite groups in this illustration).\\
 
 Now, to qualify as a ``map," the subset must be such that for each unique element of $G$ that appears in the first position of the ordered pair, only one element of $G'$ can be associated with that element of $G$.  For example, $\{(g_{1}, g'_{2}), (g_{2}, g'_{2}) \}$ is allowed, but $\{(g_{1}, g'_{2}), (g_{1}, g'_{3}) \}$ is not allowed.\\  
 
@@ -237,11 +237,7 @@ Now suppose the converse.  That is, suppose $\alpha$ has a unique inverse, then 
 
 Now suppose that the mapping $\alpha$ is not onto.  That means that there is some element in $T$ that is not an image of some element in $S$.  However, since we are assuming that $\alpha$ has a unique inverse, each element of $T$ must map to an element of $S$.  Call the inverse $\beta$, and let $t \in T$.  Then we have $a = \beta(t)$, where $a \in S$.  Applying the forward map to both sides yields $\alpha(a)= \alpha \beta(t)=t$, thereby showing that $t$ is the image of $\alpha(a)$, and thus showing that $\alpha$ is onto.\\
 
-%\textit{Proof that the inverse map, $\phi^{-1}$, is a group homomorphism:}\\
-
-%We can show this as follows.  Consider a homomorphism $\gamma: H \rightarrow H'$ and two elements $a,b \in H$.  We have $\gamma(ab)=\gamma(a)\gamma(b)$.  Now, apply the inverse mapping $\gamma^{-1}(\gamma(ab))=\gamma^{-1}(\gamma(a)\gamma(b))$.  This leads to $ab=\gamma^{-1}(\gamma(a)\gamma(b))$.  Now, $a$ must be the inverse mapping of some element in $G'$, call it $a_{G'}$, and likewise $b$ is the inverse mapping of $b_{G'}$.\\ 
-
-\textit{Proof that the inverse map, $\phi^{-1}$, is injective:}
+\textit{Proof that the inverse map, $\phi^{-1}$, is injective:}\\
 
 We first prove that a homomorphism is injective if and only if its kernel is the trivial subgroup (Corollary 2.5.9 in Artin).  That is, $\phi: G \rightarrow G'$ is injective $\Longleftrightarrow$ the kernel $K = \{1 \}$.  Suppose $\phi$ is injective.  This means that a unique element of $G$ maps to a unique element of $G'$.  If the kernel exists, then it must contain at least the identity since it is a subgroup.  We know that the identity is unique, therefore since $\phi$ is injective, it must map the identity of $G$ to the identity of $G'$ and the identity of $G$ is the only element in the kernel, and in fact is the trivial subgroup of $\{1\}$ of $G$ by definition.  Now suppose that the kernel $K$ is the trivial subgroup of $G$.  Let $a,b \in G$ be two distinct elements.  Now, suppose $\phi(a)=\phi(b)$.  This means that $[\phi(a)]^{-1}\phi(a)=1_{G'}=[\phi(a)]^{-1}\phi(b)$.\\
 
@@ -251,8 +247,11 @@ We note that $\phi(1)=\phi(a a^{-1})=\phi(a)\phi(a^{-1})=1_{G}$.  This means tha
 
 We have to show that every element of $S$ is the image of some element of $T$.  Since we are assuming that we have an inverse map, call it $\phi^{-1}$, we can apply $\phi(a)$ to some arbitrary element $a \in S$, yielding $t=\phi(a)$.  Then applying the inverse map to both sides, we obtain $a = \phi^{-1}(t)$, showing that a general element $a$ is the image of $\phi^{-1}(t)$.
 
+\textit{Proof that the inverse map, $\phi^{-1}$, is a group homomorphism:}\\
 
 \section{Rings}
+
+
 
 \section{Fields}
 
