@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  21 AUG 2025 13:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  22 AUG 2025 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1958,12 +1958,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
-
+[59]
 Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
-[59]
+
 Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
@@ -1988,7 +1988,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
-
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
@@ -1998,7 +1998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-[60]
+
 Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
@@ -2096,7 +2096,7 @@ Here is how much of TeX's memory you used:
  28853 multiletter control sequences out of 15000+600000
  524589 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,76p,1133b,513s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,76p,1429b,513s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -2117,8 +2117,8 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/
 23/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (74 pages, 42535
-2 bytes).
+Output written on PureMathematicsForEngineersAndScientists.pdf (74 pages, 42585
+0 bytes).
 PDF statistics:
  605 PDF objects out of 1000 (max. 8388607)
  484 compressed objects within 5 object streams
