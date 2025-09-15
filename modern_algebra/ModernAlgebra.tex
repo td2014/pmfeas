@@ -301,7 +301,15 @@ Further discussed in Artin, there is a special ring with just one element $0$, c
 \textit{Solution}:  %First consider $1 \times 0 = 0 \times 1=0$, since we are given that $R$ is a ring, we know multiplication is commutative.
 Proceeding using proof by contradiction.  Suppose our ring has (equal) elements $1,0$ and at least one other general element, $a$, that is different from $1$ or $0$.  We must show that trying to satisfy the axioms is not possible unless $a$ is $0$ or $1$.  In order to proceed, we need to clarify what is meant by $1=0$ in this context.  This means that there is one and only one element of the ring, $R$, that serves as both the identity for the abelian group $R^{+}$, with law of composition $+$, and the identity for the ring $R$ with the law of composition $\times$.\\  %For convenience, let us refer to this element as $e$ to detach from any arithmetic meaning (i.e. the usual addition or multiplication of integers). \\
 
-Consider the distributive law axiom for rings, with the above definitions:  $(a+1)1=a1+1\cdot1=a+1$.  On the other hand, we have $(a+0)0=a0 +0 \cdot 0=0+0=0$.  Since are given that $1=0$, the results of these two expression must be equal, namely $a+1=0$.  Again, since $1=0$, we must have $a=0$.  Therefore, since the contradicts our assumption that $a$ is different from zero, $a=0$.
+Consider the distributive law axiom for rings, with the above definitions:  $(a+1)1=a1+1\cdot1=a+1$.  On the other hand, we have $(a+0)0=a0 +0 \cdot 0=0+0=0$.  Since are given that $1=0$, the results of these two expression must be equal, namely $a+1=0$.  Again, since $1=0$, we must have $a=0$.  Therefore, since the contradicts our assumption that $a$ is different from zero, $a=0$.\\
+
+Following Artin, let us introduce the idea of a \textit{polynomial ring}\index{polynomial ring}, which is a polynomial with coefficients $a_{i}$ from a ring $R$:\\
+
+\begin{displaymath}
+f(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+\cdots+a_{1}x + a_{0}
+\end{displaymath}
+
+In typical engineering and science applications, one doesn't restrict coefficients to elements of rings, so this is an interesting departure.
 
 \section{Fields}
 
