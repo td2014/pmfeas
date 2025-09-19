@@ -317,7 +317,15 @@ In typical engineering and science applications, one doesn't restrict coefficien
 g(x)=f(x)q(x)+r(x)
 \end{displaymath}
 
-and such that the remainder $r$, if it is not zero, has degree less than the degree of $f$.
+and such that the remainder $r$, if it is not zero, has degree less than the degree of $f$.  Artin hints that the proof follows the algorithm for division of polynomials that ``one learns in school."\\
+
+\textit{Solution}:  Firstly, a monic polynomial is one whose leading coefficent, i.e. the term with the highest power of $x$, is $1$.  Let us consider the arbitrary polynomial $g(x)=b_{m}x^{m}+b_{m-1}x^{m-1}+ \cdots + b_{1} x + b_{0}$.  We know the form of $f$ to be $f(x)=x^{n}+a_{n-1}x^{n-1}+\cdots+a_{1}x+a_{0}$.\\
+
+We can then obtain $q(x)$ and $r(x)$ by polynomial division, since we know that $f$ is monic and thus has at least one nonzero coefficient, namely the leading coefficient.  So we have:
+
+\begin{displaymath}
+\frac{g(x)}{f(x)}=\frac{b_{m}x^{m}+b_{m-1}x^{m-1}+ \cdots + b_{1} x + b_{0}}{x^{n}+a_{n-1}x^{n-1}+\cdots+a_{1}x+a_{0}}
+\end{displaymath}  
 
 
 %Let us continue our exploration of rings and discuss \textit{ring homomorphisms}\index{ring homomorphisms} and \textit{ideals}\index{ideals}.\\%
