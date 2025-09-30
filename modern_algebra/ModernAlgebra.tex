@@ -346,10 +346,18 @@ b_{m}x^{m}+b_{m-1}x^{m-1}+ \cdots + b_{1} x + b_{0} = \\
 Firstly, let us concentrate on expanding the multiplicative term $f(x)q(x)$:
 
 \begin{multline}
-f(x)q(x)=c_{s}x^{n+s}+c_{s-1}x^{n+s-1}+\cdots+c_{1}x^{n+1}+c_{0}x^{n} + \\
-a_{n-1}c_{s}x^{n+s-1} + \cdots + a_{n-1}c_{1}x^{n}+a_{n-1}c_{0}x^{n-1} + \\
-a_{n-2}c_{s}x^{n+s-2} + \cdots + a_{n-2}c_{1}x^{n-1}+a_{n-2}c_{0}x^{n-2} + \cdots 
+f(x)q(x)= \\ 
+c_{s}x^{n+s}+c_{s-1}x^{n+s-1}+c_{s-2}x^{n+s-2}+\cdots+c_{1}x^{n+1}+c_{0}x^{n} + \\
+a_{n-1}c_{s}x^{n+s-1} + a_{n-1}c_{s-1}x^{n+s-2} + \cdots + a_{n-1}c_{1}x^{n}+a_{n-1}c_{0}x^{n-1} + \\
+a_{n-2}c_{s}x^{n+s-2} + a_{n-2}c_{s-1}x^{n+s-3} + \cdots + a_{n-2}c_{1}x^{n-1}+a_{n-2}c_{0}x^{n-2} + \cdots 
 \end{multline}
+
+Now collecting terms we obtain:
+
+\begin{multline}
+c_{s}x^{n+s}+( ) x^{n+s-1} + ( ) x^{n+s-2} +  ( ) x^{n+s-3} + \cdots
+\end{multline}
+
 
 %Let us continue our exploration of rings and discuss \textit{ring homomorphisms}\index{ring homomorphisms} and \textit{ideals}\index{ideals}.\\%
 
