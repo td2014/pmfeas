@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  2 OCT 2025 11:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  3 OCT 2025 11:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2139,16 +2139,6 @@ m/it/10 a[]\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10 c[]x[] \OT1/cmr/m/n/10 + \OML/cmm
 r/m/n/10 + \OML/cmm/m/it/10 d[]$ []  
  []
 
-
-Overfull \hbox (51.01974pt too wide) detected at line 359
- []$[]  \OML/cmm/m/it/10 c[]x[] \OT1/cmr/m/n/10 + (\OML/cmm/m/it/10 c[] \OT1/cm
-r/m/n/10 + \OML/cmm/m/it/10 a[]c[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 x[] \OT1/cm
-r/m/n/10 + (\OML/cmm/m/it/10 c[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 a[]c[] \OT1
-/cmr/m/n/10 + \OML/cmm/m/it/10 a[]c[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 x[] \OT1
-/cmr/m/n/10 + ()\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + [] + \OML/cmm/m/it/10 a[
-]c[]$ []  
- []
-
 ) [64] [65]
 \openout2 = `./real_analysis/RealAnalysis.aux'.
 
@@ -2258,7 +2248,7 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/
 23/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (78 pages, 43909
+Output written on PureMathematicsForEngineersAndScientists.pdf (78 pages, 43932
 1 bytes).
 PDF statistics:
  625 PDF objects out of 1000 (max. 8388607)
