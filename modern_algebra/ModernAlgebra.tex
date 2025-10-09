@@ -365,12 +365,19 @@ Case 1,  $m=n$:\\
 If we choose $s=0$, this provides terms on the right-hand side of the following form:
 
 \begin{multline}
-c_{0}x^{n}+ (a_{n-1}c_{0} ) x^{n-1} + \\ (a_{n-2}c_{0} ) x^{n-2} +\\ (a_{n-3}c_{0} ) x^{n-3} + \cdots + a_{0}c_{0}
+c_{0}x^{m}+ (a_{m-1}c_{0} ) x^{m-1} + \\ (a_{m-2}c_{0} ) x^{m-2} +\\ (a_{m-3}c_{0} ) x^{m-3} + \cdots + a_{0}c_{0}
 \end{multline}
 
 We note that $c_{s}$ for $s < 0$ is zero.  If we set $c_{0}=1$, we can satisfy the equation term-by-term, by using $r(x)=d_{t}x^{t}+d_{t-1}x^{t-1}+ \cdots + d_{1}x+d_{0}$, fixing $t=m$.  Then, we have terms of the general form $b_{m}=a_{m}+d_{m}$, where clearly $d_{m}$ is uniquely defined for each $m$.\\
 
 Case 2,  $m > n$:\\
+
+In this case, we choose $s=m-n$ and again fix $t=m$.  This results in terms of the following general form:
+
+\begin{multline}
+c_{m-n}x^{m}+ (c_{m-n-1}+a_{m-1}c_{m-n} ) x^{m-1} + \\ (c_{m-n-2}+a_{m-1}c_{m-n-1}+a_{m-2}c_{m-n} ) x^{m-2} +\\ (c_{m-n-3}+a_{m-1}c_{m-n-2}+a_{m-2}c_{m-n-1}+ a_{m-3}c_{m-n} ) x^{m-3} + \cdots + a_{0}c_{m-n}
+\end{multline}
+
 
 Case 3,  $m < n$: \\
 
