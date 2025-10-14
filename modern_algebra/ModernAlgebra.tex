@@ -378,11 +378,15 @@ In this case, we choose $s=m-n$ and again fix $t=m$.  This results in terms of t
 c_{m-n}x^{m}+ (c_{m-n-1}+a_{m-1}c_{m-n} ) x^{m-1} + \\ (c_{m-n-2}+a_{m-1}c_{m-n-1}+a_{m-2}c_{m-n} ) x^{m-2} +\\ (c_{m-n-3}+a_{m-1}c_{m-n-2}+a_{m-2}c_{m-n-1}+ a_{m-3}c_{m-n} ) x^{m-3} + \cdots + a_{0}c_{m-n}
 \end{multline}
 
-We see that there are $m+1$ equations, however we have to be cautious in accounting for the number of unknowns.  In particular, considering the $c_{i}$, there are $m-n+1$ unknowns.  Taking the difference, we have $m+1-m+n-1=n$ variables that must be provided by the $r(x)$ term.
+We see that there are $m+1$ equations, however we have to be cautious in accounting for the number of unknowns.  In particular, considering the $c_{i}$, there are $m-n+1$ unknowns.  Taking the difference, we have $m+1-m+n-1=n$ variables that must be provided by the $r(x)$ term.  If we again set $c_{m-n}=1$, we will have a typical term like:\\
+
+
+\begin{displaymath}
+b_{k}=c_{k-n}+a_{k+1}c_{k-n+1}+a_{k}
+\end{displaymath}
 
 
 Case 3,  $m < n$: \\
-
 
 %Let us continue our exploration of rings and discuss \textit{ring homomorphisms}\index{ring homomorphisms} and \textit{ideals}\index{ideals}.\\%
 
