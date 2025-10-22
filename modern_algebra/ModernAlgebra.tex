@@ -395,7 +395,17 @@ One can see that for any choice of coefficients, $c_{i}$, there will be an indep
 
 Case 3,  $m < n$: \\
 
-Let us consider this case following a similar approach to the above.  We are restricting ourselves to non-negative integer powers, so we need to properly account for this to keep the equation valid.
+Let us consider this case following a similar approach to the above.  We are restricting ourselves to non-negative integer powers, so we need to properly account for this to keep the equation valid.\\
+
+Considering our general product term again, we have
+
+\begin{multline}
+c_{s}x^{n+s}+ (c_{s-1}+a_{n-1}c_{s} ) x^{n+s-1} + \\ (c_{s-2}+a_{n-1}c_{s-1}+a_{n-2}c_{s} ) x^{n+s-2} +\\ (c_{s-3}+a_{n-1}c_{s-2}+a_{n-2}c_{s-1}+ a_{n-3}c_{s} ) x^{n+s-3} + \cdots + a_{0}c_{0}
+\end{multline}
+
+We can set $s=0$, the minimum non-negative value, and then arrange things such that all the coefficients of powers of $x$ where $n > m$, are set to zero.\\
+
+
 
 %Let us continue our exploration of rings and discuss \textit{ring homomorphisms}\index{ring homomorphisms} and \textit{ideals}\index{ideals}.\\%
 
