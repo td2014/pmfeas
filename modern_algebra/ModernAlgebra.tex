@@ -404,12 +404,17 @@ c_{s}x^{n+s}+ (c_{s-1}+a_{n-1}c_{s} ) x^{n+s-1} + \\ (c_{s-2}+a_{n-1}c_{s-1}+a_{
 
 We can set $s=0$, the minimum non-negative value, and then arrange things such that all the coefficients of powers of $x$ where $n > m$, are set to zero.\\
 
-Let us consider a typical example, such as the coefficients for $x^{m-3}$, yielding: 
+We first set $s=0$, yielding:
 
-\begin{displaymath}
-b_{m-3}=c_{m-n-3}+a_{n-1}c_{m-n-2}+a_{n-2}c_{m-n-1}+ a_{n-3} 
-\end{displaymath}
+\begin{multline}
+c_{0}x^{n}+ a_{n-1}c_{0}  x^{n-1} + \\ a_{n-2}c_{0}  x^{n-2} +\\ a_{n-3}c_{0} x^{n-3} + \cdots + a_{0}c_{0}
+\end{multline}
 
+Recalling that negative indices of $c_{s}$ are set to zero, we have removed them.  Once again, setting $c_{0}$ to $1$, we obtain:
+
+\begin{multline}
+x^{n}+ a_{n-1}  x^{n-1} + \\ a_{n-2} x^{n-2} +\\ a_{n-3} x^{n-3} + \cdots + a_{0}
+\end{multline}
 
 
 %Let us continue our exploration of rings and discuss \textit{ring homomorphisms}\index{ring homomorphisms} and \textit{ideals}\index{ideals}.\\%
