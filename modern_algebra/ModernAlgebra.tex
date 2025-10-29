@@ -432,9 +432,11 @@ In particular, if $b_{j}$ is some coefficient of $g(x)$, then $d_{j}=b_{j}-a_{j}
 
 For completeness, it is useful to consider what the polynomial division algorithm looks like in practice.  That is, suppose we are given $g(x)$ and $f(x)$, how to determine $q(x)$ and $r(x)$, now that we see they exist and can be determined uniquely.\\
 
-The $m=n$ case is reasonably straightforward.  We consider consider $m>n$ and $m<n$ cases instead.\\
+The $m=n$ case is reasonably straightforward.  We consider the $m>n$ and $m<n$ cases instead.\\
 
-Suppose $m>n$.  From our analysis, we see that the coefficient $c_{m-n}$ of $q(x)$ is simply the coefficient of the $x_{m}$ term in $g(x)$.  We may proceed down the powers of $x^{i}$ in this manner, since at each step we introduce a single new variable.  When the index $m-n-i$ is negative, we consider the $c$ coefficients to be zero, and begin utilizing the coefficients from the $r(x)$ term to match the coefficients from the $g(x)$ terms.  The algorithm terminates at the constant term, when $m-i=0$.  
+Suppose $m>n$.  From our analysis, we see that the coefficient $c_{m-n}$ of $q(x)$ is simply the coefficient of the $x_{m}$ term in $g(x)$.  We may proceed down the powers of $x^{i}$ in this manner, since at each step we introduce a single new variable.  When the index $m-n-i$ is negative, we consider the $c$ coefficients to be zero, and begin utilizing the coefficients from the $r(x)$ term to match the coefficients from the $g(x)$ terms.  The algorithm terminates at the constant term, when $m-i=0$.\\  
+
+Likewise, we now suppose $m<n$.  Here we set $q(x)=1$ and use $r(x)$ to satisfy the equation $g(x)=f(x)g(x)+r(x)$.  This is done term by term, where as mentioned above, $d_{j}=b_{j}-a_{j}$ in general.\\
 
 %Let us continue our exploration of rings and discuss \textit{ring homomorphisms}\index{ring homomorphisms} and \textit{ideals}\index{ideals}.\\%
 
