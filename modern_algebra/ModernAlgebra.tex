@@ -368,7 +368,7 @@ If we choose $s=0$, this provides terms on the right-hand side of the following 
 c_{0}x^{m}+ (a_{m-1}c_{0} ) x^{m-1} + \\ (a_{m-2}c_{0} ) x^{m-2} +\\ (a_{m-3}c_{0} ) x^{m-3} + \cdots + a_{0}c_{0}
 \end{multline}
 
-We note that $c_{s}$ for $s < 0$ is zero.  If we set $c_{0}=1$, we can satisfy the equation term-by-term, by using $r(x)=d_{t}x^{t}+d_{t-1}x^{t-1}+ \cdots + d_{1}x+d_{0}$, fixing $t=m$.  Then, we have terms of the general form $b_{m}=a_{m}+d_{m}$, where clearly $d_{m}$ is uniquely defined for each $m$.\\
+We note that $c_{s}$ for $s < 0$ is zero.  If we set $c_{0}=1$, we can satisfy the equation term-by-term, by using $r(x)=d_{t}x^{t} + d_{t-1}x^{t-1} + \cdots + d_{1}x+d_{0}$, fixing $t=m$.  Then, we have terms of the general form $b_{i}=a_{i}+d_{i}$, where clearly $d_{m}$ is uniquely defined for each $m$.  However, in order to satisfy the proof statement, we must have $t < n$, so that requires $c_{0}=b_{m}$ and consequently a modification of the equation given earlier to now become $b_{i}=c_{0}a_{i} + d_{i}=b_{m}a_{i} + d_{i}$ for the $i'th$ order term.\\
 
 Case 2,  $m > n$:\\
 
@@ -390,7 +390,7 @@ We then add in the $r(x)$ term:\\
 b_{m-3}=c_{m-n-3}+a_{n-1}c_{m-n-2}+a_{n-2}c_{m-n-1}+ a_{n-3} + d_{m-3}
 \end{displaymath}
 
-One can see that for any choice of coefficients, $c_{i}$, there will be an independent degree of freedom, $d_{j}$ such that the above equation is satisfied.\\
+One can see that for any choice of coefficients, $c_{i}$, there will be an independent degree of freedom, $d_{j}$ such that the above equation is satisfied.  However, again to satisfy the proof statement, $t < n$.  As we can see in the above equation $d_{m-3}$ is superfluous, so we are free to set it to zero.  We don't require any contribution until the $c$ coefficients are zero.  This occurs when the index of $c_{i}$ is negative, i.e. $i < 0$.  Since there are $n$ variables being provided by the $r(x)$ term, this means that the order of $r(x)$ must be $n-1$ which is less than $n$, since the first index of $r(x)$ is zero.  In other words, $d_{0}$ is the lowest order term in $r(x)$. \\
  
 Case 3,  $m < n$: \\
 

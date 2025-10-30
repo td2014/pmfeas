@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  29 OCT 2025 11:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  30 OCT 2025 11:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2169,12 +2169,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 393--394
 
  []
 
-
+[65]
 Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
  []
 
-[65]
+
 Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
@@ -2184,7 +2184,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
 
-
+[66]
 Underfull \hbox (badness 10000) in paragraph at lines 431--432
 
  []
@@ -2194,7 +2194,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 433--434
 
  []
 
-[66]
+
 Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
  []
@@ -2209,17 +2209,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
-) [67]
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+[68]
 \openout2 = `./real_analysis/RealAnalysis.aux'.
 
- (./real_analysis/RealAnalysis.tex [68
+ (./real_analysis/RealAnalysis.tex
+Chapter 4.
+) [69
 
 
 
 
 ]
-Chapter 4.
-) [69]
 \openout2 = `./complex_analysis/ComplexAnalysis.aux'.
 
  (./complex_analysis/ComplexAnalysis.tex [70
@@ -2318,8 +2322,8 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/
 23/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (80 pages, 44602
-7 bytes).
+Output written on PureMathematicsForEngineersAndScientists.pdf (80 pages, 44698
+2 bytes).
 PDF statistics:
  643 PDF objects out of 1000 (max. 8388607)
  515 compressed objects within 6 object streams
