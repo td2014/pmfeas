@@ -472,7 +472,15 @@ We make the further following definitions for the sum and product of congruence 
 
 \textit{Definition} The sum of the congruence classes of two integers, $\overline {a}$ and $\overline{b}$ is given by $\overline{a}+\overline{b}=\overline{a+b}$, and the product is given by $\overline{a}\overline{b}=\overline{ab}$.  It should be reminded that the over line indicates the set representing the congruence class.\\
 
-We state without proof that the associative, commutative, and distributive laws hold for addition and multiplication of congruence classes, per Artin.  Further, we denote the set of congruence classes modulo $n$, as $\mathbb{Z}/\mathbb{Z}n$.  For example, the set of congruence classes for $n=3$, would be given by $\mathbb{Z}/\mathbb{Z}3=\{\overline{0}, \overline{1}, \overline{2} \}$, where each of the elements are themselves sets.  It's worth verifying this example quotient group is a subgroup of $\mathbb{Z}$, by checking the subgroup properties are satisfied.  We briefly do this now.
+We state without proof that the associative, commutative, and distributive laws hold for addition and multiplication of congruence classes, per Artin.  Further, we denote the set of congruence classes modulo $n$, as $\mathbb{Z}/\mathbb{Z}n$.  For example, the set of congruence classes for $n=3$, would be given by $\mathbb{Z}/\mathbb{Z}3=\{\overline{0}, \overline{1}, \overline{2} \}$, where each of the elements are themselves sets.  It's worth verifying this example quotient group is a subgroup of $\mathbb{Z}$, by checking the subgroup properties are satisfied.  We briefly do this now.\\
+
+We consider the group law of composition to be addition. Thus, for the integers, this group is denoted as $\mathbb{Z}^{+}$, but we retain the original notation, but keeping the additional law in mind.  Certainly $\mathbb{Z}/\mathbb{Z}3$ is a subset of $\mathbb{Z}$.\\
+
+We first verify the identity is in the subgroup.  Clearly, the element $\overline{0}$ satisfies the requirements for the identity:  $\overline{0}+\overline{a}=\overline{0+a}=\overline{a}=\overline{a+0}=\overline{a}+\overline{0}$, where $\overline{a}$ is any element of $\mathbb{Z}/\mathbb{Z}3$, and we used the definition of sum of congruence classes given above, and the the fact the $\mathbb{Z}$ is an abelian group.\\
+
+We next verify closure.  We only need to check the elements $\overline{1}$ and $\overline{2}$, since we already established $\overline{0}$ is the identity, and any sum involving it will definitely be closed.  $\overline{1}+\overline{1}=\overline{2}$ which is closed.  $\overline{1}+\overline{2}=\overline{3}=\overline{0}$ since we are in modulo $3$, thus this is closed.  $\overline{2}+\overline{1}$ yields the same conclusion.  Finally $\overline{2}+\overline{2}=\overline{2+2}=\overline{4}=\overline{1}$ since we in modulo $3$ as stated earlier.  Thus closure is verified.\\
+
+We finally consider inverses.  $\overline{0}+\overline{0}=\overline{0+0}=\overline{0}$, thus $\overline{0}$ is its own inverse.  $\overline{1}+\overline{2}=\overline{3}=\overline{0}$, so $\overline{1}$ is the inverse of $\overline{2}$.  Thus, inverses are also in the set.  So, we have verified that $\mathbb{Z}/\mathbb{Z}3$ is a subgroup of $\mathbb{Z}$ (actually $\mathbb{Z}^{+}$ to be precise).
 
 \section{Fields}
 
