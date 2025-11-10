@@ -480,7 +480,22 @@ We first verify the identity is in the subgroup.  Clearly, the element $\overlin
 
 We next verify closure.  We only need to check the elements $\overline{1}$ and $\overline{2}$, since we already established $\overline{0}$ is the identity, and any sum involving it will definitely be closed.  $\overline{1}+\overline{1}=\overline{2}$ which is closed.  $\overline{1}+\overline{2}=\overline{3}=\overline{0}$ since we are in modulo $3$, thus this is closed.  $\overline{2}+\overline{1}$ yields the same conclusion.  Finally $\overline{2}+\overline{2}=\overline{2+2}=\overline{4}=\overline{1}$ since we in modulo $3$ as stated earlier.  Thus closure is verified.\\
 
-We finally consider inverses.  $\overline{0}+\overline{0}=\overline{0+0}=\overline{0}$, thus $\overline{0}$ is its own inverse.  $\overline{1}+\overline{2}=\overline{3}=\overline{0}$, so $\overline{1}$ is the inverse of $\overline{2}$.  Thus, inverses are also in the set.  So, we have verified that $\mathbb{Z}/\mathbb{Z}3$ is a subgroup of $\mathbb{Z}$ (actually $\mathbb{Z}^{+}$ to be precise).
+We finally consider inverses.  $\overline{0}+\overline{0}=\overline{0+0}=\overline{0}$, thus $\overline{0}$ is its own inverse.  $\overline{1}+\overline{2}=\overline{3}=\overline{0}$, so $\overline{1}$ is the inverse of $\overline{2}$.  Thus, inverses are also in the set.  So, we have verified that $\mathbb{Z}/\mathbb{Z}3$ is a subgroup of $\mathbb{Z}$ (actually $\mathbb{Z}^{+}$ to be precise).\\
+
+We now return to the set of congruence classes $\mathbb{F}_{p}$ mentioned earlier.  This is defined as 
+
+\begin{displaymath}
+\mathbb{F}_{p}=\left\{\overline{0}, \overline{1}, \ldots, \overline{p-1} \right\}=\mathbb{Z}/\mathbb{Z}p
+\end{displaymath}
+
+where $p$ is a prime integer.  This set of congruence classes is actually a /textit{field}, called a /textit{prime field}.  The concept of fields will be discussed in a later section.  Briefly, fields are similar to rings except they are also closed under multiplicative inverses for non-zero elements.\\
+
+With this background we look to show that $\phi: \mathbb{Z} \longrightarrow \mathbb{F}_{p}$ is a ring homomorphism.\\
+
+Firstly, we check that $\phi(1_{R})=1_{R'}$ where $R=\mathbb{Z}$ and $R'=\mathbb{F}_{p}$.  If we map $1$ to the congruence class $\overline{1}$ and we recall from the definition $\overline{a}=\left\{\ldots, a-n, a, a+n, a+2n, \ldots \right\}$ or $\overline{1}=\left\{\ldots, 1-n, 1, 1+n, 1+2n, \ldots \right\}$ where $n$ is some fixed positive integer, we see that $\phi(1_{R})=1_{R'}$, where $1_{R}=1$ and $1_{R'}=\overline{1}$.\\
+
+
+
 
 \section{Fields}
 
