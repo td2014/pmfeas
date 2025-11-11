@@ -488,13 +488,15 @@ We now return to the set of congruence classes $\mathbb{F}_{p}$ mentioned earlie
 \mathbb{F}_{p}=\left\{\overline{0}, \overline{1}, \ldots, \overline{p-1} \right\}=\mathbb{Z}/\mathbb{Z}p
 \end{displaymath}
 
-where $p$ is a prime integer.  This set of congruence classes is actually a /textit{field}, called a /textit{prime field}.  The concept of fields will be discussed in a later section.  Briefly, fields are similar to rings except they are also closed under multiplicative inverses for non-zero elements.\\
+where $p$ is a prime integer.  This set of congruence classes is actually a \textit{field}, called a \textit{prime field}.\index{prime field}  The concept of fields will be discussed in a later section.  Briefly, fields are similar to rings except they are also closed under multiplicative inverses for non-zero elements.\\
 
 With this background we look to show that $\phi: \mathbb{Z} \longrightarrow \mathbb{F}_{p}$ is a ring homomorphism.\\
 
 Firstly, we check that $\phi(1_{R})=1_{R'}$ where $R=\mathbb{Z}$ and $R'=\mathbb{F}_{p}$.  If we map $1$ to the congruence class $\overline{1}$ and we recall from the definition $\overline{a}=\left\{\ldots, a-n, a, a+n, a+2n, \ldots \right\}$ or $\overline{1}=\left\{\ldots, 1-n, 1, 1+n, 1+2n, \ldots \right\}$ where $n$ is some fixed positive integer, we see that $\phi(1_{R})=1_{R'}$, where $1_{R}=1$ and $1_{R'}=\overline{1}$.\\
 
+We next verify $\phi(a+b)=\phi(a)+\phi(b)$.  Suppose $a$ and $b$ are any two integers in $\mathbb{Z}$.  Then under $\phi$ we have $\phi(a+b)=\overline{a+b}=\overline{a}+\overline{b}$ from the definition of the sum of congruence classes given previously.  Then finally we have $\overline{a}+\overline{b}=\phi(a)+\phi(b)$, which completes the verification, this last result coming from the definition of $\phi$.\\
 
+Finally, we check $\phi(ab)=\phi(a)\phi(b)$.  Again, suppose $a$ and $b$ are any two integers in $\mathbb{Z}$.  Then we have $\phi(ab)=\overline{ab}=\overline{a}\overline{b}$ from the definition of multiplication for congruence classes.  Then finally we obtain $\overline{a}\overline{b}=\phi(a)\phi(b)$ completing the verification, where again this last step comes from the definition of $\phi$.  This completes the solution to the exercise.\\
 
 
 \section{Fields}
