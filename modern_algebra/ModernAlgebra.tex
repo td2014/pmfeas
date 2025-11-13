@@ -500,7 +500,28 @@ Finally, we check $\phi(ab)=\phi(a)\phi(b)$.  Again, suppose $a$ and $b$ are any
 
 Let us now consider another proof exercise regarding ring homomorphisms.\\
 
-\textit{Exercise} Prove the ``Substitution Principle" \index{substitution principle} given in Artin as Proposition 11.3.4.  Namely, suppose $\phi: R \longrightarrow R'$ is a ring homomorphism, and let $R[x]$ be the ring of polynomials with coefficients in $R$.  Let $\alpha$ be an element of $R'$.  Prove there is a unique homomorphism $\Phi: R[x] \longrightarrow R'$ that agrees with the map $\phi$ on constant polynomials, and that sends $x \rightsquigarrow \alpha$. 
+\textit{Exercise} Prove the ``Substitution Principle" \index{substitution principle} given in Artin as Proposition 11.3.4.  Namely, suppose $\phi: R \longrightarrow R'$ is a ring homomorphism, and let $R[x]$ be the ring of polynomials with coefficients in $R$.  Let $\alpha$ be an element of $R'$.  Prove there is a unique homomorphism $\Phi: R[x] \longrightarrow R'$ that agrees with the map $\phi$ on constant polynomials, and that sends $x \rightsquigarrow \alpha$.\\
+
+\textit{Solution}  We proceed using proof by contradiction.  Suppose $\Phi$ is not unique.  Let $\Phi'$ be a distinct homomorphism that also agrees with the map $\phi$ on constant polynomials, and that sends $x \rightsquigarrow \alpha$.  As a reminder, constant polynomials are those with the highest degree power of the terms $x^{n}$ having a non-zero coefficient being $n=0$.\\
+
+Let's construct a general element of $R[x]$, say 
+
+\begin{displaymath}
+b(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+ \ldots + a_{1}x + a_{0}
+\end{displaymath}
+
+where $a_{i}$ are elements of $R$.  Next, let's consider the application of $\Phi$ to $b(x)$, namely
+
+\begin{displaymath}
+\Phi(b(x))=\Phi(a_{n}x^{n}+a_{n-1}x^{n-1}+ \ldots + a_{1}x + a_{0})
+\end{displaymath}
+
+Since $\Phi$ is a ring homomorphism, we may apply the properties to yield
+
+\begin{displaymath}
+\Phi(b(x))=\Phi(a_{n})\Phi(x^{n})+\Phi(a_{n-1})\Phi(x^{n-1})+ \ldots + \Phi(a_{1})\Phi(x) + \Phi(a_{0})
+\end{displaymath}
+
 
 \section{Fields}
 
