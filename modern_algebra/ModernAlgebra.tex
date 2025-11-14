@@ -522,6 +522,29 @@ Since $\Phi$ is a ring homomorphism, we may apply the properties to yield
 \Phi(b(x))=\Phi(a_{n})\Phi(x^{n})+\Phi(a_{n-1})\Phi(x^{n-1})+ \ldots + \Phi(a_{1})\Phi(x) + \Phi(a_{0})
 \end{displaymath}
 
+Since we are told that $\Phi$ agrees with $\phi$ for constant polynomials and it sends $x \rightsquigarrow \alpha$, we can rewrite the above as
+
+\begin{displaymath}
+\Phi(b(x))=\phi(a_{n})\alpha^{n}+\phi(a_{n-1})\alpha^{n-1}+ \ldots + \phi(a_{1})\alpha + \phi(a_{0})
+\end{displaymath}
+
+Now, suppose we apply the assumed distinct homomorphism $\Phi'$ to $b(x)$, we obtain in a similar fashion to earlier
+
+\begin{displaymath}
+\Phi'(b(x))=\Phi'(a_{n}x^{n}+a_{n-1}x^{n-1}+ \ldots + a_{1}x + a_{0})
+\end{displaymath}
+\begin{displaymath}
+\Phi'(b(x))=\Phi'(a_{n})\Phi'(x^{n})+\Phi'(a_{n-1})\Phi'(x^{n-1})+ \ldots + \Phi'(a_{1})\Phi'(x) + \Phi'(a_{0})
+\end{displaymath}
+
+We have assumed that $\Phi'$ agrees with $\phi$ for constant polynomials and sends $x \rightsquigarrow \alpha$, but is otherwise distinct.  Thus, applying these conditions to the above yields
+
+\begin{displaymath}
+\Phi'(b(x))=\phi(a_{n})\alpha^{n}+\phi(a_{n-1})\alpha^{n-1}+ \ldots + \phi(a_{1})\alpha + \phi(a_{0})
+\end{displaymath}
+
+We can therefore see that $\Phi'(b(x))=\Phi(b(x))$ which is a contradiction of our assumption.  Therefore, we conclude that $\Phi$ is unique. 
+
 
 \section{Fields}
 
