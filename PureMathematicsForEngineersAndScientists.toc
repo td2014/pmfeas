@@ -22,15 +22,15 @@
 \contentsline {chapter}{\numberline {3}Modern Algebra}{49}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Groups}{49}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Rings}{62}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Fields}{72}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Vector Spaces}{72}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Transformations}{72}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Representation Theory}{72}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Modules}{72}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Galois Theory}{72}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Real Analysis}{73}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Complex Analysis}{75}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Non-Euclidean Geometry and Topology}{77}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Number Theory}{79}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Category Theory}{81}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Computational Complexity Theory}{83}{chapter.9}%
+\contentsline {section}{\numberline {3.3}Fields}{73}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Vector Spaces}{73}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Transformations}{73}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Representation Theory}{73}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Modules}{73}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Galois Theory}{73}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Real Analysis}{75}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Complex Analysis}{77}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Non-Euclidean Geometry and Topology}{79}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Number Theory}{81}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Category Theory}{83}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Computational Complexity Theory}{85}{chapter.9}%
