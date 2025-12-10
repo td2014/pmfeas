@@ -616,7 +616,15 @@ Now, we describe quotient rings (from Artin).  Let $I$ be an ideal of a ring $R$
 
 We should consider what an example might look like of a generated ideal.  Such an ideal would have the form $I=a_{1}f_{1}+a_{2}f_{2}+\ldots+a_{r}f_{r}$, where the $a_{i}$ are complex.  We should be reminded that the ideal itself is a non-empty subset of the original ring $R$.\\
 
-Now let us consider maximal ideals.  Following Artin, we define the maximal ideal $M$ of a ring $R$ is an ideal that isn't equal to $R$, and that isn't contained in any ideal other than $M$ and $R$:  If an ideal $I$ contains $M$, then $I=M$ or $I=R$.
+Now let us consider maximal ideals.  Following Artin, we define a maximal ideal $M$ of a ring $R$ is an ideal that isn't equal to $R$, and that isn't contained in any ideal other than $M$ and $R$:  If an ideal $I$ contains $M$, then $I=M$ or $I=R$.\\
+
+As an example, let us consider the ring of integers $\mathbb{Z}$.  Let us consider the principle ideal $I$, which is all multiples of $2$, that is, the set consisting of integers of the form $2n$, where $n \in \mathbb{Z}$.  We briefly confirm that this is indeed an ideal.  Firstly, we need to confirm it is closed under addition.  Suppose two members of our candidate ideal have the form $2n$ and $2m$ with $m,n \in \mathbb{Z}$.  The sum is then $2n+2m=2(n+m)$.  This is of the form $2p$, where $p=n+m$, and thus $p \in \mathbb{Z}$ by the usual sum property integers.  Thus, the candidate is closed under addition.\\
+
+Next, we need to check that the multiplication of an element of the $R$ with an element of the candidate ideal is indeed in the ideal.  Suppose we take a typical member of the candidate ideal $2n, n \in \mathbb{Z}$ and an element $r \in \mathbb{Z}$, and form the product $r2n$.  We then have $r2n=2rn=2p$ by the usual commutativity of multiplication of integers.  Since $rn$ is also just an element $p \in \mathbb{Z}$, we have verified the second property of ideals.  Thus, the even integers are an ideal of the entire set of integers.\\
+
+To verify the maximal properties, we first confirm that $I \ne \mathbb{Z}$.  Clearly, $3 \in \mathbb{Z}$, but $3 \not \in I$, since $3$ is an odd integer.  Therefore, $I \ne \mathbb{Z}$.
+
+
 
 \section{Fields}
 
