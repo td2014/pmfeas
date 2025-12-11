@@ -622,7 +622,9 @@ As an example, let us consider the ring of integers $\mathbb{Z}$.  Let us consid
 
 Next, we need to check that the multiplication of an element of the $R$ with an element of the candidate ideal is indeed in the ideal.  Suppose we take a typical member of the candidate ideal $2n, n \in \mathbb{Z}$ and an element $r \in \mathbb{Z}$, and form the product $r2n$.  We then have $r2n=2rn=2p$ by the usual commutativity of multiplication of integers.  Since $rn$ is also just an element $p \in \mathbb{Z}$, we have verified the second property of ideals.  Thus, the even integers are an ideal of the entire set of integers.\\
 
-To verify the maximal properties, we first confirm that $I \ne \mathbb{Z}$.  Clearly, $3 \in \mathbb{Z}$, but $3 \not \in I$, since $3$ is an odd integer.  Therefore, $I \ne \mathbb{Z}$.
+To verify the maximal properties, we first confirm that $I \ne \mathbb{Z}$.  Clearly, $3 \in \mathbb{Z}$, but $3 \not \in I$, since $3$ is an odd integer.  Therefore, $I \ne \mathbb{Z}$.\\
+
+Now, we show that there is no ideal in $R$ which contains $I$ but is not $R$.  Since $I$ is all the even integers, it has the form $2n$ for all $n \in \mathbb{Z}$, as previously noted.  If there is an ideal that contains $I$, which is not $I$, it certainly must contain at least one odd integer, say $2m+1$ where $m$ is an arbitrary but fixed member of $\mathbb{Z}$.  To be an ideal, this set must be closed under addition.  That means all elements of the form $2n+2m+1$ must be contained in the ideal.  This can be written as $2(n+m)+1$ which is odd, and in fact since $n$ takes on all integers, this means that all of the odd integers must be included.  Thus, this candidate ideal would have to be $R$ itself since it includes both the even and odd integers.  Therefore, we conclude that $I$, the even integers, is maximal.
 
 
 
