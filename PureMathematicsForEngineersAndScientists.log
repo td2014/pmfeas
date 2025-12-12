@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  11 DEC 2025 10:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  12 DEC 2025 10:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2445,6 +2445,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 625--626
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--628
+
+ []
+
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2560,8 +2565,8 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/
 23/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (87 pages, 47033
-3 bytes).
+Output written on PureMathematicsForEngineersAndScientists.pdf (87 pages, 47091
+6 bytes).
 PDF statistics:
  673 PDF objects out of 1000 (max. 8388607)
  538 compressed objects within 6 object streams
