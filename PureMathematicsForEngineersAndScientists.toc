@@ -22,12 +22,12 @@
 \contentsline {chapter}{\numberline {3}Modern Algebra}{49}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Groups}{49}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Rings}{62}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Fields}{75}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Vector Spaces}{75}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Transformations}{75}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Representation Theory}{75}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Modules}{75}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Galois Theory}{75}{section.3.8}%
+\contentsline {section}{\numberline {3.3}Fields}{76}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Vector Spaces}{76}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Transformations}{76}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Representation Theory}{76}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Modules}{76}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Galois Theory}{76}{section.3.8}%
 \contentsline {chapter}{\numberline {4}Real Analysis}{77}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Complex Analysis}{79}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Non-Euclidean Geometry and Topology}{81}{chapter.6}%
