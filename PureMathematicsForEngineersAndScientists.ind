@@ -51,6 +51,7 @@
   \item ideal, 71
   \item image, 22, 55
   \item induction, 39
+  \item integral domain, 73
   \item inverse, 22
   \item irreflexive, 16
   \item isomorphism, 58
@@ -116,5 +117,9 @@
   \indexspace
 
   \item well-order, 17
+
+  \indexspace
+
+  \item zero divisors, 73
 
 \end{theindex}
