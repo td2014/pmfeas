@@ -24,13 +24,13 @@
 \contentsline {section}{\numberline {3.2}Rings}{62}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Fields}{72}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Vector Spaces}{74}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Transformations}{74}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Representation Theory}{74}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Modules}{74}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Galois Theory}{74}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Real Analysis}{75}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Complex Analysis}{77}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Non-Euclidean Geometry and Topology}{79}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Number Theory}{81}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Category Theory}{83}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Computational Complexity Theory}{85}{chapter.9}%
+\contentsline {section}{\numberline {3.5}Transformations}{75}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Representation Theory}{75}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Modules}{75}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Galois Theory}{75}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Real Analysis}{77}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Complex Analysis}{79}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Non-Euclidean Geometry and Topology}{81}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Number Theory}{83}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Category Theory}{85}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Computational Complexity Theory}{87}{chapter.9}%
