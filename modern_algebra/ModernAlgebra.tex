@@ -817,7 +817,22 @@ A vector space can become a ring called an \textit{algebra}\index{algebra} under
 
 \textit{Solution}:  $\left(\alpha u\right)\left(\beta v\right)=\alpha \left[ u \left(\beta v\right)\right]=\alpha \left[ \beta \left(u v\right)\right]$.  Now, we assert that $uv \in G$, so that $\alpha \left[ \beta \left(uv\right) \right]=\left(\alpha \beta\right)\left(uv\right)$ by property $4$ of vector spaces.  Recall that rings have two operations which we refer to as ``addition" and ``multiplication" whereas groups only have one.\\
 
-Following van der Waerden, we can illustrate that complex numbers form a \textit{division algebra} which we now define next.
+Following van der Waerden, we can illustrate that complex numbers form a \textit{division algebra}\index{division algebra} which we now define next.  In particular, if the algebra $G$ is a field, then it is a division algebra.\\
+
+Let $R$ be a field of real numbers, and let $e$ and $i$ be basis elements of a two-dimensional vector space $G$ with the following properties for the multiplication:
+
+\begin{enumerate}
+\item $e \cdot e=e$.
+\item $i \cdot e = i$.
+\item $e \cdot i = i$.
+\item $i \cdot i = -e$.
+\end{enumerate}
+
+We can see that the products are commutative, and it is stated in van der Waerden that the products are also associative.  We can confirm in one case as an illustration:  $\left(e \cdot e\right) \cdot e= e \cdot e = e \cdot \left(e \cdot e\right)$.\\
+
+Each element of this algebra has an inverse, except zero, which is shown by noting $\left(a-bi\right)\left(a+bi\right)=a^{2}+b^{2} > 0$, thus upon dividing both sides by $a^{2}+b^{2}$ we obtain $\frac{\left(a-bi\right)}{a^{2}+b^{2}}\left(a+bi\right)=1=e$.\\
+
+We note that the algebra of quaternions is also a division algebra, although the products of the basis elements are not commutative.  Thus, a division algebra does not necessarily have to have a commutative product law. 
 
 \section{Transformations}
 
