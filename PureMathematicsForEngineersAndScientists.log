@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  11 AUG 2026 11:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  12 AUG 2026 12:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -322,17 +322,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] [3] [4]
-(./PureMathematicsForEngineersAndScientists.toc [5
-
-])
+(./PureMathematicsForEngineersAndScientists.toc)
 \tf@toc=\write5
 \openout5 = `PureMathematicsForEngineersAndScientists.toc'.
 
- [6]
+ [5
+
+]
 \openout2 = `./chapter1/ch1_MathematicalFoundations.aux'.
 
 
-(./chapter1/ch1_MathematicalFoundations.tex
+(./chapter1/ch1_MathematicalFoundations.tex [6
+
+
+]
 Chapter 1.
 
 Overfull \hbox (67.54639pt too wide) in paragraph at lines 18--19
@@ -340,11 +343,8 @@ Overfull \hbox (67.54639pt too wide) in paragraph at lines 18--19
 -ple, $\U/msb/m/n/10 Z \OT1/cmr/m/n/10 = []$
  []
 
-[7
-
-
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
+[7{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}]
 Overfull \hbox (26.30647pt too wide) in paragraph at lines 32--33
 \OT1/cmr/m/n/10 Math-Doc-tor-Bob (https://www.youtube.com/playlist?list=PLF2DF6
 C3C8015DF5F).
@@ -2538,7 +2538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 837--838
  []
 
 [75]
-Underfull \hbox (badness 10000) in paragraph at lines 839--840
+Underfull \hbox (badness 10000) in paragraph at lines 849--850
 
  []
 
@@ -2623,13 +2623,13 @@ Chapter 9.
 (./computational_complexity_theory/ComputationalComplexityTheory.aux))
 Package rerunfilecheck Info: File `PureMathematicsForEngineersAndScientists.out
 ' has not changed.
-(rerunfilecheck)             Checksum: 0FF76D649FBF7F80115893EBA2585C85;4047.
+(rerunfilecheck)             Checksum: E3396AD48C136252CB0DED580200114F;3664.
  ) 
 Here is how much of TeX's memory you used:
- 8720 strings out of 476025
- 147748 string characters out of 5790017
+ 8714 strings out of 476025
+ 147676 string characters out of 5790017
  1872388 words of memory out of 5000000
- 28853 multiletter control sequences out of 15000+600000
+ 28850 multiletter control sequences out of 15000+600000
  524589 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,76p,1429b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2653,11 +2653,11 @@ e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/
 23/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on PureMathematicsForEngineersAndScientists.pdf (89 pages, 47827
-8 bytes).
+Output written on PureMathematicsForEngineersAndScientists.pdf (89 pages, 47878
+3 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 556 compressed objects within 6 object streams
- 146 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 676 PDF objects out of 1000 (max. 8388607)
+ 539 compressed objects within 6 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
