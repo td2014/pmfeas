@@ -25,9 +25,9 @@
 \contentsline {section}{\numberline {3.3}Fields}{72}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Vector Spaces}{74}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Galois Theory}{76}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Real Analysis}{77}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Complex Analysis}{79}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Non-Euclidean Geometry and Topology}{81}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Number Theory}{83}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Category Theory}{85}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Computational Complexity Theory}{87}{chapter.9}%
+\contentsline {chapter}{\numberline {4}Real Analysis}{79}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Complex Analysis}{81}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Non-Euclidean Geometry and Topology}{83}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Number Theory}{85}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Category Theory}{87}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Computational Complexity Theory}{89}{chapter.9}%
